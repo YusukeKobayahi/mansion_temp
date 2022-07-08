@@ -1,0 +1,90 @@
+query mansionPagination(
+  $brd: String
+  $psc: String
+  $wd: String
+  $ct: String
+  $tw: String
+  $st: String
+  $ln: String
+  $md: String
+  $eab: Int
+  $eat: Int
+  $prb: Int
+  $prt: Int
+  $thb: Int
+  $tht: Int
+  $ckt: Int
+  $utb: Int
+  $gfb: Int
+  $gft: Int
+  $orpr: String
+  $orar: String
+  $orck: String
+  $ormd: String
+  $orud: String
+  $page: Int
+  $per: Int
+) {
+  mansionPagination(
+    brd: $brd
+    psc: $psc
+    wd: $wd
+    ct: $ct
+    tw: $tw
+    st: $st
+    ln: $ln
+    md: $md
+    eab: $eab
+    eat: $eat
+    prb: $prb
+    prt: $prt
+    thb: $thb
+    tht: $tht
+    ckt: $ckt
+    utb: $utb
+    gfb: $gfb
+    gft: $gft
+    orpr: $orpr
+    orar: $orar
+    orck: $orck
+    ormd: $ormd
+    orud: $orud
+    page: $page
+    per: $per
+  ) {
+    isNoindex(
+      brd: $brd
+      wd: $wd
+      ct: $ct
+      tw: $tw
+      st: $st
+      ln: $ln
+      psc: $psc
+      md: $md
+      eab: $eab
+      eat: $eat
+      prb: $prb
+      prt: $prt
+      thb: $thb
+      tht: $tht
+      ckt: $ckt
+      utb: $utb
+      gfb: $gfb
+      gft: $gft
+      orpr: $orpr
+      orar: $orar
+      orck: $orck
+      ormd: $ormd
+      orud: $orud
+    )
+    mansions {
+      ...MansionCardData
+    }
+    pagination {
+      totalCount
+      totalPages
+      currentPage
+      limitValue
+    }
+  }
+}

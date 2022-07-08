@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/LinkBlock 正常に表示される 1`] = `
+<DocumentFragment>
+  <li
+    class="item"
+  >
+    <button
+      class="link"
+      href="/cities/13101"
+    >
+      千代田区
+      <span
+        class="count"
+      >
+        (127件)
+      </span>
+    </button>
+  </li>
+</DocumentFragment>
+`;

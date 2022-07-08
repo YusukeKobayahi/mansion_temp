@@ -1,0 +1,37 @@
+fragment MansionCardData on Mansion {
+  uniqueCode
+  name
+  age
+  constructedIn
+  unitAmount
+  pageView
+  prefecture {
+    name
+  }
+  city {
+    name
+  }
+  town {
+    name
+  }
+  street {
+    name
+  }
+  blockNumber
+  display(md: $md, prb: $prb, prt: $prt, eab: $eab, eat: $eat) {
+    minPrice
+    maxPrice
+    minExclusiveArea
+    maxExclusiveArea
+    layoutName
+  }
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+    lineId
+  }
+  ...MsLibraryMansionsUnitSize
+}

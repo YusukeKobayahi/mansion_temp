@@ -1,0 +1,12 @@
+fragment MsLibraryCitiesOtherCities on City {
+  name
+  prefecture {
+    name
+    jisCode
+    cities {
+      name
+      jisCode
+      mansionCount
+    }
+  }
+}

@@ -1,0 +1,39 @@
+fragment MsLibraryStationsMarketPrice on RailwayStation {
+  name
+  pricePredictions {
+    salePricePerTsubo {
+      date
+      station
+    }
+    salePricePerSquare {
+      date
+      station
+    }
+  }
+  city {
+    name
+    pricePredictions {
+      salePricePerTsubo {
+        date
+        city
+      }
+      salePricePerSquare {
+        date
+        city
+      }
+    }
+    prefecture {
+      name
+      pricePredictions {
+        salePricePerTsubo {
+          date
+          prefecture
+        }
+        salePricePerSquare {
+          date
+          prefecture
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  height: 100%;
+}
+
+button.link {
+  width: 285px;
+  display: block;
+  margin: auto auto 0;
+  line-height: 50px;
+  border: 1px solid #bca565;
+  color: #bca565;
+  text-align: center;
+  font-size: 16px;
+  padding: 0;
+  background-color: unset;
+
+  @include screenMd {
+    width: unset;
+  }
+}
+
+.card {
+  width: 100%;
+  padding: 16px 35px 16px 20px;
+  display: block;
+  position: relative;
+  background-color: unset;
+  text-align: left;
+
+  h3 {
+    color: #b2a173;
+    font-size: 18px;
+    position: relative;
+    text-decoration: underline;
+  }
+
+  ul {
+    margin-top: 15px;
+
+    li {
+      font-size: 15px;
+      line-height: 1.5;
+      color: #646464;
+    }
+  }
+
+  p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #9d9d9d;
+  }
+}

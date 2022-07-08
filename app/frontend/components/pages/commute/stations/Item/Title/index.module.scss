@@ -1,0 +1,33 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.title {
+  width: 100%;
+  min-height: 40px;
+  background-color: #f8f6f0;
+  padding: 10px 30px 10px 10px;
+  color: #b2a173;
+  font-size: 18px;
+  position: relative;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+
+  @include screenMd {
+    line-height: 1.5;
+    background-color: #ffffff;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #b2a173;
+    border-right: 1px solid #b2a173;
+    transform: translateY(-50%) rotate(45deg);
+  }
+}

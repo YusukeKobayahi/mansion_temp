@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/MansionSlider/MansionCard 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <button
+      class="link"
+      href="http://dummy.ieul.jp/ms-library/mansions/some-id"
+    >
+      <h3
+        class="name"
+      >
+        テストマンション
+        <br />
+        <span
+          class="date"
+        >
+          2013年05月 (築7年)
+        </span>
+      </h3>
+      <div
+        class="salesInfoArea"
+      >
+        <p>
+          販売価格
+        </p>
+        <ul>
+          <li
+            class="salesInfo"
+          >
+            1000万円 ~ 1億円
+          </li>
+        </ul>
+      </div>
+      <p
+        class="subInfo"
+      >
+        <span>
+          テストアドレス
+        </span>
+        <br />
+      </p>
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,7 @@
+fragment MsLibraryTownsLinkedSearchConditions on Town {
+  linkedSearchConditions {
+    key
+    value
+    name
+  }
+}

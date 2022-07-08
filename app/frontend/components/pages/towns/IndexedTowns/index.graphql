@@ -1,0 +1,11 @@
+fragment MsLibraryCitiesIndexedTowns on City {
+  name
+  prefecture {
+    name
+  }
+  indexedTowns {
+    id
+    name
+    mansionCount
+  }
+}

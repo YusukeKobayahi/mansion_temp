@@ -1,0 +1,8 @@
+fragment MsLibraryRailwayLinePassedCities on RailwayLine {
+  name
+  cities {
+    jisCode
+    name
+    mansionCount
+  }
+}

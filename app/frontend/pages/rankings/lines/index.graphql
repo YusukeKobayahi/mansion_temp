@@ -1,0 +1,22 @@
+query LineRankingsPage(
+  $ln: String!
+  $limit: Int
+  # MansionCardで必要なため
+  $md: String = null
+  $prb: Int = null
+  $prt: Int = null
+  $eab: Int = null
+  $eat: Int = null
+) {
+  prefectures {
+    jisCode
+    name
+  }
+  line(ln: $ln) {
+    id
+    name
+    rankingMansions(limit: $limit) {
+      ...MansionCardData
+    }
+  }
+}

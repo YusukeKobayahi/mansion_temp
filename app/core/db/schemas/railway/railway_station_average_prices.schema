@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'railway_station_average_prices', id: :integer, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                               force: :cascade do |t|
+  t.integer 'group_code', null: false, comment: 'railway_station の group_code'
+  t.float 'average_price', null: false, comment: '平均価格'
+  t.float 'average_square_price', null: false, comment: '平均平方単価'
+  t.integer 'buildings_count', null: false, comment: 'buildingsの数'
+  t.integer 'sales_histories_count', null: false, comment: '平均の母数。sales_historiesの数'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['group_code'], name: 'index_railway_station_average_prices_on_group_code'
+end
+
+add_foreign_key 'railway_station_average_prices', 'railway_stations', column: 'group_code', primary_key: 'group_code',
+                                                                      name: 'fk_railway_station_average_prices_railway_stations'

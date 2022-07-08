@@ -1,0 +1,22 @@
+query cities($ct: String!) {
+  cities(ct: $ct) {
+    jisCode
+    name
+    mansionCount
+    prefecture {
+      name
+      jisCode
+    }
+    ...MsLibraryCitiesCityInfo
+    ...MsLibraryCitiesIndexedTowns
+    ...MsLibraryCitiesMarketPrice
+    ...MsLibraryCitiesCityInfoAuto
+    ...MsLibraryCitiesCityInfoWriting
+    ...MsLibraryCitiesOtherCities
+    ...MsLibraryCityIncludedStations
+    ...MsLibraryCityNeighborCities
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+  }
+}

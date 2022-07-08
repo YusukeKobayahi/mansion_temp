@@ -1,0 +1,16 @@
+fragment MsLibraryTownsInfoWriting on Town {
+  name
+  city {
+    name
+    prefecture {
+      name
+    }
+  }
+  writing {
+    introduce
+    tips
+    recommendArea
+    traffic
+    recommendSpot
+  }
+}

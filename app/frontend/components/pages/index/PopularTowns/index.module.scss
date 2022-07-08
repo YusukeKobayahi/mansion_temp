@@ -1,0 +1,100 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.title {
+  margin-top: 50px;
+  background-color: #edf2f4;
+  color: #746744;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+
+  @include screenMd {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 29px;
+  }
+}
+
+.content {
+  margin-top: 20px;
+  padding: 0 30px;
+  @include screenMd {
+    margin-top: 0;
+    padding: 0 15px;
+  }
+}
+
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  @include screenMd {
+    margin-top: 0;
+  }
+}
+
+.item {
+  position: relative;
+  color: #746744;
+  width: 25%;
+  border-bottom: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+
+  &:nth-child(-n + 9) {
+    border-top: 1px solid #f2f2f2;
+  }
+
+  &:nth-child(4n) {
+    border-right: none;
+  }
+
+  @include screenMd {
+    width: 50%;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #f2f2f2;
+
+    &:nth-child(odd) {
+      border-right: 1px solid #f2f2f2;
+    }
+  }
+
+  div {
+    vertical-align: bottom;
+  }
+}
+
+.link {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 17.5px 20px;
+  font-size: 14px;
+  color: #746744;
+  background-color: unset;
+  @include screenMd {
+    font-size: 12px;
+  }
+
+  &::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #bca565;
+    border-right: 2px solid #bca565;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    right: 18px;
+    top: 50%;
+
+    @include screenMd {
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #bca565;
+      border-right: 1px solid #bca565;
+      right: 12px;
+    }
+  }
+}

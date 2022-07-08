@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/FloatCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="inner"
+    >
+      <button
+        class="btn formBtn"
+      >
+        この物件の最新情報を
+        <br
+          class="spOnly"
+        />
+        受け取る
+      </button>
+      <button
+        class="btn lpBtn"
+      >
+        未公開物件の
+        <br
+          class="spOnly"
+        />
+        提案を手に入れる
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;

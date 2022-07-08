@@ -1,0 +1,140 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  width: 610px;
+  margin: 50px auto 0;
+
+  @include screenMd {
+    width: auto;
+    padding: 0 16px;
+    margin: 25px auto 0;
+  }
+}
+
+.table {
+  width: 100%;
+  tr {
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 16px;
+
+    @include screenMd {
+      font-size: 13px;
+    }
+
+    &.none {
+      display: none;
+    }
+  }
+
+  th {
+    text-align: center;
+    padding: 14px;
+    background-color: #faf9f7;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: calc(100% / 3);
+    color: #646464;
+
+    @include screenMd {
+      padding: 10px;
+    }
+
+    span {
+      font-size: 13px;
+
+      @include screenMd {
+        font-size: 11px;
+      }
+    }
+  }
+
+  td {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.4;
+    padding: 14px;
+    color: #646464;
+
+    @include screenMd {
+      padding: 10px;
+    }
+  }
+}
+
+.btns {
+  display: flex;
+  margin-bottom: 37px;
+
+  @include screenMd {
+    margin-bottom: 30px;
+  }
+
+  button {
+    width: 50%;
+    text-align: center;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 48px;
+    font-size: 16px;
+    color: #646464;
+    background-color: unset;
+    position: relative;
+
+    @include screenMd {
+      font-size: 14px;
+      line-height: 38px;
+    }
+
+    &.show {
+      background-color: #faf9f7;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 13.7px solid #d0d0d0;
+        border-left: 10.1px solid transparent;
+        border-right: 10.1px solid transparent;
+
+        @include screenMd {
+          top: 40px;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 49px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 13.7px solid #faf9f7;
+        border-left: 10.1px solid transparent;
+        border-right: 10.1px solid transparent;
+
+        @include screenMd {
+          top: 39px;
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 8px 20px;
+  background-color: #f8f6f0;
+  border: 2px solid $color-main;
+  border-radius: 40px;
+  font-size: 16px;
+  color: $color-main;
+  cursor: pointer;
+
+  @include screenMd {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}

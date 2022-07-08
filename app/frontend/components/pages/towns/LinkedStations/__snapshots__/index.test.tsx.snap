@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/towns/LinkedStations 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h2>
+      <div
+        class="heading"
+      >
+        東京都目黒区青葉台の近隣の駅から中古マンションを探す
+      </div>
+    </h2>
+    <ul
+      class="list"
+    >
+      <li
+        class="item"
+      >
+        <button
+          class="link"
+          href="/stations/5869"
+        >
+          広尾駅
+          <span
+            class="count"
+          >
+            (undefined件)
+          </span>
+        </button>
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

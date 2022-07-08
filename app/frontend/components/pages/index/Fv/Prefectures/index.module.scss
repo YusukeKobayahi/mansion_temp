@@ -1,0 +1,128 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 80px;
+
+  @include screenMd {
+    margin-top: 0;
+  }
+}
+
+.title {
+  margin-top: 60px;
+  background-color: rgba(201, 180, 122, 0.863);
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  @include screenMd {
+    background-color: #bca565;
+    margin: 0;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: -24px;
+
+  @include screenMd {
+    margin: 0;
+    padding: 20px 17px;
+  }
+}
+
+.item {
+  position: relative;
+  width: 23.5%;
+  padding-top: 23.5%;
+  margin-bottom: 24px;
+  font-size: 24px;
+  background-size: cover;
+  background-position: center;
+
+  button {
+    color: #bca565;
+    text-align: left;
+    padding: 0;
+    line-height: 1;
+  }
+
+  @include screenMd {
+    width: 48.7%;
+    padding: 17px 18px;
+    font-size: 16px;
+    margin: 0;
+    height: unset;
+    box-shadow: 2px 3px 0px #00000029;
+    border: 1px solid #bca565;
+
+    &:nth-child(n + 3) {
+      margin-top: 9px;
+    }
+  }
+
+  div {
+    vertical-align: bottom;
+  }
+
+  &::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #bca565;
+    border-right: 2px solid #bca565;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    right: 18px;
+    top: 50%;
+
+    @include screenMd {
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #bca565;
+      border-right: 1px solid #bca565;
+    }
+  }
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+
+  div {
+    width: 100%;
+    height: 100%;
+  }
+
+  @include screenMd {
+    display: none;
+  }
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(#fff, 0.8);
+
+  @include screenMd {
+    background: unset;
+    position: unset;
+    display: block;
+  }
+}

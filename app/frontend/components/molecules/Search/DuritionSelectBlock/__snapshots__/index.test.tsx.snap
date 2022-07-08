@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/commute/stations/Search/DuritionSelectBlock 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="block sectionBar"
+  >
+    <div
+      class="label"
+    >
+      <p>
+        平均相場
+      </p>
+    </div>
+    <div
+      class="inputs"
+    >
+      <button>
+        テスト
+      </button>
+      <span>
+         ~ 
+      </span>
+      <button>
+        テスト
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

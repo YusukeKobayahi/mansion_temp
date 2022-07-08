@@ -1,0 +1,15 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.link {
+  text-align: left;
+  color: $color-main;
+  text-decoration: underline;
+  background-color: unset;
+}
+
+.subText {
+  @include screenMd {
+    font-size: 10px;
+  }
+}

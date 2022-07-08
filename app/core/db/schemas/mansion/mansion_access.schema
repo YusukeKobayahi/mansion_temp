@@ -1,0 +1,20 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :mansion_access, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'building_id', null: false
+  t.bigint 'station_id', comment: '駅ID'
+  t.bigint 'line_id', comment: '路線ID'
+  t.bigint 'group_code', comment: '駅グループコード'
+  t.string 'station_name', comment: '最寄駅'
+  t.string 'station_line_name', comment: '路線名'
+  t.integer 'station_walking_minutes', comment: '駅から徒歩 (分)'
+  t.timestamps
+
+  t.index ['building_id'], name: 'idx_mansion_access_building_id'
+  t.index ['station_id'], name: 'idx_mansion_access_station_id'
+end
+
+add_foreign_key 'mansion_access', 'mansion_buildings', name: 'fk_mansion_access_mansion_buildings', column: 'building_id'
+add_foreign_key 'mansion_access', 'railway_stations', name: 'fk_mansion_access_railway_stations', column: 'station_id'

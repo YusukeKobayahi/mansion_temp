@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/ConditionalWrapper 正常に表示される 1`] = `
+<DocumentFragment>
+  <button>
+    ボタン
+  </button>
+</DocumentFragment>
+`;

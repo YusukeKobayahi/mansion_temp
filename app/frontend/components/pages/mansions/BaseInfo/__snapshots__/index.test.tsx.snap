@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/BaseInfo 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="head"
+    >
+      <h1>
+        <div
+          class="heading"
+        >
+          <span>
+            リヴシティ神田
+          </span>
+        </div>
+      </h1>
+    </div>
+    <div
+      class="info"
+    >
+      <p>
+        <span>
+          占有面積 20.72㎡~45.16㎡ / 
+        </span>
+        <span>
+          築年月 2011年03月 (築10年) / 
+        </span>
+        <span>
+          最寄駅 
+          <span>
+            <button
+              href="/lines/63"
+            >
+              山手線
+            </button>
+            「
+            <button>
+              神田
+            </button>
+            」徒歩4分
+          </span>
+        </span>
+      </p>
+      <p>
+        <span>
+          所在地 
+          <span>
+            <button
+              class="link"
+              href="/prefectures/13000"
+            >
+              東京都
+            </button>
+             
+            <button
+              class="link"
+              href="/cities/13101"
+            >
+              千代田区
+            </button>
+             
+            <button
+              class="link"
+              href="/cities/13101?tw="
+            >
+              神田富山町
+            </button>
+             １６－１
+          </span>
+        </span>
+      </p>
+    </div>
+  </section>
+</DocumentFragment>
+`;

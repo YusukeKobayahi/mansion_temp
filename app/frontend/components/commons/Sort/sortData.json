@@ -1,0 +1,48 @@
+{
+  "orud": [
+    {
+      "name": "新着・更新順",
+      "value": "orud&ASC"
+    }
+  ],
+  "orpr": [
+    {
+      "name": "価格が安い順",
+      "value": "orpr&ASC"
+    },
+    {
+      "name": "価格が高い順",
+      "value": "orpr&DESC"
+    }
+  ],
+  "orar": [
+    {
+      "name": "占有面積が狭い順",
+      "value": "orar&ASC"
+    },
+    {
+      "name": "占有面積が広い順",
+      "value": "orar&DESC"
+    }
+  ],
+  "orck": [
+    {
+      "name": "築年月が新しい順",
+      "value": "orck&ASC"
+    },
+    {
+      "name": "築年月が古い順",
+      "value": "orck&DESC"
+    }
+  ],
+  "ormd": [
+    {
+      "name": "間取りが少ない順",
+      "value": "ormd&ASC"
+    },
+    {
+      "name": "間取りが多い順",
+      "value": "ormd&DESC"
+    }
+  ]
+}

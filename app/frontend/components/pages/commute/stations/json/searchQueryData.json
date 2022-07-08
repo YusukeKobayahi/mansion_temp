@@ -1,0 +1,22 @@
+{
+  "st": {
+    "type": "number",
+    "priority": "0"
+  },
+  "trt": {
+    "type": "number",
+    "priority": "1"
+  },
+  "mnt": {
+    "type": "number",
+    "priority": "2"
+  },
+  "apb": {
+    "type": "number",
+    "priority": "3"
+  },
+  "limit": {
+    "type": "number",
+    "priority": "4"
+  }
+}

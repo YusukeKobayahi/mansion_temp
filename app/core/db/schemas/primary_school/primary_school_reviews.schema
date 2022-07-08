@@ -1,0 +1,44 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'primary_school_reviews', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'school_id', null: false, comment: '学校ID'
+  t.boolean 'person_gender', null: false, comment: '投稿者の性別。男性なら、1、女性なら、0'
+  t.string 'title', null: false, comment: '口コミタイトル'
+  t.integer 'admmision_year', null: false, comment: '入学年'
+  t.integer 'general_rate', null: false, comment: '総合評価'
+  t.text 'general_text', null: false, comment: '総合評価テキスト'
+  t.integer 'policy_rate', comment: '方針・理念評価'
+  t.text 'policy_text', comment: '方針・理念テキスト'
+  t.integer 'class_rate', comment: '授業評価'
+  t.text 'class_text', comment: '授業テキスト'
+  t.integer 'teacher_rate', comment: '先生評価'
+  t.text 'teacher_text', comment: '先生テキスト'
+  t.integer 'institution_rate', comment: '施設・セキュリティー評価'
+  t.text 'institution_text', comment: '施設・セキュリティーテキスト'
+  t.integer 'access_rate', comment: 'アクセス・立地評価'
+  t.text 'access_text', comment: 'アクセス・立地テキスト'
+  t.integer 'pta_rate', comment: '保護者関係(PTA)評価'
+  t.text 'pta_text', comment: '保護者関係(PTA)テキスト'
+  t.integer 'event_rate', comment: 'イベント評価'
+  t.text 'event_text', comment: 'イベントテキスト'
+  t.string 'how_go_text', comment: '登下校方法'
+  t.boolean 'uniform_present', comment: '制服の有無'
+  t.text 'uniform_text', comment: '制服の特徴テキスト'
+  t.boolean 'lunch_present', comment: '給食の有無'
+  t.text 'lunch_text', comment: '給食の詳細テキスト'
+  t.text 'cost_text', comment: '費用テキスト'
+  t.text 'motivation_text', comment: '志望動機テキスト'
+  t.string 'proceed_text', comment: '進学先テキスト'
+  t.text 'proceed_reason_text', comment: '進学先を選んだ理由'
+  t.datetime 'post_date', null: false, comment: '投稿年月日時'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+
+  t.index ['school_id'], name: 'idx_school_reviews_on_school_id'
+end
+
+add_foreign_key 'primary_school_reviews', 'primary_schools', name: 'fk_primary_school_reviews_primary_schools',
+                                                             column: 'school_id'

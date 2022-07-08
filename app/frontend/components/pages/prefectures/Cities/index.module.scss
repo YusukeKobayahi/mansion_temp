@@ -1,0 +1,21 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 50px;
+
+  @include screenMd {
+    margin-top: 20px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 12px -27px;
+
+  @include screenMd {
+    padding: 0;
+    margin: -20px 0 0;
+  }
+}

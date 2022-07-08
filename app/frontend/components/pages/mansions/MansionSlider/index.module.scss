@@ -1,0 +1,12 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.content {
+  width: 320px;
+  height: 100%;
+
+  @include screenMd {
+    width: 234px;
+    margin: 0 auto;
+  }
+}

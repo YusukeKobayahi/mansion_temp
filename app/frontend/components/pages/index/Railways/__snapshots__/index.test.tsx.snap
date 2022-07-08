@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/index/Railways 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <p
+      class="title"
+    >
+      駅・路線から探す
+    </p>
+    <div
+      class="main"
+    >
+      <button
+        class="trigger"
+      >
+        駅・沿線から探す
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;

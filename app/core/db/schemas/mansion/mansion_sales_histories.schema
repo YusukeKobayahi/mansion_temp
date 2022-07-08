@@ -1,0 +1,31 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :mansion_sales_histories, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.references :building, null: false
+  t.bigint :mansion_research_id, null: false, comment: 'データ購入元のマンションリサーチのID'
+  t.string :original_mansion_name, null: false, comment: 'データ購入元のマンションリサーチで登録されていたマンション名'
+  t.date :sale_on, null: false, comment: '売却年月日'
+  t.bigint :price, null: false, comment: '価格 (円)'
+  t.bigint :square_price, null: false, comment: '平米単価'
+  t.float :exclusive_area, null: false, comment: '専有面積'
+  t.integer :layout_kind_id, null: false, comment: '間取タイプ', renamed_from: :layout_kind
+  t.integer :number_of_rooms, null: false, comment: '間取部屋数'
+  t.integer :floor_number, comment: '所在階'
+  t.integer :opening_direction_id, comment: '開口向き', renamed_from: :opening_direction
+  t.integer :management_fee, null: false, comment: '管理費'
+  t.string :management_company, comment: '管理会社'
+  t.integer :management_form_id, comment: '管理形態', renamed_from: :management_form
+  t.integer :maintenance_fee, null: false, comment: '修繕積立金'
+  t.integer :land_privilege_id, comment: '土地権利', renamed_from: :land_privilege
+  t.integer :parking_kind_id, comment: '駐車場在否', renamed_from: :parking_id
+  t.timestamps
+
+  t.index ['exclusive_area'], name: 'idx_mansion_sales_histories_on_exclusive_area'
+  t.index ['price'], name: 'idx_mansion_sales_histories_on_price'
+  t.index ['sale_on'], name: 'idx_mansion_sales_histories_on_sale_on'
+end
+
+add_foreign_key 'mansion_sales_histories', 'mansion_buildings', name: 'fk_mansion_sales_histories_mansion_buildings',
+                                                                column: 'building_id'

@@ -1,0 +1,23 @@
+query Mansion($uniqueCode: ID!, $historyCursor: String) {
+  mansion(uniqueCode: $uniqueCode) {
+    ...MsLibraryMansionsBaseInfo
+    ...MsLibraryMansionsDetails
+    ...MsLibraryMansionsSalesHistories @arguments(historyCursor: $historyCursor)
+    ...MsLibraryMansionsSalesSummary
+    ...MsLibraryMansionsSeismicSafety
+    ...MsLibraryMansionsSimilarMansions
+    ...MsLibraryMansionsUnitSize
+    ...MsLibraryMansionsSalesCTA
+    ...MsLibraryMansionsProductJsonLd
+    ...MsLibraryMansionsMarketPrice
+    ...MsLibraryMansionsMansionHistory
+    ...MsLibraryMansionsCitySummary
+    pageView
+    primarySchool {
+      ...SchoolReviewsData
+    }
+    city {
+      ...MsLibraryCitiesCityInfo
+    }
+  }
+}

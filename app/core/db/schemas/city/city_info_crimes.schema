@@ -1,0 +1,25 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :city_info_crimes, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'city_id', null: false
+  t.bigint 'prefecture_id', null: false
+  t.integer 'area_id', null: false, comment: 'エリアID'
+  t.bigint 'crimes', comment: '犯罪数'
+  t.bigint 'population', comment: '人口'
+  t.float 'crime_ratio_percentage', comment: '犯罪率(%)'
+  t.integer 'prefecture_rank', comment: '県内のランキング'
+  t.integer 'area_rank', comment: 'エリア区分内順位'
+  t.float 'deviation', comment: 'エリア区分内偏差値'
+  t.integer 'grade_id', comment: '犯罪レートID'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['area_rank'], name: 'idx_city_info_crimes_area_rank'
+  t.index ['city_id'], name: 'idx_city_info_crimes_city_id'
+  t.index ['grade_id'], name: 'idx_city_info_crimes_grade_id'
+  t.index ['prefecture_id'], name: 'idx_city_info_crimes_prefecture_id'
+  t.index ['prefecture_rank'], name: 'idx_city_info_crimes_prefecture_rank'
+end
+
+add_foreign_key 'city_info_crimes', 'cities', name: 'fk_city_info_crimes_cities'

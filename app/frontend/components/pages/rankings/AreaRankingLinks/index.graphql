@@ -1,0 +1,8 @@
+fragment AreaRankingLinksData on Prefecture {
+  jisCode
+  name
+  cities {
+    jisCode
+    name
+  }
+}

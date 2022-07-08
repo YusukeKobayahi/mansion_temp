@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :pricehubble_dossiers, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint :building_id, null: false, comment: 'ビルディングID'
+  t.string :dossier_id, null: false, comment: 'dossierID'
+  t.timestamps
+
+  t.index ['building_id'], name: 'fk_pricehubble_dossiers_mansion_buildings_idx'
+end
+
+add_foreign_key 'pricehubble_dossiers', 'mansion_buildings', column: 'building_id',
+                                                             name: 'fk_pricehubble_dossiers_mansion_buildings'

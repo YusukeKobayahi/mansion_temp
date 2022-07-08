@@ -1,0 +1,10 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.content {
+  padding-top: 50px;
+
+  @include screenMd {
+    padding-top: 40px;
+  }
+}

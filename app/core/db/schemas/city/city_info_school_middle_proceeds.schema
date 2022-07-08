@@ -1,0 +1,26 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table 'city_info_school_middle_proceeds', default: nil, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                                 force: :cascade do |t|
+  t.bigint 'city_id', null: false
+  t.bigint 'prefecture_id', null: false
+  t.bigint 'jis_code', null: false
+  t.float 'school_proceed', comment: '都内中学進学者数'
+  t.integer 'national_school_proceed', comment: '都内国立中学進学者数'
+  t.integer 'private_school_proceed', comment: '都内私立中学進学者数'
+  t.float 'proceed_ratio_percentage', comment: '国私立進学率'
+  t.integer 'prefecture_rank', comment: '都道府県内順位'
+  t.integer 'capital_rank', comment: '一都三県順位'
+  t.float 'deviation', comment: '一都三県偏差値'
+  t.integer 'grade_id', comment: '判定'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['city_id'], name: 'idx_city_info_middle_school_proceed_city_id'
+  t.index ['grade_id'], name: 'idx_city_info_middle_school_proceed_grade_id'
+  t.index ['jis_code'], name: 'idx_city_info_middle_school_proceed_jis_code'
+  t.index ['prefecture_id'], name: 'idx_city_info_middle_school_proceed_prefecture_id'
+end
+
+add_foreign_key 'city_info_school_middle_proceeds', 'cities', name: 'fk_city_info_school_middle_proceeds_cities'

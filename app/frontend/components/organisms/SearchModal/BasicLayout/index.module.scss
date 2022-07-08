@@ -1,0 +1,54 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 0.6;
+  z-index: 1000;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  @include screenMd {
+    background-color: unset;
+    opacity: unset;
+  }
+}
+
+.outer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  min-width: 1000px;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  z-index: 1000;
+
+  @include screenMd {
+    top: 45px;
+    left: 0;
+    transform: unset;
+    height: calc(100% - 45px);
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+.inner {
+  border: 1px solid #bca565;
+  position: relative;
+  box-sizing: border-box;
+
+  @include screenMd {
+    height: 100%;
+    border: none;
+    overflow: hidden;
+  }
+}

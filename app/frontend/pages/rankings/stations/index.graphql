@@ -1,0 +1,30 @@
+query StationRankingsPage(
+  $st: String!
+  $limit: Int
+  # MansionCardで必要なため
+  $md: String = null
+  $prb: Int = null
+  $prt: Int = null
+  $eab: Int = null
+  $eat: Int = null
+) {
+  prefectures {
+    jisCode
+    name
+  }
+  station(st: $st) {
+    id
+    name
+    city {
+      name
+      jisCode
+      prefecture {
+        ...AreaRankingLinksData
+      }
+      ...RankingCityInfo
+    }
+    rankingMansions(limit: $limit) {
+      ...MansionCardData
+    }
+  }
+}

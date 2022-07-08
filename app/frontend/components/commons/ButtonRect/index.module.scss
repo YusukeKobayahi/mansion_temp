@@ -1,0 +1,56 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.btn {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    opacity: 1;
+  }
+}
+
+/**
+* Color
+*/
+
+$brown: $color-main;
+$dark-brown: #746744;
+
+@mixin fill($color: $brown) {
+  border: 1px solid $color;
+  color: white;
+  background-color: $color;
+}
+
+@mixin outline($color: $brown) {
+  &.outline {
+    border: 1px solid $color;
+    color: $color;
+    background-color: white;
+  }
+}
+
+@mixin disabled {
+  &.disabled {
+    opacity: 0.5;
+    cursor: auto;
+  }
+}
+
+.brown {
+  @include fill;
+  @include outline;
+  @include disabled();
+}
+.dark-brown {
+  @include fill($dark-brown);
+  @include outline($dark-brown);
+  @include disabled();
+}

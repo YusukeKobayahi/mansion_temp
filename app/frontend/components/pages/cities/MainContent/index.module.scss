@@ -1,0 +1,38 @@
+@import "~/styles/utils";
+
+.container {
+  margin-top: 50px;
+
+  @include screenMd {
+    margin-top: 20px;
+  }
+}
+
+.list {
+  width: 650px;
+
+  @media screen and (max-width: $content-max-width) {
+    margin-left: 30px;
+    width: calc(100% - 350px);
+  }
+
+  @include screenMd {
+    width: 100%;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+
+  &Wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.search {
+  width: 320px;
+
+  @include screenMd {
+    display: none;
+  }
+}

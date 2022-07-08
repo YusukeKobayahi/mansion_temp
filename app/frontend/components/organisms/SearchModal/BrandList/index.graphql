@@ -1,0 +1,7 @@
+query BrandList {
+  brands {
+    id
+    name
+    mansionCount
+  }
+}

@@ -1,0 +1,33 @@
+fragment MsLibraryMansionsMarketPrice on Mansion {
+  name
+  prefecture {
+    name
+  }
+  city {
+    name
+  }
+  town {
+    name
+  }
+  access {
+    stationName
+  }
+  priceHubble {
+    salePricePerSquare {
+      date
+      building
+      station
+      prefecture
+      city
+      town
+    }
+    salePricePerTsubo {
+      date
+      building
+      station
+      prefecture
+      city
+      town
+    }
+  }
+}

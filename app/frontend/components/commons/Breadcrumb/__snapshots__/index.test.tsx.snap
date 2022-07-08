@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/Breadcrumb 正常に表示される 1`] = `
+<DocumentFragment>
+  <nav
+    class=""
+  >
+    <ol
+      class="list"
+    >
+      <li
+        class="item"
+      >
+        <a
+          href="/"
+        >
+          イエウールトップ
+        </a>
+      </li>
+      <li
+        class="item"
+      >
+        <a
+          href="/ms-library"
+        >
+          マンションライブラリー
+        </a>
+      </li>
+      <li
+        class="item"
+      >
+        <span>
+          東京都
+        </span>
+      </li>
+    </ol>
+  </nav>
+</DocumentFragment>
+`;

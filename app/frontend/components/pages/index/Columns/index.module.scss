@@ -1,0 +1,362 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 50px;
+
+  @include screenMd {
+    margin-top: 10px;
+  }
+}
+
+.title {
+  background-color: #bca565;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+
+  @include screenMd {
+    font-size: 20px;
+  }
+}
+
+.subTitle {
+  margin: 20px auto 0;
+  text-align: center;
+
+  @include screenMd {
+    width: 80%;
+    position: relative;
+  }
+
+  h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #746742;
+
+    @include screenMd {
+      display: block;
+      font-size: 20px;
+      line-height: 70px;
+      text-align: center;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -30px;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 3px;
+      background-color: #746742;
+
+      @include screenMd {
+        transform: unset;
+        top: unset;
+        bottom: 0;
+        left: 0;
+        border-bottom: 2px solid #746742;
+        border-left: 2px solid #746742;
+        width: 15px;
+        height: 15px;
+        display: block;
+        background-color: unset;
+      }
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -30px;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 3px;
+      background-color: #746742;
+
+      @include screenMd {
+        transform: unset;
+        top: unset;
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-bottom: 2px solid #746742;
+        border-right: 2px solid #746742;
+        width: 15px;
+        height: 15px;
+        display: block;
+        background-color: unset;
+      }
+    }
+  }
+
+  &::before {
+    @include screenMd {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top: 2px solid #746742;
+      border-left: 2px solid #746742;
+      width: 15px;
+      height: 15px;
+      display: block;
+    }
+  }
+
+  &::after {
+    @include screenMd {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 2px solid #746742;
+      border-right: 2px solid #746742;
+      width: 15px;
+      height: 15px;
+      display: block;
+    }
+  }
+}
+
+.slider {
+  margin-top: 20px;
+  padding: 0 40px;
+  position: relative;
+
+  @include screenMd {
+    flex-wrap: wrap;
+    padding: 0 15px;
+  }
+
+  .arrow {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 45%;
+    background-color: unset;
+    cursor: pointer;
+
+    @include screenMd {
+      display: none;
+    }
+
+    &.prev {
+      border-top: 2px solid #bca565;
+      border-left: 2px solid #bca565;
+      transform: rotate(-45deg) translateY(-50%);
+      left: 10px;
+    }
+
+    &.next {
+      border-top: 2px solid #bca565;
+      border-right: 2px solid #bca565;
+      transform: rotate(45deg) translateY(-50%);
+      right: 10px;
+    }
+  }
+
+  &Inner {
+    overflow-x: hidden;
+  }
+
+  .slides {
+    display: flex;
+    transition: 0.3s;
+    @include screenMd {
+      flex-wrap: wrap;
+    }
+  }
+
+  .block {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+
+    @include screenMd {
+      min-width: 50%;
+      width: 50%;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid #d8d8d8;
+      padding: 9px 0;
+      margin: 0;
+
+      &.spHide {
+        display: none;
+      }
+    }
+
+    &:nth-child(odd) {
+      @include screenMd {
+        padding-right: 9px;
+      }
+    }
+
+    &:nth-child(even) {
+      @include screenMd {
+        padding-left: 9px;
+        border-left: 1px solid #d8d8d8;
+      }
+    }
+
+    .image {
+      width: 100%;
+      height: 115px;
+      background-color: #eaeaea;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .text {
+      padding-top: 10px;
+      color: #bca565;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: bold;
+      text-decoration: underline;
+      padding: 15px;
+
+      @include screenMd {
+        padding: 10px;
+      }
+    }
+  }
+
+  .pagers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    .pager {
+      background-color: unset;
+      cursor: pointer;
+
+      span {
+        font-size: 24px;
+        color: #efe4c5;
+
+        &.current {
+          color: #b2a173;
+        }
+      }
+    }
+
+    @include screenMd {
+      display: none;
+    }
+  }
+}
+
+.columns {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  @include screenMd {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+
+  .column {
+    width: calc((100% - 40px) / 3);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+
+    &:nth-child(3n + 1),
+    &:nth-child(3n + 2) {
+      margin-right: 20px;
+      @include screenMd {
+        margin-right: 0;
+      }
+    }
+
+    @include screenMd {
+      width: 1000%;
+      padding: 0 20px 10px 0;
+      margin-bottom: 10px;
+    }
+
+    &:nth-last-child(1) {
+      margin-bottom: 0;
+    }
+
+    .image {
+      min-width: 81px;
+      width: 81px;
+      height: 81px;
+      background-color: #eaeaea;
+      margin-right: 12px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .text {
+      color: #bca565;
+      font-size: 15px;
+      line-height: 1.5;
+      font-weight: bold;
+      text-decoration: underline;
+
+      @include screenMd {
+        font-size: 14px;
+      }
+    }
+
+    &::after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid #bca565;
+      border-right: 2px solid #bca565;
+      transform: rotate(45deg) translateY(-50%);
+      position: absolute;
+      right: 18px;
+      top: 50%;
+
+      @include screenMd {
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid #bca565;
+        border-right: 1px solid #bca565;
+        right: 12px;
+      }
+    }
+  }
+}
+
+.btn {
+  width: 200px;
+  border: 2px solid #bca565;
+  border-radius: 40px;
+  background-color: #f8f6f0;
+  margin: 20px auto 0;
+  font-size: 20px;
+  color: #b2a173;
+  line-height: 56px;
+  text-align: center;
+  font-weight: bold;
+
+  &Wrapper {
+    text-align: center;
+  }
+}

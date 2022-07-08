@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+create_table 'town_linked_search_conditions', id: :integer, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                              force: :cascade do |t|
+  t.bigint 'town_id', null: false
+  t.string 'name', null: false
+  t.string 'key', null: false
+  t.string 'value', null: false
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['town_id'], name: 'index_town_linked_search_conditions_town_id'
+end
+
+add_foreign_key 'town_linked_search_conditions', 'towns', name: 'fk_town_linked_search_conditions_towns'

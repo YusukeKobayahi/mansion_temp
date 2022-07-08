@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'street_codes', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'street_id', comment: 'street の id'
+  t.string 'code', null: false, comment: '住所トラッキング用 identifier'
+  t.bigint 'start_version_id', comment: 'maddress_versions の id、 開始'
+  t.bigint 'end_version_id', comment: 'maddress_versions の id、 終了'
+  t.datetime 'created_at', precision: 6, null: false
+  t.datetime 'updated_at', precision: 6, null: false
+  t.index ['code'], name: 'index_street_codes_on_code'
+  t.index ['end_version_id'], name: 'index_street_codes_on_end_version_id'
+  t.index ['start_version_id'], name: 'index_street_codes_on_start_version_id'
+  t.index ['street_id'], name: 'index_street_codes_on_street_id'
+end

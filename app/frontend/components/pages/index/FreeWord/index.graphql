@@ -1,0 +1,5 @@
+query FreeWord($word: String!, $limit: Int) {
+  freeWord(word: $word, limit: $limit) {
+    value
+  }
+}

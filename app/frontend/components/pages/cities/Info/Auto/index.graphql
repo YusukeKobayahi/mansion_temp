@@ -1,0 +1,44 @@
+fragment MsLibraryCitiesCityInfoAuto on City {
+  name
+  towns {
+    name
+  }
+  prefecture {
+    name
+    pricePredictions {
+      salePricePerTsubo {
+        date
+        prefecture
+      }
+    }
+  }
+  pricePredictions {
+    salePricePerTsubo {
+      date
+      city
+    }
+  }
+  info {
+    crime {
+      crimes
+      prefectureRank
+      deviation
+    }
+    income {
+      averageIncome
+      prefectureRank
+    }
+    school {
+      kindergarten {
+        kindergartens
+        prefectureRank
+        deviation
+      }
+    }
+    population {
+      basic {
+        population
+      }
+    }
+  }
+}

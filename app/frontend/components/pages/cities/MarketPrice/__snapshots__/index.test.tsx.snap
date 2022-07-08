@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/cities/MarketPrice 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="m_y_30px"
+  >
+    <h2>
+      <div
+        class="heading"
+      >
+        神奈川県横浜市鶴見区周辺のマンション相場遷移
+      </div>
+    </h2>
+  </section>
+</DocumentFragment>
+`;

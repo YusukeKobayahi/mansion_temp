@@ -1,0 +1,30 @@
+@import "~/styles/utils";
+
+.description {
+  color: #746744;
+  line-height: 1.5;
+
+  @include screenMd {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+}
+
+.emphasisText {
+  font-size: 26px;
+  padding: 0 0.3em;
+
+  @include screenMd {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.bottom_cta_container {
+  display: flex;
+  justify-content: flex-end;
+}

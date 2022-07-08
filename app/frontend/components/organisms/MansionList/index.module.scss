@@ -1,0 +1,30 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.cards {
+  width: 100%;
+
+  &:nth-child(n + 2) {
+    margin-top: 20px;
+  }
+}
+
+.inner {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  @include screenMd {
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+}
+
+.container {
+  margin-top: 50px;
+
+  @include screenMd {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,113 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  max-width: 730px;
+  margin: 20px auto 0;
+  color: #746744;
+
+  @include screenMd {
+    padding: 0 16px;
+  }
+}
+
+.content {
+  width: 100%;
+  padding: 30px;
+  box-shadow: 2px 3px 0px #00000029;
+  border: 1px solid #a5895c;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+
+  @include screenMd {
+    padding: 26px 16px;
+  }
+}
+
+.priceArea {
+  &__title {
+    font-size: 14px;
+
+    @include screenMd {
+      text-align: center;
+    }
+  }
+
+  &__price {
+    padding: 15px 0;
+    border-bottom: 1px solid #b19c7a;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+
+    @include screenMd {
+      font-size: 20px;
+    }
+  }
+
+  &__date {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    @include screenMd {
+      padding: 25px;
+      font-size: 14px;
+    }
+  }
+}
+
+.summaryArea {
+  &__title {
+    font-size: 14px;
+
+    @include screenMd {
+      text-align: center;
+    }
+  }
+
+  &__list {
+    list-style-type: disc;
+    margin-top: 15px;
+    margin-left: 35px;
+    line-height: 1.4;
+
+    @include screenMd {
+      margin-left: 16px;
+    }
+  }
+
+  &__item {
+    margin-top: 6px;
+    font-size: 20px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    @include screenMd {
+      font-size: 14px;
+    }
+  }
+
+  &__emphasisText {
+    font-weight: bold;
+  }
+}
+
+.notes {
+  color: $color-text-main;
+  margin-top: 1.5em;
+  font-size: 14px;
+
+  li {
+    line-height: 1.6;
+    text-indent: -1em;
+    padding-left: 1em;
+  }
+
+  @include screenMd {
+    font-size: 12px;
+  }
+}

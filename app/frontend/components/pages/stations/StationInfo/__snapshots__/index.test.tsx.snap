@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/cities/StationInfo 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h2>
+      <div
+        class="heading"
+      >
+        駅の情報
+      </div>
+    </h2>
+    <ul
+      class="list"
+    >
+      <li
+        class="item"
+      >
+        <button
+          class="link link"
+        >
+          大井駅
+        </button>
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

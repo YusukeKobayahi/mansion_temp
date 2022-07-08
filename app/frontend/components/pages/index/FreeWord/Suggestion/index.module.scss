@@ -1,0 +1,49 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: unset;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  cursor: unset;
+  z-index: 0;
+}
+
+.results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;
+  box-shadow: 6px 10px 10px #666666;
+  border-radius: 0 0 5px 5px;
+  z-index: 10;
+  max-height: 320px;
+
+  @include screenMd {
+    max-height: 280px;
+  }
+}
+
+.btn {
+  width: 100%;
+  padding: 0;
+  background-color: unset;
+  line-height: 2;
+  text-align: left;
+  font-size: 16px;
+  padding: 0 15px;
+
+  @include screenMd {
+    font-size: 14px;
+  }
+
+  &:hover {
+    background-color: #bebebe;
+  }
+}

@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table 'city_info_population_under_fifteens', default: nil, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                                    force: :cascade do |t|
+  t.bigint 'city_id', null: false
+  t.bigint 'prefecture_id', null: false
+  t.integer 'population', null: false, comment: '人口'
+  t.integer 'under_fifteen_population', null: false, comment: '15歳未満人口'
+  t.float 'under_fifteen_population_percentage', comment: '15歳未満人口比率'
+  t.integer 'prefecture_rank', comment: '都道府県内順位'
+  t.integer 'capital_rank', comment: '一都三県順位'
+  t.float 'deviation', comment: '一都三県偏差値'
+  t.integer 'grade_id', comment: '判定'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['city_id'], name: 'idx_city_info_population_under_fifteens_city_id'
+  t.index ['grade_id'], name: 'idx_city_info_population_under_fifteens_grade_id'
+  t.index ['prefecture_id'], name: 'idx_city_info_population_under_fifteens_prefecture_id'
+end
+
+add_foreign_key 'city_info_population_under_fifteens', 'cities', name: 'fk_city_info_population_under_fifteens_cities'

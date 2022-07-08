@@ -1,0 +1,40 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.heading {
+  text-align: center;
+  color: $color-main;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 24px;
+
+  @include screenMd {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.inner {
+  position: relative;
+  padding: 0 15px;
+  display: inline-block;
+
+  &::before,
+  &::after {
+    content: "";
+    width: 0.8em;
+    height: 3px;
+    background-color: $color-main;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &::before {
+    left: -0.5em;
+  }
+
+  &::after {
+    right: -0.5em;
+  }
+}

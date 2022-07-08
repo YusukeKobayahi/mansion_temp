@@ -1,0 +1,107 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  padding-top: 50px;
+
+  @include screenMd {
+    padding-top: 40px;
+  }
+}
+
+.inner {
+  width: 678px;
+  margin: 50px auto 0;
+
+  @include screenMd {
+    width: auto;
+    padding: 0 16px;
+    margin: 0;
+  }
+}
+
+.table {
+  width: 100%;
+  tr {
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 16px;
+
+    @include screenMd {
+      font-size: 13px;
+    }
+
+    &.none {
+      display: none;
+    }
+  }
+
+  th {
+    text-align: center;
+    padding: 14px;
+    background-color: #faf9f7;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #646464;
+
+    @include screenMd {
+      padding: 5px;
+    }
+
+    span {
+      font-size: 13px;
+
+      @include screenMd {
+        font-size: 11px;
+      }
+    }
+
+    &:nth-child(1) {
+      width: 35%;
+
+      @include screenMd {
+        width: 40%;
+      }
+    }
+
+    &:nth-child(n + 2) {
+      width: 24%;
+
+      @include screenMd {
+        width: 20%;
+      }
+    }
+  }
+
+  td {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.4;
+    padding: 14px;
+    color: #646464;
+
+    @include screenMd {
+      padding: 5px;
+    }
+
+    &:nth-child(1) {
+      text-align: left;
+    }
+  }
+}
+
+.btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 8px 20px;
+  background-color: #f8f6f0;
+  border: 2px solid $color-main;
+  border-radius: 40px;
+  font-size: 16px;
+  color: $color-main;
+  cursor: pointer;
+
+  @include screenMd {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}

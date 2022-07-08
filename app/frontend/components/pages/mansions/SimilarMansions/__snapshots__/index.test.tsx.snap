@@ -1,0 +1,722 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/SimilarMansions 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h3>
+      <div
+        class="heading"
+      >
+        <span
+          class="inner"
+        >
+          この物件に似ている物件
+        </span>
+      </div>
+    </h3>
+    <div>
+      <div
+        class="slick-slider slick-initialized"
+        dir="ltr"
+      >
+        <button
+          class="slick-arrow slick-prev slick-disabled"
+          data-role="none"
+          style="display: block;"
+          type="button"
+        >
+           Previous
+        </button>
+        <div
+          class="slick-list"
+        >
+          <div
+            class="slick-track"
+            style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+          >
+            <div
+              aria-hidden="false"
+              class="slick-slide slick-active slick-current"
+              data-index="0"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/64275823fef26c607663fcba"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          ザ・パークハウスアーバンス千代田お茶の水
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2016年03月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 7,940万円 ~ 8,200万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田猿楽町１丁目２
+                          </span>
+                          <br />
+                          <span>
+                            半蔵門線「神保町」 徒歩3分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="false"
+              class="slick-slide slick-active"
+              data-index="1"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/f207a96387f71c9946edbcb3"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          プレミスト千代田　神田佐久間町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2016年03月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 6,980万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              2SLDK 6,980万円 ~ 7,300万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              3LDK 7,980万円 ~ 8,500万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田佐久間町４丁目
+                          </span>
+                          <br />
+                          <span>
+                            山手線「秋葉原」 徒歩7分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="false"
+              class="slick-slide slick-active"
+              data-index="2"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/fe4a3df2d9627089d972e535"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          ザ・パークハウスアーバンス千代田御茶ノ水
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2016年02月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1LDK 7,980万円 ~ 8,280万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 7,980万円 ~ 9,480万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田猿楽町１丁目２－２
+                          </span>
+                          <br />
+                          <span>
+                            半蔵門線「神保町」 徒歩3分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="3"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/9aac1c41c6294ef7c7f6b6ae"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          ＳＹＦＯＲＭＥ神保町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年12月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1K 3,200万円 ~ 3,300万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田神保町１丁目
+                          </span>
+                          <br />
+                          <span>
+                            半蔵門線「神保町」 徒歩3分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="4"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/754d9b22841fc1cb979d4092"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          デュアレス千代田三崎町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年12月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1K 3,200万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              1LDK 5,500万円 ~ 6,280万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田三崎町３丁目５－５
+                          </span>
+                          <br />
+                          <span>
+                            中央線「水道橋」 徒歩3分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="5"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/c5f472915353218bf72ec419"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          プレミスト麹町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年12月 (築5年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 7,880万円 ~ 1億2,900万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              2SLDK 1億2,480万円 ~ 1億3,180万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区麹町４丁目４ー１
+                          </span>
+                          <br />
+                          <span>
+                            有楽町線「麹町」 徒歩2分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="6"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/64bef71fcd1e5b6d858835f0"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          ルジェンテ千代田神保町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年11月 (築6年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1LDK 3,980万円 ~ 4,790万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区神田神保町１丁目４４－１
+                          </span>
+                          <br />
+                          <span>
+                            半蔵門線「神保町」 徒歩3分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="7"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/cc8eea1065c2765925c0ad60"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          オープンレジデンシア千代田東神田
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年09月 (築6年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 5,365万円 ~ 5,680万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区東神田１丁目２－１４
+                          </span>
+                          <br />
+                          <span>
+                            総武線「馬喰町」 徒歩2分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              class="slick-slide"
+              data-index="8"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/995997500a7844fbb28470c9"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          シティインデックス千代田岩本町
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2015年09月 (築6年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1LDK 3,600万円 ~ 4,880万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              1SLDK 3,990万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都千代田区岩本町２丁目１４－３
+                          </span>
+                          <br />
+                          <span>
+                            都営新宿線「岩本町」 徒歩4分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="slick-arrow slick-next"
+          data-role="none"
+          style="display: block;"
+          type="button"
+        >
+           Next
+        </button>
+        <ul
+          class="slick-dots"
+          style="display: block;"
+        >
+          <li
+            class="slick-active"
+          >
+            <button>
+              1
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              2
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              3
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              4
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              5
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              6
+            </button>
+          </li>
+          <li
+            class=""
+          >
+            <button>
+              7
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

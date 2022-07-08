@@ -1,0 +1,39 @@
+query LineList(
+  $jisCode: String!
+  $md: String
+  $eab: Int
+  $eat: Int
+  $prb: Int
+  $prt: Int
+  $tht: Int
+  $ckt: Int
+  $utb: Int
+  $gfb: Int
+  $gft: Int
+) {
+  prefecture(jisCode: $jisCode) {
+    companies {
+      name
+      lines {
+        id
+        name
+        stations {
+          id
+          name
+        }
+        mansionCount(
+          md: $md
+          eab: $eab
+          eat: $eat
+          prb: $prb
+          prt: $prt
+          tht: $tht
+          ckt: $ckt
+          utb: $utb
+          gfb: $gfb
+          gft: $gft
+        )
+      }
+    }
+  }
+}

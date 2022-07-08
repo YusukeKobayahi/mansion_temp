@@ -1,0 +1,25 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin: -30px 0 -50px;
+}
+
+.background {
+  background-image: url(/ms-library/images/index/mv.jpg);
+  background-size: 100% 930px;
+  background-repeat: no-repeat;
+
+  @include screenMd {
+    background-image: url(/ms-library/images/index/mv_sp.jpg);
+    background-size: 100% 700px;
+  }
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  @include screenMd {
+    display: block;
+  }
+}

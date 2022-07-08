@@ -1,0 +1,6 @@
+fragment StationInfo on RailwayStationToStation {
+  startStation {
+    id
+    name
+  }
+}

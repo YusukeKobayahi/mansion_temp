@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+create_table 'streets', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.string 'name', comment: '番地名'
+  t.string 'kana', comment: '番地名カナ'
+  t.bigint 'town_id', comment: 'townのid'
+  t.bigint 'start_version_id', comment: 'maddress_versions の id、 開始'
+  t.bigint 'end_version_id', comment: 'maddress_versions の id、 終了'
+  t.string 'slug', comment: 'slug番地名'
+  t.timestamps
+  t.index ['end_version_id'], name: 'index_streets_on_end_version_id'
+  t.index ['slug'], name: 'index_streets_on_slug', unique: true
+  t.index ['start_version_id'], name: 'index_streets_on_start_version_id'
+  t.index ['town_id'], name: 'index_streets_on_town_id'
+end
+
+add_foreign_key 'streets', 'towns', name: 'fk_rails_4c1edbb7c4'

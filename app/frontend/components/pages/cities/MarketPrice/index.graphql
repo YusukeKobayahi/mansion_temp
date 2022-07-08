@@ -1,0 +1,26 @@
+fragment MsLibraryCitiesMarketPrice on City {
+  name
+  prefecture {
+    name
+    pricePredictions {
+      salePricePerTsubo {
+        date
+        prefecture
+      }
+      salePricePerSquare {
+        date
+        prefecture
+      }
+    }
+  }
+  pricePredictions {
+    salePricePerTsubo {
+      date
+      city
+    }
+    salePricePerSquare {
+      date
+      city
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "primarySchools": [
+    {
+      "schoolId": "30023",
+      "name": "笄小学校",
+      "nameKana": "こうがいしょうがっこう",
+      "mansionCount": 11,
+      "city": {
+        "name": "港区",
+        "prefecture": {
+          "name": "東京都",
+          "jisCode": "13000"
+        },
+        "primarySchools": [
+          {
+            "schoolId": "30021",
+            "name": "御成門小学校",
+            "mansionCount": 8
+          },
+          {
+            "schoolId": "30022",
+            "name": "芝小学校",
+            "mansionCount": 5
+          },
+          {
+            "schoolId": "30023",
+            "name": "笄小学校",
+            "mansionCount": 11
+          },
+          {
+            "schoolId": "30024",
+            "name": "麻布小学校",
+            "mansionCount": 10
+          },
+          {
+            "schoolId": "30025",
+            "name": "南山小学校",
+            "mansionCount": 2
+          },
+          {
+            "schoolId": "30026",
+            "name": "東町小学校",
+            "mansionCount": 8
+          },
+          {
+            "schoolId": "30027",
+            "name": "本村小学校",
+            "mansionCount": 6
+          },
+          {
+            "schoolId": "30028",
+            "name": "赤坂小学校",
+            "mansionCount": 18
+          },
+          {
+            "schoolId": "30029",
+            "name": "青山小学校",
+            "mansionCount": 1
+          },
+          {
+            "schoolId": "30030",
+            "name": "青南小学校",
+            "mansionCount": 3
+          },
+          {
+            "schoolId": "30031",
+            "name": "芝浦小学校",
+            "mansionCount": 9
+          },
+          {
+            "schoolId": "30032",
+            "name": "白金小学校",
+            "mansionCount": 4
+          },
+          {
+            "schoolId": "30035",
+            "name": "御田小学校",
+            "mansionCount": 6
+          },
+          {
+            "schoolId": "30036",
+            "name": "赤羽小学校",
+            "mansionCount": 4
+          },
+          {
+            "schoolId": "30037",
+            "name": "高輪台小学校",
+            "mansionCount": 11
+          },
+          {
+            "schoolId": "30038",
+            "name": "港南小学校",
+            "mansionCount": 8
+          },
+          {
+            "schoolId": "30039",
+            "name": "港陽小学校",
+            "mansionCount": 0
+          },
+          {
+            "schoolId": "89392",
+            "name": "白金の丘学園",
+            "mansionCount": 0
+          }
+        ]
+      }
+    }
+  ]
+}

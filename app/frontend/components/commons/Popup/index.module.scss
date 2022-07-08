@@ -1,0 +1,264 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #000000;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 100;
+  background-color: #f8f6f1;
+  padding: 8px;
+  box-sizing: border-box;
+
+  @include screenMd {
+    width: 95%;
+  }
+}
+
+.inner {
+  border: solid 2px #726647;
+  padding: 30px 15px 20px;
+  position: relative;
+
+  @include screenMd {
+    padding: 15px 10px;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  padding: 0;
+
+  @include screenMd {
+    top: 5px;
+    right: 5px;
+  }
+
+  img {
+    vertical-align: bottom;
+
+    @include screenMd {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+
+  .decolation {
+    position: absolute;
+    top: -20px;
+    left: -34px;
+
+    @include screenMd {
+      top: -10px;
+      left: -17px;
+      width: 30px;
+      height: 31px;
+    }
+  }
+
+  .text {
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    font-size: 60.45px;
+    color: #726647;
+    font-weight: bold;
+    line-height: 1;
+
+    @include screenMd {
+      font-size: 30px;
+    }
+
+    .large {
+      font-size: 80.5px;
+
+      @include screenMd {
+        font-size: 40px;
+      }
+    }
+
+    .small {
+      font-size: 40px;
+
+      @include screenMd {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.description {
+  text-align: center;
+  margin-top: 20px;
+  color: #726647;
+  font-size: 30px;
+  font-weight: bold;
+  font-feature-settings: "palt";
+
+  @include screenMd {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  span {
+    color: #ff6839;
+    font-size: 40.5px;
+
+    @include screenMd {
+      font-size: 20px;
+    }
+  }
+}
+
+.columns {
+  margin-top: 20px;
+  display: flex;
+
+  @include screenMd {
+    margin-top: 10px;
+  }
+}
+
+.column {
+  width: 240px;
+  padding: 30px 0;
+  background-color: #c6b481;
+  border-radius: 10px;
+  text-align: center;
+
+  @include screenMd {
+    width: unset;
+    flex: 1;
+    padding: 15px 5px;
+    box-sizing: border-box;
+  }
+  &:nth-child(n + 2) {
+    margin-left: 5px;
+  }
+
+  &:nth-child(1) {
+    img {
+      @include screenMd {
+        width: 71px;
+        height: auto;
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    img {
+      @include screenMd {
+        width: 63px;
+        height: auto;
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    img {
+      @include screenMd {
+        width: 73px;
+        height: auto;
+      }
+    }
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3b3524;
+    font-weight: bold;
+    line-height: 1.37;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include screenMd {
+      margin-top: 10px;
+      font-size: 12px;
+      height: 70px;
+    }
+  }
+}
+
+.cta {
+  margin-top: 30px;
+
+  @include screenMd {
+    margin-top: 15px;
+  }
+
+  p {
+    font-size: 28px;
+    color: #5f553b;
+    font-weight: bold;
+    text-align: center;
+
+    @include screenMd {
+      font-size: 14px;
+    }
+  }
+}
+
+.btn {
+  margin: 8px auto 0;
+  cursor: pointer;
+  padding: 18px 0;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/ms-library/images/bg-cta3.png");
+  background-size: cover;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.3;
+  position: relative;
+  letter-spacing: 2.28px;
+  box-sizing: border-box;
+
+  @include screenMd {
+    width: 95%;
+    padding: 8px 8px 8px 0;
+    font-size: 16px;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+
+    @include screenMd {
+      width: 20px;
+      height: 21px;
+      bottom: 7px;
+      right: 10px;
+    }
+  }
+}

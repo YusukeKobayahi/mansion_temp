@@ -1,0 +1,23 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.heading {
+  width: 100%;
+  padding: 10px 16px;
+  background-color: #f4f4f4;
+
+  .inner {
+    font-size: 24px;
+    text-align: left;
+    line-height: unset;
+    padding: 10px;
+    color: #373a3c;
+    background-color: unset;
+    border-left: 3px solid #bca565;
+
+    @include screenMd {
+      padding: 0 0 0 10px;
+      font-size: 16px;
+    }
+  }
+}

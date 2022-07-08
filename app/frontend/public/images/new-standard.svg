@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.5" height="35.587" viewBox="0 0 40.5 35.587">
+  <g id="グループ_105" data-name="グループ 105" transform="translate(-6.065 -12.173)">
+    <g id="グループ_108" data-name="グループ 108" transform="translate(0 0.784)">
+      <g id="グループ_70" data-name="グループ 70" transform="translate(9.403 11.663)">
+        <path id="パス_237" data-name="パス 237" d="M.664,0H25.545a.664.664,0,0,1,.664.664v33.8a.664.664,0,0,1-.664.664H.664A.664.664,0,0,1,0,34.463V.664A.664.664,0,0,1,.664,0Z" transform="translate(3.669 0.186)" fill="#646464"/>
+        <path id="パス_232" data-name="パス 232" d="M267.22,20.815h-6.852V13.734c0-1.524,1.537-2.764,3.426-2.764s3.426,1.24,3.426,2.764Z" transform="translate(-247.021 14.498)" fill="#edf1f4"/>
+        <rect id="長方形_457" data-name="長方形 457" width="4.303" height="4.303" rx="1" transform="translate(7.634 10.899)" fill="#edf1f4"/>
+        <rect id="長方形_458" data-name="長方形 458" width="4.303" height="4.303" rx="1" transform="translate(14.856 10.899)" fill="#edf1f4"/>
+        <rect id="長方形_459" data-name="長方形 459" width="4.303" height="4.303" rx="1" transform="translate(22.078 10.899)" fill="#edf1f4"/>
+        <rect id="長方形_460" data-name="長方形 460" width="4.303" height="4.303" rx="1" transform="translate(7.634 4.432)" fill="#edf1f4"/>
+        <rect id="長方形_461" data-name="長方形 461" width="4.303" height="4.303" rx="1" transform="translate(14.856 4.432)" fill="#edf1f4"/>
+        <rect id="長方形_462" data-name="長方形 462" width="4.303" height="4.303" rx="1" transform="translate(22.078 4.432)" fill="#edf1f4"/>
+        <rect id="長方形_463" data-name="長方形 463" width="4.303" height="4.303" rx="1" transform="translate(7.634 17.367)" fill="#edf1f4"/>
+        <rect id="長方形_464" data-name="長方形 464" width="4.303" height="4.303" rx="1" transform="translate(14.856 17.367)" fill="#edf1f4"/>
+        <rect id="長方形_465" data-name="長方形 465" width="4.303" height="4.303" rx="1" transform="translate(22.078 17.367)" fill="#edf1f4"/>
+        <g id="グループ_91" data-name="グループ 91" transform="translate(0.26 16.58)">
+          <path id="パス_261" data-name="パス 261" d="M-36.084,16.541l-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8" transform="translate(37.264 -16.541)" fill="none" stroke="#646464" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="グループ_107" data-name="グループ 107" transform="translate(-2.74 9.371)">
+          <path id="パス_261-2" data-name="パス 261" d="M-36.084,16.541l-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8" transform="translate(37.264 -16.541)" fill="none" stroke="#646464" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="グループ_92" data-name="グループ 92" transform="translate(32.386 0)">
+          <path id="パス_261-3" data-name="パス 261" d="M-36.084,16.541l-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8" transform="translate(37.264 -16.541)" fill="none" stroke="#646464" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+        <g id="グループ_106" data-name="グループ 106" transform="translate(35.386 4)">
+          <path id="パス_261-4" data-name="パス 261" d="M-36.084,16.541l-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8-1.179,1.8,1.179,1.8" transform="translate(37.264 -16.541)" fill="none" stroke="#646464" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

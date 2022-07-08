@@ -1,0 +1,2572 @@
+{
+  "cities": [
+    {
+      "jisCode": "14101",
+      "name": "横浜市鶴見区",
+      "mansionCount": 116,
+      "prefecture": {
+        "name": "神奈川県",
+        "jisCode": "14000",
+        "pricePredictions": {
+          "salePricePerTsubo": [
+            {
+              "date": "2016-01-01",
+              "prefecture": 1651747.12
+            },
+            {
+              "date": "2016-02-01",
+              "prefecture": 1655198.25
+            },
+            {
+              "date": "2016-03-01",
+              "prefecture": 1658653.04
+            },
+            {
+              "date": "2016-04-01",
+              "prefecture": 1662122.49
+            },
+            {
+              "date": "2016-05-01",
+              "prefecture": 1665602.24
+            },
+            {
+              "date": "2016-06-01",
+              "prefecture": 1668897.86
+            },
+            {
+              "date": "2016-07-01",
+              "prefecture": 1671827.79
+            },
+            {
+              "date": "2016-08-01",
+              "prefecture": 1674765.68
+            },
+            {
+              "date": "2016-09-01",
+              "prefecture": 1677708.03
+            },
+            {
+              "date": "2016-10-01",
+              "prefecture": 1680661.83
+            },
+            {
+              "date": "2016-11-01",
+              "prefecture": 1683623.65
+            },
+            {
+              "date": "2016-12-01",
+              "prefecture": 1686589.01
+            },
+            {
+              "date": "2017-01-01",
+              "prefecture": 1689566.25
+            },
+            {
+              "date": "2017-02-01",
+              "prefecture": 1692437.32
+            },
+            {
+              "date": "2017-03-01",
+              "prefecture": 1694522.14
+            },
+            {
+              "date": "2017-04-01",
+              "prefecture": 1696621.04
+            },
+            {
+              "date": "2017-05-01",
+              "prefecture": 1698739.86
+            },
+            {
+              "date": "2017-06-01",
+              "prefecture": 1700858.37
+            },
+            {
+              "date": "2017-07-01",
+              "prefecture": 1702983.79
+            },
+            {
+              "date": "2017-08-01",
+              "prefecture": 1705113.82
+            },
+            {
+              "date": "2017-09-01",
+              "prefecture": 1707245.68
+            },
+            {
+              "date": "2017-10-01",
+              "prefecture": 1709383.67
+            },
+            {
+              "date": "2017-11-01",
+              "prefecture": 1710649.01
+            },
+            {
+              "date": "2017-12-01",
+              "prefecture": 1711475.77
+            },
+            {
+              "date": "2018-01-01",
+              "prefecture": 1712305.05
+            },
+            {
+              "date": "2018-02-01",
+              "prefecture": 1713061.67
+            },
+            {
+              "date": "2018-03-01",
+              "prefecture": 1713816.28
+            },
+            {
+              "date": "2018-04-01",
+              "prefecture": 1714588.02
+            },
+            {
+              "date": "2018-05-01",
+              "prefecture": 1715392.87
+            },
+            {
+              "date": "2018-06-01",
+              "prefecture": 1716195.58
+            },
+            {
+              "date": "2018-07-01",
+              "prefecture": 1716900.8
+            },
+            {
+              "date": "2018-08-01",
+              "prefecture": 1717408.89
+            },
+            {
+              "date": "2018-09-01",
+              "prefecture": 1717919.13
+            },
+            {
+              "date": "2018-10-01",
+              "prefecture": 1718430.19
+            },
+            {
+              "date": "2018-11-01",
+              "prefecture": 1718943.43
+            },
+            {
+              "date": "2018-12-01",
+              "prefecture": 1719458.02
+            },
+            {
+              "date": "2019-01-01",
+              "prefecture": 1719975.55
+            },
+            {
+              "date": "2019-02-01",
+              "prefecture": 1720485.72
+            },
+            {
+              "date": "2019-03-01",
+              "prefecture": 1720995.63
+            },
+            {
+              "date": "2019-04-01",
+              "prefecture": 1721446.28
+            },
+            {
+              "date": "2019-05-01",
+              "prefecture": 1721928.33
+            },
+            {
+              "date": "2019-06-01",
+              "prefecture": 1722407.73
+            },
+            {
+              "date": "2019-07-01",
+              "prefecture": 1722888.78
+            },
+            {
+              "date": "2019-08-01",
+              "prefecture": 1723371.16
+            },
+            {
+              "date": "2019-09-01",
+              "prefecture": 1723854.59
+            },
+            {
+              "date": "2019-10-01",
+              "prefecture": 1724339.64
+            },
+            {
+              "date": "2019-11-01",
+              "prefecture": 1724825.78
+            },
+            {
+              "date": "2019-12-01",
+              "prefecture": 1727026.98
+            },
+            {
+              "date": "2020-01-01",
+              "prefecture": 1730093.88
+            },
+            {
+              "date": "2020-02-01",
+              "prefecture": 1733164.6
+            },
+            {
+              "date": "2020-03-01",
+              "prefecture": 1736236.38
+            },
+            {
+              "date": "2020-04-01",
+              "prefecture": 1739332.22
+            },
+            {
+              "date": "2020-05-01",
+              "prefecture": 1742462.23
+            },
+            {
+              "date": "2020-06-01",
+              "prefecture": 1745592.4
+            },
+            {
+              "date": "2020-07-01",
+              "prefecture": 1748733.53
+            },
+            {
+              "date": "2020-08-01",
+              "prefecture": 1753168.1
+            },
+            {
+              "date": "2020-09-01",
+              "prefecture": 1760184.08
+            },
+            {
+              "date": "2020-10-01",
+              "prefecture": 1767242.7
+            },
+            {
+              "date": "2020-11-01",
+              "prefecture": 1774334.31
+            },
+            {
+              "date": "2020-12-01",
+              "prefecture": 1781448.72
+            },
+            {
+              "date": "2021-01-01",
+              "prefecture": 1788606.78
+            },
+            {
+              "date": "2021-02-01",
+              "prefecture": 1795798.24
+            },
+            {
+              "date": "2021-03-01",
+              "prefecture": 1803011.22
+            },
+            {
+              "date": "2021-04-01",
+              "prefecture": 1806725.11
+            },
+            {
+              "date": "2021-05-01",
+              "prefecture": 1810438.96
+            },
+            {
+              "date": "2021-06-01",
+              "prefecture": 1814152.82
+            },
+            {
+              "date": "2021-07-01",
+              "prefecture": 1817866.77
+            },
+            {
+              "date": "2021-08-01",
+              "prefecture": 1821580.56
+            },
+            {
+              "date": "2021-09-01",
+              "prefecture": 1825294.45
+            },
+            {
+              "date": "2021-10-01",
+              "prefecture": 1829008.41
+            },
+            {
+              "date": "2021-11-01",
+              "prefecture": 1832722.17
+            },
+            {
+              "date": "2021-12-01",
+              "prefecture": 1836436.12
+            },
+            {
+              "date": "2022-01-01",
+              "prefecture": 1840149.98
+            },
+            {
+              "date": "2022-02-01",
+              "prefecture": 1843863.8
+            },
+            {
+              "date": "2022-03-01",
+              "prefecture": 1847577.66
+            },
+            {
+              "date": "2022-04-01",
+              "prefecture": 1851291.54
+            },
+            {
+              "date": "2022-05-01",
+              "prefecture": 1855005.4
+            },
+            {
+              "date": "2022-06-01",
+              "prefecture": 1858719.32
+            },
+            {
+              "date": "2022-07-01",
+              "prefecture": 1862433.18
+            },
+            {
+              "date": "2022-08-01",
+              "prefecture": 1866147.0
+            },
+            {
+              "date": "2022-09-01",
+              "prefecture": 1869860.82
+            },
+            {
+              "date": "2022-10-01",
+              "prefecture": 1873574.78
+            },
+            {
+              "date": "2022-11-01",
+              "prefecture": 1877288.6
+            },
+            {
+              "date": "2022-12-01",
+              "prefecture": 1881002.56
+            },
+            {
+              "date": "2023-01-01",
+              "prefecture": 1884716.38
+            },
+            {
+              "date": "2023-02-01",
+              "prefecture": 1888430.3
+            },
+            {
+              "date": "2023-03-01",
+              "prefecture": 1892144.19
+            },
+            {
+              "date": "2023-04-01",
+              "prefecture": 1895857.98
+            },
+            {
+              "date": "2023-05-01",
+              "prefecture": 1899571.87
+            },
+            {
+              "date": "2023-06-01",
+              "prefecture": 1903285.69
+            },
+            {
+              "date": "2023-07-01",
+              "prefecture": 1906999.62
+            },
+            {
+              "date": "2023-08-01",
+              "prefecture": 1910713.47
+            },
+            {
+              "date": "2023-09-01",
+              "prefecture": 1914427.3
+            },
+            {
+              "date": "2023-10-01",
+              "prefecture": 1918141.22
+            },
+            {
+              "date": "2023-11-01",
+              "prefecture": 1921855.11
+            },
+            {
+              "date": "2023-12-01",
+              "prefecture": 1925568.96
+            },
+            {
+              "date": "2024-01-01",
+              "prefecture": 1929282.92
+            },
+            {
+              "date": "2024-02-01",
+              "prefecture": 1932996.64
+            },
+            {
+              "date": "2024-03-01",
+              "prefecture": 1936710.56
+            },
+            {
+              "date": "2024-04-01",
+              "prefecture": 1940424.49
+            },
+            {
+              "date": "2024-05-01",
+              "prefecture": 1944138.31
+            },
+            {
+              "date": "2024-06-01",
+              "prefecture": 1947852.17
+            },
+            {
+              "date": "2024-07-01",
+              "prefecture": 1951566.05
+            },
+            {
+              "date": "2024-08-01",
+              "prefecture": 1955279.91
+            },
+            {
+              "date": "2024-09-01",
+              "prefecture": 1958993.77
+            },
+            {
+              "date": "2024-10-01",
+              "prefecture": 1962707.69
+            },
+            {
+              "date": "2024-11-01",
+              "prefecture": 1966421.51
+            },
+            {
+              "date": "2024-12-01",
+              "prefecture": 1970135.4
+            },
+            {
+              "date": "2025-01-01",
+              "prefecture": 1973849.32
+            },
+            {
+              "date": "2025-02-01",
+              "prefecture": 1977563.11
+            },
+            {
+              "date": "2025-03-01",
+              "prefecture": 1981277.0
+            },
+            {
+              "date": "2025-04-01",
+              "prefecture": 1984990.92
+            }
+          ],
+          "salePricePerSquare": [
+            {
+              "date": "2016-01-01",
+              "prefecture": 500377.8
+            },
+            {
+              "date": "2016-02-01",
+              "prefecture": 501423.28
+            },
+            {
+              "date": "2016-03-01",
+              "prefecture": 502469.87
+            },
+            {
+              "date": "2016-04-01",
+              "prefecture": 503520.9
+            },
+            {
+              "date": "2016-05-01",
+              "prefecture": 504575.05
+            },
+            {
+              "date": "2016-06-01",
+              "prefecture": 505573.42
+            },
+            {
+              "date": "2016-07-01",
+              "prefecture": 506461.01
+            },
+            {
+              "date": "2016-08-01",
+              "prefecture": 507351.01
+            },
+            {
+              "date": "2016-09-01",
+              "prefecture": 508242.36
+            },
+            {
+              "date": "2016-10-01",
+              "prefecture": 509137.18
+            },
+            {
+              "date": "2016-11-01",
+              "prefecture": 510034.43
+            },
+            {
+              "date": "2016-12-01",
+              "prefecture": 510932.75
+            },
+            {
+              "date": "2017-01-01",
+              "prefecture": 511834.67
+            },
+            {
+              "date": "2017-02-01",
+              "prefecture": 512704.43
+            },
+            {
+              "date": "2017-03-01",
+              "prefecture": 513336.0
+            },
+            {
+              "date": "2017-04-01",
+              "prefecture": 513971.84
+            },
+            {
+              "date": "2017-05-01",
+              "prefecture": 514613.71
+            },
+            {
+              "date": "2017-06-01",
+              "prefecture": 515255.49
+            },
+            {
+              "date": "2017-07-01",
+              "prefecture": 515899.36
+            },
+            {
+              "date": "2017-08-01",
+              "prefecture": 516544.63
+            },
+            {
+              "date": "2017-09-01",
+              "prefecture": 517190.45
+            },
+            {
+              "date": "2017-10-01",
+              "prefecture": 517838.13
+            },
+            {
+              "date": "2017-11-01",
+              "prefecture": 518221.45
+            },
+            {
+              "date": "2017-12-01",
+              "prefecture": 518471.91
+            },
+            {
+              "date": "2018-01-01",
+              "prefecture": 518723.13
+            },
+            {
+              "date": "2018-02-01",
+              "prefecture": 518952.34
+            },
+            {
+              "date": "2018-03-01",
+              "prefecture": 519180.94
+            },
+            {
+              "date": "2018-04-01",
+              "prefecture": 519414.73
+            },
+            {
+              "date": "2018-05-01",
+              "prefecture": 519658.55
+            },
+            {
+              "date": "2018-06-01",
+              "prefecture": 519901.72
+            },
+            {
+              "date": "2018-07-01",
+              "prefecture": 520115.36
+            },
+            {
+              "date": "2018-08-01",
+              "prefecture": 520269.28
+            },
+            {
+              "date": "2018-09-01",
+              "prefecture": 520423.85
+            },
+            {
+              "date": "2018-10-01",
+              "prefecture": 520578.67
+            },
+            {
+              "date": "2018-11-01",
+              "prefecture": 520734.15
+            },
+            {
+              "date": "2018-12-01",
+              "prefecture": 520890.04
+            },
+            {
+              "date": "2019-01-01",
+              "prefecture": 521046.82
+            },
+            {
+              "date": "2019-02-01",
+              "prefecture": 521201.37
+            },
+            {
+              "date": "2019-03-01",
+              "prefecture": 521355.84
+            },
+            {
+              "date": "2019-04-01",
+              "prefecture": 521492.36
+            },
+            {
+              "date": "2019-05-01",
+              "prefecture": 521638.39
+            },
+            {
+              "date": "2019-06-01",
+              "prefecture": 521783.62
+            },
+            {
+              "date": "2019-07-01",
+              "prefecture": 521929.35
+            },
+            {
+              "date": "2019-08-01",
+              "prefecture": 522075.48
+            },
+            {
+              "date": "2019-09-01",
+              "prefecture": 522221.93
+            },
+            {
+              "date": "2019-10-01",
+              "prefecture": 522368.87
+            },
+            {
+              "date": "2019-11-01",
+              "prefecture": 522516.14
+            },
+            {
+              "date": "2019-12-01",
+              "prefecture": 523182.97
+            },
+            {
+              "date": "2020-01-01",
+              "prefecture": 524112.05
+            },
+            {
+              "date": "2020-02-01",
+              "prefecture": 525042.29
+            },
+            {
+              "date": "2020-03-01",
+              "prefecture": 525972.85
+            },
+            {
+              "date": "2020-04-01",
+              "prefecture": 526910.7
+            },
+            {
+              "date": "2020-05-01",
+              "prefecture": 527858.9
+            },
+            {
+              "date": "2020-06-01",
+              "prefecture": 528807.15
+            },
+            {
+              "date": "2020-07-01",
+              "prefecture": 529758.72
+            },
+            {
+              "date": "2020-08-01",
+              "prefecture": 531102.12
+            },
+            {
+              "date": "2020-09-01",
+              "prefecture": 533227.53
+            },
+            {
+              "date": "2020-10-01",
+              "prefecture": 535365.86
+            },
+            {
+              "date": "2020-11-01",
+              "prefecture": 537514.18
+            },
+            {
+              "date": "2020-12-01",
+              "prefecture": 539669.41
+            },
+            {
+              "date": "2021-01-01",
+              "prefecture": 541837.86
+            },
+            {
+              "date": "2021-02-01",
+              "prefecture": 544016.43
+            },
+            {
+              "date": "2021-03-01",
+              "prefecture": 546201.52
+            },
+            {
+              "date": "2021-04-01",
+              "prefecture": 547326.6
+            },
+            {
+              "date": "2021-05-01",
+              "prefecture": 548451.67
+            },
+            {
+              "date": "2021-06-01",
+              "prefecture": 549576.74
+            },
+            {
+              "date": "2021-07-01",
+              "prefecture": 550701.84
+            },
+            {
+              "date": "2021-08-01",
+              "prefecture": 551826.89
+            },
+            {
+              "date": "2021-09-01",
+              "prefecture": 552951.97
+            },
+            {
+              "date": "2021-10-01",
+              "prefecture": 554077.07
+            },
+            {
+              "date": "2021-11-01",
+              "prefecture": 555202.11
+            },
+            {
+              "date": "2021-12-01",
+              "prefecture": 556327.21
+            },
+            {
+              "date": "2022-01-01",
+              "prefecture": 557452.28
+            },
+            {
+              "date": "2022-02-01",
+              "prefecture": 558577.34
+            },
+            {
+              "date": "2022-03-01",
+              "prefecture": 559702.41
+            },
+            {
+              "date": "2022-04-01",
+              "prefecture": 560827.49
+            },
+            {
+              "date": "2022-05-01",
+              "prefecture": 561952.56
+            },
+            {
+              "date": "2022-06-01",
+              "prefecture": 563077.65
+            },
+            {
+              "date": "2022-07-01",
+              "prefecture": 564202.72
+            },
+            {
+              "date": "2022-08-01",
+              "prefecture": 565327.78
+            },
+            {
+              "date": "2022-09-01",
+              "prefecture": 566452.84
+            },
+            {
+              "date": "2022-10-01",
+              "prefecture": 567577.94
+            },
+            {
+              "date": "2022-11-01",
+              "prefecture": 568703.0
+            },
+            {
+              "date": "2022-12-01",
+              "prefecture": 569828.1
+            },
+            {
+              "date": "2023-01-01",
+              "prefecture": 570953.16
+            },
+            {
+              "date": "2023-02-01",
+              "prefecture": 572078.25
+            },
+            {
+              "date": "2023-03-01",
+              "prefecture": 573203.33
+            },
+            {
+              "date": "2023-04-01",
+              "prefecture": 574328.38
+            },
+            {
+              "date": "2023-05-01",
+              "prefecture": 575453.46
+            },
+            {
+              "date": "2023-06-01",
+              "prefecture": 576578.52
+            },
+            {
+              "date": "2023-07-01",
+              "prefecture": 577703.61
+            },
+            {
+              "date": "2023-08-01",
+              "prefecture": 578828.68
+            },
+            {
+              "date": "2023-09-01",
+              "prefecture": 579953.74
+            },
+            {
+              "date": "2023-10-01",
+              "prefecture": 581078.83
+            },
+            {
+              "date": "2023-11-01",
+              "prefecture": 582203.91
+            },
+            {
+              "date": "2023-12-01",
+              "prefecture": 583328.98
+            },
+            {
+              "date": "2024-01-01",
+              "prefecture": 584454.08
+            },
+            {
+              "date": "2024-02-01",
+              "prefecture": 585579.11
+            },
+            {
+              "date": "2024-03-01",
+              "prefecture": 586704.2
+            },
+            {
+              "date": "2024-04-01",
+              "prefecture": 587829.29
+            },
+            {
+              "date": "2024-05-01",
+              "prefecture": 588954.35
+            },
+            {
+              "date": "2024-06-01",
+              "prefecture": 590079.42
+            },
+            {
+              "date": "2024-07-01",
+              "prefecture": 591204.5
+            },
+            {
+              "date": "2024-08-01",
+              "prefecture": 592329.57
+            },
+            {
+              "date": "2024-09-01",
+              "prefecture": 593454.64
+            },
+            {
+              "date": "2024-10-01",
+              "prefecture": 594579.73
+            },
+            {
+              "date": "2024-11-01",
+              "prefecture": 595704.79
+            },
+            {
+              "date": "2024-12-01",
+              "prefecture": 596829.87
+            },
+            {
+              "date": "2025-01-01",
+              "prefecture": 597954.96
+            },
+            {
+              "date": "2025-02-01",
+              "prefecture": 599080.01
+            },
+            {
+              "date": "2025-03-01",
+              "prefecture": 600205.09
+            },
+            {
+              "date": "2025-04-01",
+              "prefecture": 601330.18
+            }
+          ]
+        },
+        "cities": [
+          {
+            "name": "横浜市鶴見区",
+            "jisCode": "14101",
+            "mansionCount": 116
+          },
+          {
+            "name": "横浜市神奈川区",
+            "jisCode": "14102",
+            "mansionCount": 106
+          },
+          {
+            "name": "横浜市西区",
+            "jisCode": "14103",
+            "mansionCount": 94
+          },
+          {
+            "name": "横浜市中区",
+            "jisCode": "14104",
+            "mansionCount": 121
+          },
+          {
+            "name": "横浜市南区",
+            "jisCode": "14105",
+            "mansionCount": 85
+          },
+          {
+            "name": "横浜市保土ケ谷区",
+            "jisCode": "14106",
+            "mansionCount": 29
+          },
+          {
+            "name": "横浜市磯子区",
+            "jisCode": "14107",
+            "mansionCount": 62
+          },
+          {
+            "name": "横浜市金沢区",
+            "jisCode": "14108",
+            "mansionCount": 23
+          },
+          {
+            "name": "横浜市港北区",
+            "jisCode": "14109",
+            "mansionCount": 94
+          },
+          {
+            "name": "横浜市戸塚区",
+            "jisCode": "14110",
+            "mansionCount": 70
+          },
+          {
+            "name": "横浜市港南区",
+            "jisCode": "14111",
+            "mansionCount": 42
+          },
+          {
+            "name": "横浜市旭区",
+            "jisCode": "14112",
+            "mansionCount": 25
+          },
+          {
+            "name": "横浜市緑区",
+            "jisCode": "14113",
+            "mansionCount": 40
+          },
+          {
+            "name": "横浜市瀬谷区",
+            "jisCode": "14114",
+            "mansionCount": 4
+          },
+          {
+            "name": "横浜市栄区",
+            "jisCode": "14115",
+            "mansionCount": 21
+          },
+          {
+            "name": "横浜市泉区",
+            "jisCode": "14116",
+            "mansionCount": 18
+          },
+          {
+            "name": "横浜市青葉区",
+            "jisCode": "14117",
+            "mansionCount": 94
+          },
+          {
+            "name": "横浜市都筑区",
+            "jisCode": "14118",
+            "mansionCount": 108
+          },
+          {
+            "name": "川崎市川崎区",
+            "jisCode": "14131",
+            "mansionCount": 120
+          },
+          {
+            "name": "川崎市幸区",
+            "jisCode": "14132",
+            "mansionCount": 50
+          },
+          {
+            "name": "川崎市中原区",
+            "jisCode": "14133",
+            "mansionCount": 100
+          },
+          {
+            "name": "川崎市高津区",
+            "jisCode": "14134",
+            "mansionCount": 35
+          },
+          {
+            "name": "川崎市多摩区",
+            "jisCode": "14135",
+            "mansionCount": 37
+          },
+          {
+            "name": "川崎市宮前区",
+            "jisCode": "14136",
+            "mansionCount": 100
+          },
+          {
+            "name": "川崎市麻生区",
+            "jisCode": "14137",
+            "mansionCount": 73
+          },
+          {
+            "name": "相模原市緑区",
+            "jisCode": "14151",
+            "mansionCount": 8
+          },
+          {
+            "name": "相模原市中央区",
+            "jisCode": "14152",
+            "mansionCount": 31
+          },
+          {
+            "name": "相模原市南区",
+            "jisCode": "14153",
+            "mansionCount": 56
+          },
+          {
+            "name": "横須賀市",
+            "jisCode": "14201",
+            "mansionCount": 40
+          },
+          {
+            "name": "平塚市",
+            "jisCode": "14203",
+            "mansionCount": 36
+          },
+          {
+            "name": "鎌倉市",
+            "jisCode": "14204",
+            "mansionCount": 42
+          },
+          {
+            "name": "藤沢市",
+            "jisCode": "14205",
+            "mansionCount": 94
+          },
+          {
+            "name": "小田原市",
+            "jisCode": "14206",
+            "mansionCount": 21
+          },
+          {
+            "name": "茅ヶ崎市",
+            "jisCode": "14207",
+            "mansionCount": 45
+          },
+          {
+            "name": "逗子市",
+            "jisCode": "14208",
+            "mansionCount": 4
+          },
+          {
+            "name": "三浦市",
+            "jisCode": "14210",
+            "mansionCount": 1
+          },
+          {
+            "name": "秦野市",
+            "jisCode": "14211",
+            "mansionCount": 4
+          },
+          {
+            "name": "厚木市",
+            "jisCode": "14212",
+            "mansionCount": 26
+          },
+          {
+            "name": "大和市",
+            "jisCode": "14213",
+            "mansionCount": 52
+          },
+          {
+            "name": "伊勢原市",
+            "jisCode": "14214",
+            "mansionCount": 6
+          },
+          {
+            "name": "海老名市",
+            "jisCode": "14215",
+            "mansionCount": 23
+          },
+          {
+            "name": "座間市",
+            "jisCode": "14216",
+            "mansionCount": 16
+          },
+          {
+            "name": "南足柄市",
+            "jisCode": "14217",
+            "mansionCount": 0
+          },
+          {
+            "name": "綾瀬市",
+            "jisCode": "14218",
+            "mansionCount": 0
+          },
+          {
+            "name": "三浦郡葉山町",
+            "jisCode": "14301",
+            "mansionCount": 4
+          },
+          {
+            "name": "高座郡寒川町",
+            "jisCode": "14321",
+            "mansionCount": 0
+          },
+          {
+            "name": "中郡大磯町",
+            "jisCode": "14341",
+            "mansionCount": 3
+          },
+          {
+            "name": "中郡二宮町",
+            "jisCode": "14342",
+            "mansionCount": 2
+          },
+          {
+            "name": "足柄上郡中井町",
+            "jisCode": "14361",
+            "mansionCount": 0
+          },
+          {
+            "name": "足柄上郡大井町",
+            "jisCode": "14362",
+            "mansionCount": 0
+          },
+          {
+            "name": "足柄上郡松田町",
+            "jisCode": "14363",
+            "mansionCount": 0
+          },
+          {
+            "name": "足柄上郡山北町",
+            "jisCode": "14364",
+            "mansionCount": 0
+          },
+          {
+            "name": "足柄上郡開成町",
+            "jisCode": "14366",
+            "mansionCount": 2
+          },
+          {
+            "name": "足柄下郡箱根町",
+            "jisCode": "14382",
+            "mansionCount": 8
+          },
+          {
+            "name": "足柄下郡真鶴町",
+            "jisCode": "14383",
+            "mansionCount": 0
+          },
+          {
+            "name": "足柄下郡湯河原町",
+            "jisCode": "14384",
+            "mansionCount": 0
+          },
+          {
+            "name": "愛甲郡愛川町",
+            "jisCode": "14401",
+            "mansionCount": 0
+          },
+          {
+            "name": "愛甲郡清川村",
+            "jisCode": "14402",
+            "mansionCount": 0
+          }
+        ]
+      },
+      "info": {
+        "crime": {
+          "crimes": 1035,
+          "crimeRatioPercentage": 0.35,
+          "prefectureRank": 25,
+          "areaRank": 192,
+          "deviation": 44.34,
+          "grade": {
+            "id": "5",
+            "typeName": "やや低い"
+          },
+          "area": {
+            "id": "1",
+            "name": "一都三県"
+          }
+        },
+        "household": {
+          "households": 135180,
+          "ownedHouseholds": 76440,
+          "ownedPercentage": 56.5,
+          "prefectureRank": 40,
+          "areaRank": 145,
+          "deviation": 45.0,
+          "grade": {
+            "id": "5",
+            "typeName": "やや低い"
+          }
+        },
+        "age": {
+          "averageAge": 43.0,
+          "prefectureRank": 51,
+          "areaRank": 223,
+          "deviation": 40.16,
+          "grade": {
+            "id": "5",
+            "typeName": "やや低い"
+          }
+        },
+        "income": {
+          "taxpayers": "1897817",
+          "totalIncome": "7768948349",
+          "averageIncome": "4093624",
+          "prefectureRank": 4,
+          "areaRank": 27,
+          "deviation": 55.16,
+          "grade": {
+            "id": "3",
+            "typeName": "やや高い"
+          }
+        },
+        "medical": {
+          "hospitalClinic": {
+            "hospitals": "13",
+            "clinics": "170",
+            "perPopulation": 61.9581,
+            "prefectureRank": 44,
+            "areaRank": 165,
+            "deviation": 47.0889,
+            "grade": {
+              "id": "4",
+              "typeName": "標準的"
+            }
+          },
+          "bed": {
+            "beds": "1984",
+            "perPopulation": 671.72,
+            "prefectureRank": 32,
+            "areaRank": 143,
+            "deviation": 47.2823,
+            "grade": {
+              "id": "4",
+              "typeName": "標準的"
+            }
+          }
+        },
+        "birthrate": {
+          "birthrate": 1.49,
+          "prefectureRank": 4,
+          "areaRank": 21,
+          "deviation": 63.51,
+          "grade": {
+            "id": "3",
+            "typeName": "やや高い"
+          }
+        },
+        "care": {
+          "careHomes": 49.0,
+          "prefectureRank": 31,
+          "areaRank": 78,
+          "deviation": 51.96,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        },
+        "park": {
+          "parks": "144",
+          "parkArea": "764256",
+          "areaPerPerson": 2.6,
+          "prefectureRank": 52,
+          "areaRank": 204,
+          "deviation": 47.57,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        },
+        "school": {
+          "middleProceed": null,
+          "kindergarten": {
+            "kindergartens": "16",
+            "prefectureRank": 13,
+            "areaRank": 49,
+            "deviation": 55.2,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "primary": {
+            "primarySchools": "24",
+            "prefectureRank": 11,
+            "areaRank": 37,
+            "deviation": 56.45,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "middle": {
+            "middleSchools": "13",
+            "prefectureRank": 8,
+            "areaRank": 39,
+            "deviation": 55.64,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "high": {
+            "highSchools": "9",
+            "prefectureRank": 4,
+            "areaRank": 29,
+            "deviation": 60.35,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          }
+        },
+        "population": {
+          "growth": {
+            "populationGrowthPercentage": 0.63,
+            "prefectureRank": 11,
+            "areaRank": 68,
+            "deviation": 54.59,
+            "grade": {
+              "id": "4",
+              "typeName": "標準的"
+            }
+          },
+          "density": {
+            "populationDensity": 8587.3,
+            "prefectureRank": 15,
+            "areaRank": 57,
+            "deviation": 56.67,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "underFifteen": {
+            "underFifteenPopulation": 37270,
+            "underFifteenPopulationPercentage": 13.1,
+            "capitalRank": 57,
+            "prefectureRank": 15,
+            "deviation": 56.89,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "basic": {
+            "population": 295361
+          }
+        },
+        "waitingChild": {
+          "waitingChilds": 16,
+          "waitingChildsPerUnderFourPopulation": 0.1,
+          "prefectureRank": 19,
+          "areaRank": 103,
+          "deviation": 46.17,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        }
+      },
+      "indexedTowns": [
+        {
+          "id": "40368",
+          "name": "駒岡",
+          "mansionCount": 10
+        }
+      ],
+      "pricePredictions": {
+        "salePricePerTsubo": [
+          {
+            "date": "2016-01-01",
+            "city": 1546541.57
+          },
+          {
+            "date": "2016-02-01",
+            "city": 1550951.48
+          },
+          {
+            "date": "2016-03-01",
+            "city": 1555366.8
+          },
+          {
+            "date": "2016-04-01",
+            "city": 1559800.77
+          },
+          {
+            "date": "2016-05-01",
+            "city": 1564247.74
+          },
+          {
+            "date": "2016-06-01",
+            "city": 1568869.01
+          },
+          {
+            "date": "2016-07-01",
+            "city": 1573849.56
+          },
+          {
+            "date": "2016-08-01",
+            "city": 1578846.28
+          },
+          {
+            "date": "2016-09-01",
+            "city": 1583852.22
+          },
+          {
+            "date": "2016-10-01",
+            "city": 1588881.92
+          },
+          {
+            "date": "2016-11-01",
+            "city": 1593927.43
+          },
+          {
+            "date": "2016-12-01",
+            "city": 1598982.28
+          },
+          {
+            "date": "2017-01-01",
+            "city": 1604061.2
+          },
+          {
+            "date": "2017-02-01",
+            "city": 1609126.88
+          },
+          {
+            "date": "2017-03-01",
+            "city": 1613591.68
+          },
+          {
+            "date": "2017-04-01",
+            "city": 1618081.11
+          },
+          {
+            "date": "2017-05-01",
+            "city": 1622595.46
+          },
+          {
+            "date": "2017-06-01",
+            "city": 1627113.57
+          },
+          {
+            "date": "2017-07-01",
+            "city": 1631651.42
+          },
+          {
+            "date": "2017-08-01",
+            "city": 1636202.38
+          },
+          {
+            "date": "2017-09-01",
+            "city": 1640759.51
+          },
+          {
+            "date": "2017-10-01",
+            "city": 1645337.24
+          },
+          {
+            "date": "2017-11-01",
+            "city": 1648142.79
+          },
+          {
+            "date": "2017-12-01",
+            "city": 1650056.31
+          },
+          {
+            "date": "2018-01-01",
+            "city": 1651975.08
+          },
+          {
+            "date": "2018-02-01",
+            "city": 1653820.67
+          },
+          {
+            "date": "2018-03-01",
+            "city": 1655662.53
+          },
+          {
+            "date": "2018-04-01",
+            "city": 1657531.79
+          },
+          {
+            "date": "2018-05-01",
+            "city": 1659451.09
+          },
+          {
+            "date": "2018-06-01",
+            "city": 1661369.96
+          },
+          {
+            "date": "2018-07-01",
+            "city": 1662838.94
+          },
+          {
+            "date": "2018-08-01",
+            "city": 1663400.01
+          },
+          {
+            "date": "2018-09-01",
+            "city": 1663960.19
+          },
+          {
+            "date": "2018-10-01",
+            "city": 1664521.66
+          },
+          {
+            "date": "2018-11-01",
+            "city": 1665083.45
+          },
+          {
+            "date": "2018-12-01",
+            "city": 1665644.62
+          },
+          {
+            "date": "2019-01-01",
+            "city": 1666207.58
+          },
+          {
+            "date": "2019-02-01",
+            "city": 1666769.9
+          },
+          {
+            "date": "2019-03-01",
+            "city": 1667329.36
+          },
+          {
+            "date": "2019-04-01",
+            "city": 1668967.18
+          },
+          {
+            "date": "2019-05-01",
+            "city": 1670624.71
+          },
+          {
+            "date": "2019-06-01",
+            "city": 1672281.02
+          },
+          {
+            "date": "2019-07-01",
+            "city": 1673941.95
+          },
+          {
+            "date": "2019-08-01",
+            "city": 1675604.6
+          },
+          {
+            "date": "2019-09-01",
+            "city": 1677266.59
+          },
+          {
+            "date": "2019-10-01",
+            "city": 1678932.6
+          },
+          {
+            "date": "2019-11-01",
+            "city": 1680600.43
+          },
+          {
+            "date": "2019-12-01",
+            "city": 1684018.72
+          },
+          {
+            "date": "2020-01-01",
+            "city": 1688325.83
+          },
+          {
+            "date": "2020-02-01",
+            "city": 1692644.53
+          },
+          {
+            "date": "2020-03-01",
+            "city": 1696966.86
+          },
+          {
+            "date": "2020-04-01",
+            "city": 1701314.57
+          },
+          {
+            "date": "2020-05-01",
+            "city": 1705691.99
+          },
+          {
+            "date": "2020-06-01",
+            "city": 1710071.27
+          },
+          {
+            "date": "2020-07-01",
+            "city": 1714468.16
+          },
+          {
+            "date": "2020-08-01",
+            "city": 1720157.77
+          },
+          {
+            "date": "2020-09-01",
+            "city": 1728420.9
+          },
+          {
+            "date": "2020-10-01",
+            "city": 1736737.04
+          },
+          {
+            "date": "2020-11-01",
+            "city": 1745093.56
+          },
+          {
+            "date": "2020-12-01",
+            "city": 1753478.06
+          },
+          {
+            "date": "2021-01-01",
+            "city": 1761915.68
+          },
+          {
+            "date": "2021-02-01",
+            "city": 1770394.2
+          },
+          {
+            "date": "2021-03-01",
+            "city": 1778901.04
+          },
+          {
+            "date": "2021-04-01",
+            "city": 1783162.01
+          },
+          {
+            "date": "2021-05-01",
+            "city": 1787422.77
+          },
+          {
+            "date": "2021-06-01",
+            "city": 1791683.74
+          },
+          {
+            "date": "2021-07-01",
+            "city": 1795944.37
+          },
+          {
+            "date": "2021-08-01",
+            "city": 1800205.24
+          },
+          {
+            "date": "2021-09-01",
+            "city": 1804466.03
+          },
+          {
+            "date": "2021-10-01",
+            "city": 1808727.06
+          },
+          {
+            "date": "2021-11-01",
+            "city": 1812987.8
+          },
+          {
+            "date": "2021-12-01",
+            "city": 1817248.83
+          },
+          {
+            "date": "2022-01-01",
+            "city": 1821509.59
+          },
+          {
+            "date": "2022-02-01",
+            "city": 1825770.42
+          },
+          {
+            "date": "2022-03-01",
+            "city": 1830031.35
+          },
+          {
+            "date": "2022-04-01",
+            "city": 1834292.19
+          },
+          {
+            "date": "2022-05-01",
+            "city": 1838553.02
+          },
+          {
+            "date": "2022-06-01",
+            "city": 1842813.75
+          },
+          {
+            "date": "2022-07-01",
+            "city": 1847074.75
+          },
+          {
+            "date": "2022-08-01",
+            "city": 1851335.65
+          },
+          {
+            "date": "2022-09-01",
+            "city": 1855596.28
+          },
+          {
+            "date": "2022-10-01",
+            "city": 1859857.24
+          },
+          {
+            "date": "2022-11-01",
+            "city": 1864117.88
+          },
+          {
+            "date": "2022-12-01",
+            "city": 1868379.07
+          },
+          {
+            "date": "2023-01-01",
+            "city": 1872639.41
+          },
+          {
+            "date": "2023-02-01",
+            "city": 1876900.64
+          },
+          {
+            "date": "2023-03-01",
+            "city": 1881161.73
+          },
+          {
+            "date": "2023-04-01",
+            "city": 1885422.33
+          },
+          {
+            "date": "2023-05-01",
+            "city": 1889683.0
+          },
+          {
+            "date": "2023-06-01",
+            "city": 1893944.06
+          },
+          {
+            "date": "2023-07-01",
+            "city": 1898204.86
+          },
+          {
+            "date": "2023-08-01",
+            "city": 1902465.76
+          },
+          {
+            "date": "2023-09-01",
+            "city": 1906726.66
+          },
+          {
+            "date": "2023-10-01",
+            "city": 1910987.29
+          },
+          {
+            "date": "2023-11-01",
+            "city": 1915248.35
+          },
+          {
+            "date": "2023-12-01",
+            "city": 1919509.12
+          },
+          {
+            "date": "2024-01-01",
+            "city": 1923770.18
+          },
+          {
+            "date": "2024-02-01",
+            "city": 1928030.91
+          },
+          {
+            "date": "2024-03-01",
+            "city": 1932291.78
+          },
+          {
+            "date": "2024-04-01",
+            "city": 1936552.61
+          },
+          {
+            "date": "2024-05-01",
+            "city": 1940813.38
+          },
+          {
+            "date": "2024-06-01",
+            "city": 1945074.01
+          },
+          {
+            "date": "2024-07-01",
+            "city": 1949335.07
+          },
+          {
+            "date": "2024-08-01",
+            "city": 1953595.91
+          },
+          {
+            "date": "2024-09-01",
+            "city": 1957856.8
+          },
+          {
+            "date": "2024-10-01",
+            "city": 1962117.6
+          },
+          {
+            "date": "2024-11-01",
+            "city": 1966378.6
+          },
+          {
+            "date": "2024-12-01",
+            "city": 1970639.46
+          },
+          {
+            "date": "2025-01-01",
+            "city": 1974900.16
+          },
+          {
+            "date": "2025-02-01",
+            "city": 1979160.86
+          },
+          {
+            "date": "2025-03-01",
+            "city": 1983421.89
+          },
+          {
+            "date": "2025-04-01",
+            "city": 1987683.02
+          }
+        ],
+        "salePricePerSquare": [
+          {
+            "date": "2016-01-01",
+            "city": 468506.99
+          },
+          {
+            "date": "2016-02-01",
+            "city": 469842.92
+          },
+          {
+            "date": "2016-03-01",
+            "city": 471180.49
+          },
+          {
+            "date": "2016-04-01",
+            "city": 472523.71
+          },
+          {
+            "date": "2016-05-01",
+            "city": 473870.87
+          },
+          {
+            "date": "2016-06-01",
+            "city": 475270.83
+          },
+          {
+            "date": "2016-07-01",
+            "city": 476779.63
+          },
+          {
+            "date": "2016-08-01",
+            "city": 478293.33
+          },
+          {
+            "date": "2016-09-01",
+            "city": 479809.82
+          },
+          {
+            "date": "2016-10-01",
+            "city": 481333.51
+          },
+          {
+            "date": "2016-11-01",
+            "city": 482861.99
+          },
+          {
+            "date": "2016-12-01",
+            "city": 484393.3
+          },
+          {
+            "date": "2017-01-01",
+            "city": 485931.9
+          },
+          {
+            "date": "2017-02-01",
+            "city": 487466.49
+          },
+          {
+            "date": "2017-03-01",
+            "city": 488819.05
+          },
+          {
+            "date": "2017-04-01",
+            "city": 490179.07
+          },
+          {
+            "date": "2017-05-01",
+            "city": 491546.64
+          },
+          {
+            "date": "2017-06-01",
+            "city": 492915.35
+          },
+          {
+            "date": "2017-07-01",
+            "city": 494290.04
+          },
+          {
+            "date": "2017-08-01",
+            "city": 495668.7
+          },
+          {
+            "date": "2017-09-01",
+            "city": 497049.23
+          },
+          {
+            "date": "2017-10-01",
+            "city": 498436.0
+          },
+          {
+            "date": "2017-11-01",
+            "city": 499285.91
+          },
+          {
+            "date": "2017-12-01",
+            "city": 499865.59
+          },
+          {
+            "date": "2018-01-01",
+            "city": 500446.86
+          },
+          {
+            "date": "2018-02-01",
+            "city": 501005.96
+          },
+          {
+            "date": "2018-03-01",
+            "city": 501563.93
+          },
+          {
+            "date": "2018-04-01",
+            "city": 502130.2
+          },
+          {
+            "date": "2018-05-01",
+            "city": 502711.63
+          },
+          {
+            "date": "2018-06-01",
+            "city": 503292.93
+          },
+          {
+            "date": "2018-07-01",
+            "city": 503737.94
+          },
+          {
+            "date": "2018-08-01",
+            "city": 503907.91
+          },
+          {
+            "date": "2018-09-01",
+            "city": 504077.61
+          },
+          {
+            "date": "2018-10-01",
+            "city": 504247.7
+          },
+          {
+            "date": "2018-11-01",
+            "city": 504417.89
+          },
+          {
+            "date": "2018-12-01",
+            "city": 504587.89
+          },
+          {
+            "date": "2019-01-01",
+            "city": 504758.43
+          },
+          {
+            "date": "2019-02-01",
+            "city": 504928.78
+          },
+          {
+            "date": "2019-03-01",
+            "city": 505098.26
+          },
+          {
+            "date": "2019-04-01",
+            "city": 505594.42
+          },
+          {
+            "date": "2019-05-01",
+            "city": 506096.55
+          },
+          {
+            "date": "2019-06-01",
+            "city": 506598.31
+          },
+          {
+            "date": "2019-07-01",
+            "city": 507101.47
+          },
+          {
+            "date": "2019-08-01",
+            "city": 507605.15
+          },
+          {
+            "date": "2019-09-01",
+            "city": 508108.63
+          },
+          {
+            "date": "2019-10-01",
+            "city": 508613.33
+          },
+          {
+            "date": "2019-11-01",
+            "city": 509118.58
+          },
+          {
+            "date": "2019-12-01",
+            "city": 510154.11
+          },
+          {
+            "date": "2020-01-01",
+            "city": 511458.9
+          },
+          {
+            "date": "2020-02-01",
+            "city": 512767.2
+          },
+          {
+            "date": "2020-03-01",
+            "city": 514076.6
+          },
+          {
+            "date": "2020-04-01",
+            "city": 515393.69
+          },
+          {
+            "date": "2020-05-01",
+            "city": 516719.78
+          },
+          {
+            "date": "2020-06-01",
+            "city": 518046.43
+          },
+          {
+            "date": "2020-07-01",
+            "city": 519378.42
+          },
+          {
+            "date": "2020-08-01",
+            "city": 521102.02
+          },
+          {
+            "date": "2020-09-01",
+            "city": 523605.24
+          },
+          {
+            "date": "2020-10-01",
+            "city": 526124.52
+          },
+          {
+            "date": "2020-11-01",
+            "city": 528656.03
+          },
+          {
+            "date": "2020-12-01",
+            "city": 531196.02
+          },
+          {
+            "date": "2021-01-01",
+            "city": 533752.1
+          },
+          {
+            "date": "2021-02-01",
+            "city": 536320.57
+          },
+          {
+            "date": "2021-03-01",
+            "city": 538897.62
+          },
+          {
+            "date": "2021-04-01",
+            "city": 540188.43
+          },
+          {
+            "date": "2021-05-01",
+            "city": 541479.18
+          },
+          {
+            "date": "2021-06-01",
+            "city": 542769.99
+          },
+          {
+            "date": "2021-07-01",
+            "city": 544060.7
+          },
+          {
+            "date": "2021-08-01",
+            "city": 545351.48
+          },
+          {
+            "date": "2021-09-01",
+            "city": 546642.24
+          },
+          {
+            "date": "2021-10-01",
+            "city": 547933.07
+          },
+          {
+            "date": "2021-11-01",
+            "city": 549223.81
+          },
+          {
+            "date": "2021-12-01",
+            "city": 550514.64
+          },
+          {
+            "date": "2022-01-01",
+            "city": 551805.39
+          },
+          {
+            "date": "2022-02-01",
+            "city": 553096.16
+          },
+          {
+            "date": "2022-03-01",
+            "city": 554386.96
+          },
+          {
+            "date": "2022-04-01",
+            "city": 555677.73
+          },
+          {
+            "date": "2022-05-01",
+            "city": 556968.5
+          },
+          {
+            "date": "2022-06-01",
+            "city": 558259.24
+          },
+          {
+            "date": "2022-07-01",
+            "city": 559550.06
+          },
+          {
+            "date": "2022-08-01",
+            "city": 560840.85
+          },
+          {
+            "date": "2022-09-01",
+            "city": 562131.56
+          },
+          {
+            "date": "2022-10-01",
+            "city": 563422.37
+          },
+          {
+            "date": "2022-11-01",
+            "city": 564713.08
+          },
+          {
+            "date": "2022-12-01",
+            "city": 566003.96
+          },
+          {
+            "date": "2023-01-01",
+            "city": 567294.58
+          },
+          {
+            "date": "2023-02-01",
+            "city": 568585.47
+          },
+          {
+            "date": "2023-03-01",
+            "city": 569876.32
+          },
+          {
+            "date": "2023-04-01",
+            "city": 571167.02
+          },
+          {
+            "date": "2023-05-01",
+            "city": 572457.74
+          },
+          {
+            "date": "2023-06-01",
+            "city": 573748.58
+          },
+          {
+            "date": "2023-07-01",
+            "city": 575039.34
+          },
+          {
+            "date": "2023-08-01",
+            "city": 576330.13
+          },
+          {
+            "date": "2023-09-01",
+            "city": 577620.92
+          },
+          {
+            "date": "2023-10-01",
+            "city": 578911.63
+          },
+          {
+            "date": "2023-11-01",
+            "city": 580202.47
+          },
+          {
+            "date": "2023-12-01",
+            "city": 581493.22
+          },
+          {
+            "date": "2024-01-01",
+            "city": 582784.06
+          },
+          {
+            "date": "2024-02-01",
+            "city": 584074.8
+          },
+          {
+            "date": "2024-03-01",
+            "city": 585365.58
+          },
+          {
+            "date": "2024-04-01",
+            "city": 586656.35
+          },
+          {
+            "date": "2024-05-01",
+            "city": 587947.1
+          },
+          {
+            "date": "2024-06-01",
+            "city": 589237.81
+          },
+          {
+            "date": "2024-07-01",
+            "city": 590528.65
+          },
+          {
+            "date": "2024-08-01",
+            "city": 591819.42
+          },
+          {
+            "date": "2024-09-01",
+            "city": 593110.21
+          },
+          {
+            "date": "2024-10-01",
+            "city": 594400.97
+          },
+          {
+            "date": "2024-11-01",
+            "city": 595691.79
+          },
+          {
+            "date": "2024-12-01",
+            "city": 596982.57
+          },
+          {
+            "date": "2025-01-01",
+            "city": 598273.3
+          },
+          {
+            "date": "2025-02-01",
+            "city": 599564.03
+          },
+          {
+            "date": "2025-03-01",
+            "city": 600854.86
+          },
+          {
+            "date": "2025-04-01",
+            "city": 602145.72
+          }
+        ]
+      },
+      "towns": [
+        {
+          "name": "朝日町"
+        },
+        {
+          "name": "安善町"
+        },
+        {
+          "name": "市場上町"
+        },
+        {
+          "name": "市場下町"
+        },
+        {
+          "name": "市場西中町"
+        },
+        {
+          "name": "市場東中町"
+        },
+        {
+          "name": "市場富士見町"
+        },
+        {
+          "name": "市場大和町"
+        },
+        {
+          "name": "潮田町"
+        },
+        {
+          "name": "江ケ崎町"
+        },
+        {
+          "name": "扇島"
+        },
+        {
+          "name": "小野町"
+        },
+        {
+          "name": "梶山"
+        },
+        {
+          "name": "上末吉"
+        },
+        {
+          "name": "上の宮"
+        },
+        {
+          "name": "寛政町"
+        },
+        {
+          "name": "岸谷"
+        },
+        {
+          "name": "北寺尾"
+        },
+        {
+          "name": "駒岡"
+        },
+        {
+          "name": "栄町通"
+        },
+        {
+          "name": "汐入町"
+        },
+        {
+          "name": "獅子ケ谷"
+        },
+        {
+          "name": "下野谷町"
+        },
+        {
+          "name": "尻手"
+        },
+        {
+          "name": "下末吉"
+        },
+        {
+          "name": "末広町"
+        },
+        {
+          "name": "菅沢町"
+        },
+        {
+          "name": "諏訪坂"
+        },
+        {
+          "name": "大黒町"
+        },
+        {
+          "name": "大黒ふ頭"
+        },
+        {
+          "name": "大東町"
+        },
+        {
+          "name": "佃野町"
+        },
+        {
+          "name": "鶴見"
+        },
+        {
+          "name": "鶴見中央"
+        },
+        {
+          "name": "寺谷"
+        },
+        {
+          "name": "豊岡町"
+        },
+        {
+          "name": "仲通"
+        },
+        {
+          "name": "生麦"
+        },
+        {
+          "name": "馬場"
+        },
+        {
+          "name": "浜町"
+        },
+        {
+          "name": "東寺尾"
+        },
+        {
+          "name": "東寺尾北台"
+        },
+        {
+          "name": "東寺尾中台"
+        },
+        {
+          "name": "東寺尾東台"
+        },
+        {
+          "name": "平安町"
+        },
+        {
+          "name": "弁天町"
+        },
+        {
+          "name": "本町通"
+        },
+        {
+          "name": "三ツ池公園"
+        },
+        {
+          "name": "向井町"
+        },
+        {
+          "name": "元宮"
+        },
+        {
+          "name": "矢向"
+        },
+        {
+          "name": "その他"
+        }
+      ],
+      "writing": null,
+      "stations": [
+        {
+          "id": "1373",
+          "name": "矢向",
+          "mansionCount": 7
+        },
+        {
+          "id": "1401",
+          "name": "鶴見",
+          "mansionCount": 47
+        },
+        {
+          "id": "1402",
+          "name": "国道",
+          "mansionCount": 0
+        },
+        {
+          "id": "1403",
+          "name": "鶴見小野",
+          "mansionCount": 3
+        },
+        {
+          "id": "1404",
+          "name": "弁天橋",
+          "mansionCount": 1
+        },
+        {
+          "id": "1405",
+          "name": "浅野",
+          "mansionCount": 0
+        },
+        {
+          "id": "1406",
+          "name": "新芝浦",
+          "mansionCount": 0
+        },
+        {
+          "id": "1407",
+          "name": "海芝浦",
+          "mansionCount": 0
+        },
+        {
+          "id": "1408",
+          "name": "安善",
+          "mansionCount": 0
+        },
+        {
+          "id": "2006",
+          "name": "鶴見",
+          "mansionCount": 47
+        },
+        {
+          "id": "5743",
+          "name": "鶴見市場",
+          "mansionCount": 16
+        },
+        {
+          "id": "5744",
+          "name": "京急鶴見",
+          "mansionCount": 47
+        },
+        {
+          "id": "5745",
+          "name": "花月総持寺",
+          "mansionCount": 0
+        },
+        {
+          "id": "5746",
+          "name": "生麦",
+          "mansionCount": 13
+        }
+      ],
+      "neighborCities": [
+        {
+          "jisCode": "14102",
+          "name": "横浜市神奈川区",
+          "mansionCount": 106
+        },
+        {
+          "jisCode": "14104",
+          "name": "横浜市中区",
+          "mansionCount": 121
+        },
+        {
+          "jisCode": "14109",
+          "name": "横浜市港北区",
+          "mansionCount": 94
+        },
+        {
+          "jisCode": "14131",
+          "name": "川崎市川崎区",
+          "mansionCount": 120
+        },
+        {
+          "jisCode": "14132",
+          "name": "川崎市幸区",
+          "mansionCount": 50
+        }
+      ]
+    }
+  ]
+}

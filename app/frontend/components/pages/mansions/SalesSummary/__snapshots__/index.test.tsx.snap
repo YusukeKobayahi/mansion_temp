@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/SalesSummary 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h3>
+      <div
+        class="heading"
+      >
+        <span
+          class="inner"
+        >
+          リヴシティ神田の相場価格
+        </span>
+      </div>
+    </h3>
+    <div
+      class="content"
+    >
+      <section
+        class="summaryArea"
+      >
+        <h3
+          class="summaryArea__title"
+        >
+          参考中古価格
+        </h3>
+        <ul
+          class="summaryArea__list"
+        >
+          <li
+            class="summaryArea__item"
+          >
+            <span
+              class="summaryArea__emphasisText"
+            >
+              1DK
+            </span>
+             / 2,700万円 ~ 4,780万円 / 45.16㎡
+          </li>
+          <li
+            class="summaryArea__item"
+          >
+            <span
+              class="summaryArea__emphasisText"
+            >
+              1K
+            </span>
+             / 2,000万円 ~ 3,200万円 / 20.72㎡ ~ 30.24㎡
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

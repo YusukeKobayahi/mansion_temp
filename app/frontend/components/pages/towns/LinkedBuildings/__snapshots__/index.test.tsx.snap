@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/cities/LinkedBuildings 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="heading"
+    >
+      東京都目黒区青葉台のおすすめのマンション
+    </div>
+    <div>
+      <div
+        class="slick-slider slick-initialized"
+      >
+        <div
+          class="slick-list"
+        >
+          <div
+            class="slick-track"
+            style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+          >
+            <div
+              aria-hidden="false"
+              class="slick-slide slick-active slick-current"
+              data-index="0"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/50da656371c93049f09e0e55"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          プラウド元麻布
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2010年12月 (築11年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              1R 3億3,000万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              2LDK 2億円 ~ 3億3,000万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              2SLDK 3億3,000万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              3LDK 1億9,800万円 ~ 4億5,000万円
+                            </li>
+                            <li
+                              class="salesInfo"
+                            >
+                              3SLDK 2億1,800万円 ~ 3億2,500万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都港区元麻布２丁目１４－９
+                          </span>
+                          <br />
+                          <span>
+                            大江戸線「麻布十番」 徒歩9分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="false"
+              class="slick-slide slick-active"
+              data-index="1"
+              style="outline: none; width: 0px;"
+              tabindex="-1"
+            >
+              <div>
+                <div
+                  class="item"
+                  style="width: 100%; display: inline-block;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="content"
+                  >
+                    <div
+                      class="container"
+                    >
+                      <button
+                        class="link"
+                        href="/mansions/56fb38acf6a918fcb9a574aa"
+                      >
+                        <h3
+                          class="name"
+                        >
+                          プラウド元麻布
+                          <br />
+                          <span
+                            class="date"
+                          >
+                            2010年12月 (築11年)
+                          </span>
+                        </h3>
+                        <div
+                          class="salesInfoArea"
+                        >
+                          <p>
+                            販売価格
+                          </p>
+                          <ul>
+                            <li
+                              class="salesInfo"
+                            >
+                              3LDK 3億6,000万円
+                            </li>
+                          </ul>
+                        </div>
+                        <p
+                          class="subInfo"
+                        >
+                          <span>
+                            東京都港区南麻布２丁目１４－９
+                          </span>
+                          <br />
+                          <span>
+                            大江戸線「麻布十番」 徒歩9分
+                          </span>
+                        </p>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

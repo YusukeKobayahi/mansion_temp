@@ -1,0 +1,14 @@
+fragment MsLibraryIndexIeulColumn on Prefecture {
+  category {
+    href
+    title
+    thumbnail
+    description
+  }
+  ids {
+    href
+    title
+    thumbnail
+    description
+  }
+}

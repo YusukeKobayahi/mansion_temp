@@ -1,0 +1,11 @@
+fragment RankingCityInfo on City {
+  ...MsLibraryCitiesMarketPrice
+  info {
+    age {
+      averageAge
+    }
+    income {
+      averageIncome
+    }
+  }
+}

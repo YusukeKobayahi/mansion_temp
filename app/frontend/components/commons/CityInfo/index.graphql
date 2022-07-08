@@ -1,0 +1,213 @@
+fragment MsLibraryCitiesCityInfo on City {
+  name
+  prefecture {
+    name
+  }
+  info {
+    crime {
+      crimes
+      crimeRatioPercentage
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+      area {
+        id
+        name
+      }
+    }
+    household {
+      households
+      ownedHouseholds
+      ownedPercentage
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    age {
+      averageAge
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    income {
+      taxpayers
+      totalIncome
+      averageIncome
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    medical {
+      hospitalClinic {
+        hospitals
+        clinics
+        perPopulation
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      bed {
+        beds
+        perPopulation
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+    }
+    birthrate {
+      birthrate
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    care {
+      careHomes
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    park {
+      parks
+      parkArea
+      areaPerPerson
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+    school {
+      middleProceed {
+        schoolProceed
+        nationalSchoolProceed
+        privateSchoolProceed
+        proceedRatioPercentage
+        prefectureRank
+        capitalRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      kindergarten {
+        kindergartens
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      primary {
+        primarySchools
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      middle {
+        middleSchools
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      high {
+        highSchools
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+    }
+    population {
+      growth {
+        populationGrowthPercentage
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      density {
+        populationDensity
+        prefectureRank
+        areaRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+      underFifteen {
+        underFifteenPopulation
+        underFifteenPopulationPercentage
+        capitalRank
+        prefectureRank
+        deviation
+        grade {
+          id
+          typeName
+        }
+      }
+    }
+    waitingChild {
+      waitingChilds
+      waitingChildsPerUnderFourPopulation
+      prefectureRank
+      areaRank
+      deviation
+      grade {
+        id
+        typeName
+      }
+    }
+  }
+}

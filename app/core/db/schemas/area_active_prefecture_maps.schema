@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'area_active_prefecture_maps', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'area_id', null: false, comment: 'エリアID'
+  t.bigint 'prefecture_id', null: false, comment: '県ID'
+  t.timestamps
+
+  t.index ['area_id'], name: 'index_area_active_prefecture_maps_on_area_id'
+  t.index ['prefecture_id'], name: 'index_area_active_prefecture_maps_on_prefecture_id'
+end
+
+add_foreign_key 'area_active_prefecture_maps', 'areas', name: 'fk_area_active_prefecture_maps_areas'
+add_foreign_key 'area_active_prefecture_maps', 'prefectures', name: 'fk_area_active_prefecture_maps_prefectures'

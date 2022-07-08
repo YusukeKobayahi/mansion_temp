@@ -1,0 +1,36 @@
+fragment MsLibraryMansionsProductJsonLd on Mansion {
+  name
+  age
+  blockNumber
+  managementCompany
+  uniqueCode
+  structure {
+    name
+  }
+  prefecture {
+    name
+  }
+  city {
+    name
+  }
+  town {
+    name
+  }
+  street {
+    name
+  }
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+  }
+  salesHistorySummaries {
+    layout
+    minPrice
+    maxPrice
+    minExclusiveArea
+    maxExclusiveArea
+  }
+}

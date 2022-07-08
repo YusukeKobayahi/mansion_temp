@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/Link 正常に表示される 1`] = `
+<DocumentFragment>
+  <button
+    class="link"
+  >
+    千代田区
+    <span
+      class="subText"
+    >
+      (127)
+    </span>
+  </button>
+</DocumentFragment>
+`;

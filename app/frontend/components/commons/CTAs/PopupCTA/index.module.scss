@@ -1,0 +1,95 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.mask {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  background-color: unset;
+  padding: 0;
+}
+
+.main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 320px;
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  z-index: 200;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px #000000;
+
+  @include screenMd {
+    min-width: 80%;
+    max-width: 95%;
+  }
+}
+
+.inner {
+  position: relative;
+  padding: 50px 30px;
+
+  @include screenMd {
+    padding: 40px 20px;
+  }
+}
+
+.close {
+  position: absolute;
+  top: -7.5px;
+  right: -7.5px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  @include screenMd {
+    font-size: 14px;
+  }
+}
+
+.btn {
+  padding: 1rem;
+  line-height: 1.5rem;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px #000000;
+
+  @include screenMd {
+    font-size: 14px;
+  }
+
+  &.cta {
+    background-color: #f15e3a;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 30px;
+  }
+
+  &.link {
+    border: 1px solid #f15e3a;
+    color: #f15e3a;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+}

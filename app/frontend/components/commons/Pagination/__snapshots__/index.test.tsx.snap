@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/Pagination 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="pagination"
+    >
+      <div
+        class="paginationInner"
+      >
+        <span
+          class="able"
+        >
+          <button
+            href="/cities/13101?page=4"
+          >
+            <b />
+          </button>
+        </span>
+        <span
+          class="able"
+        >
+          <button
+            class="able"
+            href="/cities/13101?page=3"
+          >
+            3
+          </button>
+        </span>
+        <span
+          class="able"
+        >
+          <button
+            class="able"
+            href="/cities/13101?page=4"
+          >
+            4
+          </button>
+        </span>
+        <span
+          class="current"
+        >
+          5
+        </span>
+        <span
+          class="able"
+        >
+          <button
+            class="able"
+            href="/cities/13101?page=6"
+          >
+            6
+          </button>
+        </span>
+        <span
+          class="able"
+        >
+          <button
+            class="able"
+            href="/cities/13101?page=7"
+          >
+            7
+          </button>
+        </span>
+        <span
+          class="able"
+        >
+          <button
+            href="/cities/13101?page=6"
+          >
+            <b />
+          </button>
+        </span>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table 'city_info_population_basics', default: nil, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                            force: :cascade do |t|
+  t.bigint 'city_id'
+  t.bigint 'prefecture_id'
+  t.integer 'population'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['city_id'], name: 'idx_city_info_population_basics_city_id'
+  t.index ['prefecture_id'], name: 'idx_city_info_population_basics_prefecture_id'
+end
+
+add_foreign_key 'city_info_population_basics', 'cities', name: 'fk_city_info_population_basics_cities'

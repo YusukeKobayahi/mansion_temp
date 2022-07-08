@@ -1,0 +1,61 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.checkbox {
+  input[type="checkbox"] {
+    display: none;
+  }
+  label {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-color: #d8d8d8;
+
+    span {
+      display: block;
+      transform: translate(20%, -80%) rotate(-45deg);
+      width: 15px;
+      height: 5px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.label {
+  cursor: pointer;
+  color: $color-main;
+  padding-left: 7px;
+}
+
+.unchecked {
+  span {
+    border-left: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+  }
+}
+
+.checked {
+  background-color: $color-main;
+  span {
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+}
+
+/*
+ * Shape
+ */
+
+.rectangle {
+  border-radius: 0px;
+}
+
+.circle {
+  border-radius: 50%;
+}

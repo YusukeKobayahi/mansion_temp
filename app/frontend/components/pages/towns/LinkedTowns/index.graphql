@@ -1,0 +1,14 @@
+fragment MsLibraryTownsLinkedTowns on Town {
+  name
+  city {
+    name
+    prefecture {
+      name
+    }
+  }
+  linkedTowns {
+    id
+    name
+    mansionCount
+  }
+}

@@ -1,0 +1,37 @@
+fragment SchoolReviewsData on PrimarySchool {
+  schoolId
+  name
+  nameKana
+  review {
+    id
+    personGender
+    title
+    admmisionYear
+    postYear
+    postMonth
+    generalRate
+    generalText
+    policyText
+    policyRate
+    classText
+    classRate
+    teacherText
+    teacherRate
+    institutionText
+    institutionRate
+    accessText
+    accessRate
+    ptaText
+    ptaRate
+    eventText
+    eventRate
+    howGoText
+    uniformPresent
+    lunchPresent
+    lunchText
+    costText
+    motivationText
+    proceedText
+    proceedReasonText
+  }
+}

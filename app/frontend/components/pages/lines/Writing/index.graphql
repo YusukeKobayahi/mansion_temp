@@ -1,0 +1,10 @@
+fragment LineWriting on RailwayLine {
+  name
+  writing {
+    introduce
+    recommendArea
+    recommendSpot
+    tips
+    traffic
+  }
+}

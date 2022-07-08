@@ -1,0 +1,13 @@
+query FindFromShools($jisCode: String!) {
+  prefecture(jisCode: $jisCode) {
+    cities {
+      id
+      name
+      primarySchools {
+        schoolId
+        name
+        mansionCount
+      }
+    }
+  }
+}

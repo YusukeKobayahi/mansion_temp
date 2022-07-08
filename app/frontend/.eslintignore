@@ -1,0 +1,5 @@
+.next/
+.eslintrc.js
+jest.config.js
+next.config.js
+graphql/

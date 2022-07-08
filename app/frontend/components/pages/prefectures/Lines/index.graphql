@@ -1,0 +1,36 @@
+fragment MsLibraryPrefecturesLines on Prefecture
+@argumentDefinitions(
+  md: { type: "String" }
+  eab: { type: "Int" }
+  eat: { type: "Int" }
+  prb: { type: "Int" }
+  prt: { type: "Int" }
+  tht: { type: "Int" }
+  ckt: { type: "Int" }
+  utb: { type: "Int" }
+  gfb: { type: "Int" }
+  gft: { type: "Int" }
+) {
+  companies {
+    name
+    lines {
+      id
+      name
+      stations {
+        id
+      }
+      mansionCount(
+        md: $md
+        eab: $eab
+        eat: $eat
+        prb: $prb
+        prt: $prt
+        tht: $tht
+        ckt: $ckt
+        utb: $utb
+        gfb: $gfb
+        gft: $gft
+      )
+    }
+  }
+}

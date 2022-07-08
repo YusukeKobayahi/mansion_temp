@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/commute/stations/BaseInfo 正常に表示される 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="title"
+    >
+      <div
+        class="heading"
+      >
+        <span>
+          <p>
+            品川
+          </p>
+        </span>
+      </div>
+    </h1>
+  </div>
+</DocumentFragment>
+`;

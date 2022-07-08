@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/CTAs/InsertCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <p
+      class="description"
+    >
+      ＼ ここには掲載していない未公開物件があります！ ／
+    </p>
+    <button
+      class="btn"
+    >
+      会員登録してオファー限定情報を手に入れる
+    </button>
+  </section>
+</DocumentFragment>
+`;

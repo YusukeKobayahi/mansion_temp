@@ -1,0 +1,17 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.block {
+  width: 100%;
+}
+
+.sectionBar {
+  border-bottom: 1px dotted #e5e5e5;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

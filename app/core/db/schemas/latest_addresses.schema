@@ -1,0 +1,52 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'latest_addresses', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'version_id'
+  t.bigint 'old_prefecture_id'
+  t.string 'old_prefecture_name'
+  t.string 'old_prefecture_kana'
+  t.bigint 'old_city_id'
+  t.string 'old_city_name'
+  t.string 'old_city_kana'
+  t.bigint 'old_town_id'
+  t.string 'old_town_name'
+  t.string 'old_town_kana'
+  t.bigint 'old_street_id'
+  t.string 'old_street_name'
+  t.string 'old_street_kana'
+  t.bigint 'latest_prefecture_id'
+  t.string 'latest_prefecture_name'
+  t.string 'latest_prefecture_kana'
+  t.bigint 'latest_city_id'
+  t.string 'latest_city_name'
+  t.string 'latest_city_kana'
+  t.bigint 'latest_town_id'
+  t.string 'latest_town_name'
+  t.string 'latest_town_kana'
+  t.bigint 'latest_street_id'
+  t.string 'latest_street_name'
+  t.string 'latest_street_kana'
+  t.timestamps
+  t.index ['latest_city_id'], name: 'index_latest_addresses_on_latest_city_id'
+  t.index ['latest_prefecture_id'], name: 'index_latest_addresses_on_latest_prefecture_id'
+  t.index ['latest_street_id'], name: 'index_latest_addresses_on_latest_street_id'
+  t.index ['latest_town_id'], name: 'index_latest_addresses_on_latest_town_id'
+  t.index ['old_city_id'], name: 'index_latest_addresses_on_old_city_id'
+  t.index ['old_prefecture_id'], name: 'index_latest_addresses_on_old_prefecture_id'
+  t.index ['old_street_id'], name: 'index_latest_addresses_on_old_street_id'
+  t.index ['old_town_id'], name: 'index_latest_addresses_on_old_town_id'
+  t.index ['version_id'], name: 'index_latest_addresses_on_version_id'
+end
+
+add_foreign_key 'latest_addresses', 'cities', column: 'latest_city_id', name: 'fk_rails_c62df9e754'
+add_foreign_key 'latest_addresses', 'cities', column: 'old_city_id', name: 'fk_rails_5a60b2c67e'
+add_foreign_key 'latest_addresses', 'prefectures', column: 'latest_prefecture_id', name: 'fk_rails_e232ebd08a'
+add_foreign_key 'latest_addresses', 'prefectures', column: 'old_prefecture_id', name: 'fk_rails_4ac3b706af'
+add_foreign_key 'latest_addresses', 'streets', column: 'latest_street_id', name: 'fk_rails_36eacb258f'
+add_foreign_key 'latest_addresses', 'streets', column: 'old_street_id', name: 'fk_rails_0d515f6f97'
+add_foreign_key 'latest_addresses', 'towns', column: 'latest_town_id', name: 'fk_rails_a229fe4b42'
+add_foreign_key 'latest_addresses', 'towns', column: 'old_town_id', name: 'fk_rails_785ea0b611'
+add_foreign_key 'latest_addresses', 'maddress_versions', column: 'version_id', name: 'fk_rails_5058202b63'

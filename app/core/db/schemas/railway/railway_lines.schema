@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'railway_lines', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'company_id', null: false, comment: '事業者ID'
+  t.bigint 'code', null: false, comment: '駅データ.jpの路線コード'
+  t.string 'msl_name', null: false, comment: 'マンションライブラリーの路線名'
+  t.string 'master_name', null: false, comment: 'マスター路線名'
+  t.string 'master_kana', null: false, comment: 'マスター路線名カナ'
+  t.string 'official_name', null: false, comment: 'オフィシャル路線名'
+  t.integer 'status_id', null: false, comment: '0: 運用中, 1: 運用前, 2: 廃止'
+  t.integer 'sort', null: false, comment: 'マスターソート'
+  t.datetime 'created_at', null: false
+  t.datetime 'updated_at', null: false
+  t.index ['company_id'], name: 'idx_railway_lines_company_id'
+  t.index ['master_name'], name: 'idx_railway_lines_name'
+end
+
+add_foreign_key 'railway_lines', 'railway_companies', column: 'company_id', name: 'fk_railway_line_railway_company'

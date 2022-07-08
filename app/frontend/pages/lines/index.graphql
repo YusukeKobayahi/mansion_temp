@@ -1,0 +1,54 @@
+query lines(
+  $ln: String!
+  $tw: String
+  $md: String
+  $eab: Int
+  $eat: Int
+  $prb: Int
+  $prt: Int
+  $tht: Int
+  $ckt: Int
+  $utb: Int
+  $gfb: Int
+  $gft: Int
+) {
+  lines(ln: $ln) {
+    id
+    name
+    company {
+      name
+    }
+    ...MsLibraryLinesMarketPrice
+    ...MsLibraryRailwayLinePassedCities
+    stations {
+      name
+      id
+      city {
+        name
+        jisCode
+        prefecture {
+          name
+          jisCode
+        }
+      }
+      mansionCount(
+        ln: $ln
+        tw: $tw
+        md: $md
+        eab: $eab
+        eat: $eat
+        prb: $prb
+        prt: $prt
+        tht: $tht
+        ckt: $ckt
+        utb: $utb
+        gfb: $gfb
+        gft: $gft
+      )
+    }
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+    ...LineWriting
+  }
+}

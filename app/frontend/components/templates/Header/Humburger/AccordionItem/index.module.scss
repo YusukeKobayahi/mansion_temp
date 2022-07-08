@@ -1,0 +1,94 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  padding: 0;
+
+  &.open {
+    background-color: #f8f6f0;
+  }
+  &.close {
+    background-color: white;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    opacity: 1;
+    &.open {
+      background-color: #f8f6f0;
+    }
+    &.close {
+      background-color: white;
+    }
+  }
+}
+
+.togglerSection {
+  height: 100%;
+
+  .toggler {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    background-color: transparent;
+    border-left: 1px solid #d8d8d8;
+
+    span {
+      display: block;
+      width: 11px;
+      height: 11px;
+      border-right: 1px solid #746742;
+      border-bottom: 1px solid #746742;
+      transform-origin: center center;
+      background-color: transparent;
+    }
+    .open {
+      transform: translateY(30%) rotate(-135deg);
+    }
+    .close {
+      transform: translateY(-30%) rotate(45deg);
+    }
+  }
+}
+
+/**
+ * FontSize
+ */
+.font-size-sm {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.font-size-md {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/**
+ * UnderLine
+ */
+
+.underline-solid {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.underline-dashed {
+  border-bottom: 1px dashed #d8d8d8;
+  border-style: dashed;
+}
+
+.underline-none {
+  border-bottom: 1px none #d8d8d8;
+}

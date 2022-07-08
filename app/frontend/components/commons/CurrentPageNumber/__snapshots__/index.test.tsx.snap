@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/CurrentPageNumber 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <p
+      class="currentCount"
+    >
+       / 
+    </p>
+    <p
+      class="totalCount"
+    >
+      件
+    </p>
+  </div>
+</DocumentFragment>
+`;

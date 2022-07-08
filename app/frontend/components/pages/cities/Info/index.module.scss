@@ -1,0 +1,95 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 50px;
+}
+
+.table {
+  width: 100%;
+  &Wrapper {
+    padding: 0 50px;
+
+    @include screenMd {
+      padding: 0 16px;
+    }
+  }
+
+  tr {
+    border-bottom: 1px solid #e5e5e5;
+
+    @include screenMd {
+      display: block;
+      border: none;
+    }
+
+    &:nth-child(1) {
+      border-top: 1px solid #e5e5e5;
+
+      @include screenMd {
+        border: none;
+      }
+    }
+
+    &:nth-last-child(1) {
+      td {
+        @include screenMd {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+
+  th {
+    width: 28%;
+    padding: 15px 25px 25px;
+    background-color: #faf9f7;
+    text-align: left;
+
+    @include screenMd {
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 13px;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #646464;
+    }
+  }
+
+  td {
+    width: 72%;
+    padding: 15px 15px 25px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #646464;
+
+    @include screenMd {
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+      padding: 13px 13px 30px;
+    }
+
+    p {
+      &:nth-child(n + 2) {
+        margin-top: 8px;
+      }
+    }
+
+    h4 {
+      font-weight: bold;
+      margin-bottom: 8px;
+
+      &:nth-child(n + 2) {
+        margin-top: 8px;
+      }
+    }
+  }
+}

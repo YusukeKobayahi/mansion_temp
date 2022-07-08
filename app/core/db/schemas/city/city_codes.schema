@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+create_table 'city_codes', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'city_id'
+  t.string 'code', null: false, comment: '住所トラッキング用 identifier'
+  t.bigint 'start_version_id'
+  t.bigint 'end_version_id'
+  t.timestamps
+  t.index ['city_id'], name: 'index_city_codes_on_city_id'
+  t.index ['code'], name: 'index_city_codes_on_code'
+  t.index ['end_version_id'], name: 'index_city_codes_on_end_version_id'
+  t.index ['start_version_id'], name: 'index_city_codes_on_start_version_id'
+end
+
+add_foreign_key 'city_codes', 'cities', name: 'fk_rails_8abf7d7989'

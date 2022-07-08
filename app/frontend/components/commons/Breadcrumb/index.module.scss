@@ -1,0 +1,32 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.list {
+  display: flex;
+  font-size: 12px;
+  padding: 13px 0;
+  color: $color-main;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  @include screenMd {
+    margin-right: 16px;
+    font-size: 10px;
+    padding: 9px 16px;
+  }
+}
+
+.item {
+  &:not(:last-child)::after {
+    content: ">";
+    margin: 0 4px;
+
+    @include screenMd {
+      margin: 0 3px;
+    }
+  }
+
+  &:last-child {
+    color: $color-text-main;
+  }
+}

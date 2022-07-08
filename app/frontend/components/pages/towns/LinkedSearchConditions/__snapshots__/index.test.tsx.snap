@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/cities/LinkedSearchConditions 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="title"
+    >
+      <p
+        class="title"
+      >
+        おすすめの検索条件
+      </p>
+    </div>
+    <ul
+      class="list"
+    >
+      <button
+        class="btn"
+        href="/ms-library/towns/38774?md=0304"
+      >
+        3LDK
+      </button>
+      <button
+        class="btn"
+        href="/ms-library/towns/38774?gfb=20"
+      >
+        タワーマンション
+      </button>
+      <button
+        class="btn"
+        href="/ms-library/towns/38774?gft=5"
+      >
+        低層マンション
+      </button>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

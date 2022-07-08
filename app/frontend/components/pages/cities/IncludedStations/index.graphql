@@ -1,0 +1,11 @@
+fragment MsLibraryCityIncludedStations on City {
+  name
+  prefecture {
+    name
+  }
+  stations {
+    id
+    name
+    mansionCount
+  }
+}

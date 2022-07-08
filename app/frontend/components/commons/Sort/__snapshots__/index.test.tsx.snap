@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/Sort 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <p>
+      並べ替え
+    </p>
+    <div
+      class="sortBox"
+    >
+      <select
+        name="sort"
+      >
+        <option
+          value="orud&ASC"
+        >
+          新着・更新順
+        </option>
+        <option
+          value="orpr&ASC"
+        >
+          価格が安い順
+        </option>
+        <option
+          value="orpr&DESC"
+        >
+          価格が高い順
+        </option>
+        <option
+          value="orar&ASC"
+        >
+          占有面積が狭い順
+        </option>
+        <option
+          value="orar&DESC"
+        >
+          占有面積が広い順
+        </option>
+        <option
+          value="orck&ASC"
+        >
+          築年月が新しい順
+        </option>
+        <option
+          value="orck&DESC"
+        >
+          築年月が古い順
+        </option>
+        <option
+          value="ormd&ASC"
+        >
+          間取りが少ない順
+        </option>
+        <option
+          value="ormd&DESC"
+        >
+          間取りが多い順
+        </option>
+      </select>
+    </div>
+  </section>
+</DocumentFragment>
+`;

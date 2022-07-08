@@ -1,0 +1,15 @@
+@import "../../../styles/variables";
+@import "~/styles/utils";
+
+$pc-side-padding: 16px;
+
+.container {
+  max-width: $content-max-width + ($pc-side-padding * 2);
+  min-height: $content-min-height;
+  margin: 0 auto;
+  padding: 0 $pc-side-padding;
+
+  @include screenMd {
+    padding: 45px 0 0;
+  }
+}

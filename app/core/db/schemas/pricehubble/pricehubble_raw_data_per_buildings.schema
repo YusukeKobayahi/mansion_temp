@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :pricehubble_raw_data_per_buildings, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint :building_id, null: false, comment: 'mansion_buildingのid'
+  t.date :date, null: false, comment: '予測日付'
+  t.integer :year, null: false, comment: '予測日付。年のみ'
+  t.integer :month, null: false, comment: '予測日付。月のみ'
+  t.float :living_area, null: false, limit: 53, comment: '部屋面積'
+  t.bigint :sale_price, null: false, comment: '物件の推定売却価格'
+  t.bigint :sale_price_lower, null: false, comment: '物件の売却価格の推定下限'
+  t.bigint :sale_price_upper, null: false, comment: '物件の売却価格の推定上限'
+  t.float :sale_price_per_square, null: false, limit: 53, comment: '平方単価'
+  t.float :sale_price_per_tsubo, null: false, limit: 53, comment: '坪単価'
+  t.timestamps
+
+  t.index ['building_id'], name: 'fk_pricehubble_raw_data_per_buildings_mansion_buildings_idx'
+end
+# rubocop:disable Layout/LineLength
+add_foreign_key 'pricehubble_raw_data_per_buildings', 'mansion_buildings', column: 'building_id',
+                                                                           name: 'fk_pricehubble_raw_data_per_buildings_mansion_buildings'
+# rubocop:enable Layout/LineLength

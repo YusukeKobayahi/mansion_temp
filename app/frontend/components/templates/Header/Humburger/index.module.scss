@@ -1,0 +1,63 @@
+@import "~/styles/utils";
+@import "~/styles/variables";
+
+$top-padding: 0px;
+$bottom-padding: 3rem;
+$close-height: 3rem;
+$content-height: calc(100vh - $close-height - $top-padding - $bottom-padding);
+
+.open {
+  button {
+    background-color: transparent;
+    span {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      height: 2px;
+      width: 18px;
+      border-radius: 3px;
+      background: #746744;
+      display: block;
+      content: "";
+      cursor: pointer;
+    }
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: $top-padding 10px $bottom-padding 10px;
+  background-color: rgba($color-main, 0.9);
+}
+
+.close {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 40px;
+  }
+}
+
+.content {
+  background-color: #fff;
+  height: calc(100vh - 3rem - 3rem);
+  overflow: scroll;
+}
+
+.tabArea {
+  padding: 30px 10px 0px 10px;
+  border-bottom: #746744 solid 4px;
+  .tabContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+    margin-bottom: -1px;
+  }
+}

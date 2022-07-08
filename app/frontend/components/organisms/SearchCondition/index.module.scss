@@ -1,0 +1,25 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.verticalGap {
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+a.prefecture {
+  color: #bca565;
+  text-decoration: underline;
+  padding-left: 16px;
+  position: relative;
+
+  &::before {
+    content: "・";
+    color: #373a3c;
+    position: absolute;
+    left: 0;
+  }
+}
+
+.noview {
+  display: none;
+}

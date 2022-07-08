@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'mansion_brand_maps', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'building_id', null: false, comment: 'ビルディングID'
+  t.bigint 'brand_id', null: false, comment: 'ブランドID'
+  t.timestamps
+
+  t.index ['building_id'], name: 'index_mansion_brand_maps_on_building_id'
+  t.index ['brand_id'], name: 'index_mansion_brand_maps_on_brand_id'
+end
+
+add_foreign_key 'mansion_brand_maps', 'mansion_buildings', column: 'building_id',
+                                                           name: 'fk_mansion_brand_maps_mansion_buildings'
+add_foreign_key 'mansion_brand_maps', 'brands', name: 'fk_mansion_brand_maps_brands'

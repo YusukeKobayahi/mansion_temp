@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/commute/stations/Menu 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="layout pcOnly"
+  >
+    <div
+      class="checkbox"
+    >
+      <div>
+        <p>
+          全て選択
+        </p>
+      </div>
+      <button>
+        button1
+      </button>
+    </div>
+    <div
+      class="menu"
+    >
+      <button>
+        button2
+      </button>
+      <div
+        class="justifyRight"
+      >
+        <p>
+          並び替え
+        </p>
+      </div>
+      <button>
+        button3
+      </button>
+      <div>
+        <p>
+          該当
+          <span
+            class="fontSizeLg"
+          >
+            20
+          </span>
+          件
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="spOnly"
+  >
+    <div
+      class="menu"
+    >
+      <div>
+        <p>
+          該当
+          <span
+            class="fontSizeLg"
+          >
+            20
+          </span>
+          件
+        </p>
+      </div>
+      <div
+        class="justifyRight fontSizeSm"
+      >
+        <p>
+          並び替え
+        </p>
+      </div>
+      <button>
+        button3
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,33 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'mansion_displays', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'building_id', null: false, comment: 'ビルディングID'
+  t.string 'name', null: false, comment: 'マンション名'
+  t.bigint 'min_price', comment: '最低価格 (円)'
+  t.bigint 'max_price', comment: '最高価格 (円)'
+  t.float 'min_exclusive_area', comment: '最低専有面積'
+  t.float 'max_exclusive_area', comment: '最高専有面積'
+  t.integer 'number_of_rooms', null: false, comment: '間取部屋数'
+  t.integer 'layout_kind_id', null: false, comment: '間取タイプ'
+  t.string 'layout_name', comment: '間取り表示名'
+  t.date 'constructed_in', null: false, comment: '築年月 (年と月の情報しか持たないため、日付は1日で固定する)'
+  t.bigint 'age', comment: '築年数'
+  t.integer 'ground_floor', comment: '地上階'
+  t.integer 'unit_amount', comment: '総戸数'
+  t.timestamps
+
+  t.index ['age'], name: 'idx_mansion_displays_age'
+  t.index ['building_id'], name: 'fk_mansion_displays_mansion_buildings_idx'
+  t.index ['layout_kind_id'], name: 'idx_mansion_displays_layout_kind_id'
+  t.index ['max_exclusive_area'], name: 'idx_mansion_displays_max_exclusive_area'
+  t.index ['max_price'], name: 'idx_mansion_displays_max_price'
+  t.index ['min_exclusive_area'], name: 'idx_mansion_displays_min_exclusive_area'
+  t.index ['min_price'], name: 'idx_mansion_displays_min_price'
+  t.index ['number_of_rooms'], name: 'idx_mansion_displays_number_of_rooms'
+  t.index ['unit_amount'], name: 'idx_mansion_displays_unit_amount'
+end
+
+add_foreign_key 'mansion_displays', 'mansion_buildings', column: 'building_id', name: 'fk_mansion_displays_mansion_buildings'

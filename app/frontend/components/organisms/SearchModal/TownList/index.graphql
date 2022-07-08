@@ -1,0 +1,41 @@
+query TownList(
+  $ct: String
+  $md: String
+  $eab: Int
+  $eat: Int
+  $prb: Int
+  $prt: Int
+  $tht: Int
+  $ckt: Int
+  $utb: Int
+  $gfb: Int
+  $gft: Int
+) {
+  cities(ct: $ct) {
+    name
+    towns {
+      id
+      name
+      mansionCount(
+        md: $md
+        eab: $eab
+        eat: $eat
+        prb: $prb
+        prt: $prt
+        tht: $tht
+        ckt: $ckt
+        utb: $utb
+        gfb: $gfb
+        gft: $gft
+      )
+    }
+  }
+}
+
+query TownsCityList($tw: String) {
+  towns(tw: $tw) {
+    city {
+      jisCode
+    }
+  }
+}

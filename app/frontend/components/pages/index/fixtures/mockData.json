@@ -1,0 +1,748 @@
+{
+  "prefectures": [
+    {
+      "id": "11",
+      "name": "埼玉県",
+      "jisCode": "11000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "千葉県",
+      "jisCode": "12000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "東京都",
+      "jisCode": "13000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "神奈川県",
+      "jisCode": "14000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "愛知県",
+      "jisCode": "23000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "大阪府",
+      "jisCode": "27000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "兵庫県",
+      "jisCode": "28000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "福岡県",
+      "jisCode": "40000",
+      "category": [
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37424",
+          "title": "共働き夫婦が戸建てかマンションの購入で悩んだ時の判断ポイント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/domannian-mansion-joint-work-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24029",
+          "title": "賃貸か購入、住むならどっち？迷った時の5つのポイントを紹介！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/rent-purchase-which-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37425",
+          "title": "40代は「賃貸」「購入」のどちらがおすすめ？考え方のヒント",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/rental-and-purchase-40s-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/37426",
+          "title": "未公開物件の探し方やメリット・デメリットを詳しく解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/11/how-to-find-an-unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ],
+      "ids": [
+        {
+          "href": "/column/articles/24049",
+          "title": "未公開物件とは？ネットに載らない物件情報を得る方法や注意点を徹底解説！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/06/unpublished-property-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21227",
+          "title": "マンションか戸建てかどっちか決められない！悩んだ時のポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/築30年のマンション-1-1024x576.png",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21212",
+          "title": "中古マンションの築年数は何年が買い時？寿命や耐震性まで解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-age-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21224",
+          "title": "マンション買うなら新築と中古どっちがお得？価格差やメリットとデメリットを比較！",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/mansion-newly-and-used-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/21197",
+          "title": "マンション購入の注意点を解説！物件選びから内覧・契約時に注意するべきことは？",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2021/04/second-hand-mansion-important-1024x683.jpg",
+          "description": ""
+        },
+        {
+          "href": "/column/articles/372",
+          "title": "マンションの間取りはどう選ぶ？理想の間取りを選ぶポイントを解説",
+          "thumbnail": "https://stg.ieul.jp/column/wp-content/uploads/2018/10/shutterstock_170805509-e1635758601976.jpg",
+          "description": "マンションの間取りが気に入らなくても、すぐには住み替えられないという経験は誰にでもあります。しかし、間取りについて知識を持つことで、次の間取りを決めるときに失敗が少なくなります。意外と知らない間取りの決めかたについて学んでいきましょう。"
+        }
+      ]
+    }
+  ]
+}

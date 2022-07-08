@@ -1,0 +1,3567 @@
+{
+  "mansion": {
+    "uniqueCode": "869510b50f2a2f48dac6da39",
+    "name": "リヴシティ神田",
+    "prefecture": {
+      "name": "東京都",
+      "jisCode": "13000"
+    },
+    "display": {
+      "minExclusiveArea": 20.72,
+      "maxExclusiveArea": 45.16
+    },
+    "city": {
+      "name": "千代田区",
+      "jisCode": "13101",
+      "info": {
+        "crime": {
+          "crimes": 4739,
+          "crimeRatioPercentage": 1.36,
+          "prefectureRank": 3,
+          "areaRank": 3,
+          "deviation": 84.14,
+          "grade": {
+            "id": "1",
+            "typeName": "非常に高い"
+          },
+          "area": {
+            "id": "1",
+            "name": "一都三県"
+          }
+        },
+        "household": {
+          "households": 214320,
+          "ownedHouseholds": 70290,
+          "ownedPercentage": 32.8,
+          "prefectureRank": 50,
+          "areaRank": 210,
+          "deviation": 27.85,
+          "grade": {
+            "id": "6",
+            "typeName": "低い"
+          }
+        },
+        "age": {
+          "averageAge": 44,
+          "prefectureRank": 49,
+          "areaRank": 213,
+          "deviation": 41.49,
+          "grade": {
+            "id": "5",
+            "typeName": "やや低い"
+          }
+        },
+        "income": {
+          "taxpayers": "187984",
+          "totalIncome": "1044274299",
+          "averageIncome": "5555123",
+          "prefectureRank": 8,
+          "areaRank": 8,
+          "deviation": 69.88,
+          "grade": {
+            "id": "2",
+            "typeName": "高い"
+          }
+        },
+        "medical": {
+          "hospitalClinic": {
+            "hospitals": "13",
+            "clinics": "646",
+            "perPopulation": 189.122,
+            "prefectureRank": 8,
+            "areaRank": 8,
+            "deviation": 65.4326,
+            "grade": {
+              "id": "2",
+              "typeName": "高い"
+            }
+          },
+          "bed": {
+            "beds": "5866",
+            "perPopulation": 1683.45,
+            "prefectureRank": 7,
+            "areaRank": 28,
+            "deviation": 57.0168,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          }
+        },
+        "birthrate": {
+          "birthrate": 0.99,
+          "prefectureRank": 60,
+          "areaRank": 248,
+          "deviation": 23.08,
+          "grade": {
+            "id": "7",
+            "typeName": "非常に低い"
+          }
+        },
+        "care": {
+          "careHomes": 50,
+          "prefectureRank": 21,
+          "areaRank": 77,
+          "deviation": 52.21,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        },
+        "park": {
+          "parks": "183",
+          "parkArea": "1147113",
+          "areaPerPerson": 3.3,
+          "prefectureRank": 43,
+          "areaRank": 184,
+          "deviation": 47.78,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        },
+        "school": {
+          "middleProceed": {
+            "schoolProceed": "1424",
+            "nationalSchoolProceed": "12",
+            "privateSchoolProceed": "477",
+            "proceedRatioPercentage": 34.34,
+            "prefectureRank": 7,
+            "capitalRank": 7,
+            "deviation": 64.97,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "kindergarten": {
+            "kindergartens": "30",
+            "prefectureRank": 12,
+            "areaRank": 18,
+            "deviation": 68.21,
+            "grade": {
+              "id": "2",
+              "typeName": "高い"
+            }
+          },
+          "primary": {
+            "primarySchools": "30",
+            "prefectureRank": 14,
+            "areaRank": 25,
+            "deviation": 60.82,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "middle": {
+            "middleSchools": "16",
+            "prefectureRank": 16,
+            "areaRank": 27,
+            "deviation": 59.34,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "high": {
+            "highSchools": "11",
+            "prefectureRank": 16,
+            "areaRank": 22,
+            "deviation": 64.58,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          }
+        },
+        "population": {
+          "growth": {
+            "populationGrowthPercentage": 0.99,
+            "prefectureRank": 15,
+            "areaRank": 30,
+            "deviation": 60.16,
+            "grade": {
+              "id": "3",
+              "typeName": "やや高い"
+            }
+          },
+          "density": {
+            "populationDensity": 18307.4,
+            "prefectureRank": 8,
+            "areaRank": 8,
+            "deviation": 75.11,
+            "grade": {
+              "id": "1",
+              "typeName": "非常に高い"
+            }
+          },
+          "underFifteen": {
+            "underFifteenPopulation": 27060,
+            "underFifteenPopulationPercentage": 8.1,
+            "prefectureRank": 59,
+            "capitalRank": 240,
+            "deviation": 30.09,
+            "grade": {
+              "id": "6",
+              "typeName": "低い"
+            }
+          }
+        },
+        "waitingChild": {
+          "waitingChilds": 0,
+          "waitingChildsPerUnderFourPopulation": 0,
+          "prefectureRank": 37,
+          "areaRank": 126,
+          "deviation": 45.95,
+          "grade": {
+            "id": "4",
+            "typeName": "標準的"
+          }
+        }
+      },
+      "averagePrice": {
+        "layout": [
+          {
+            "fullLayoutName": "1R",
+            "averagePrice": 42317600,
+            "salesHistoriesCount": 190
+          },
+          {
+            "fullLayoutName": "1K",
+            "averagePrice": 30445900,
+            "salesHistoriesCount": 983
+          },
+          {
+            "fullLayoutName": "1DK",
+            "averagePrice": 36895400,
+            "salesHistoriesCount": 668
+          },
+          {
+            "fullLayoutName": "1LDK",
+            "averagePrice": 65295400,
+            "salesHistoriesCount": 3513
+          },
+          {
+            "fullLayoutName": "1SK",
+            "averagePrice": 35091700,
+            "salesHistoriesCount": 24
+          },
+          {
+            "fullLayoutName": "1SDK",
+            "averagePrice": 45600000,
+            "salesHistoriesCount": 2
+          },
+          {
+            "fullLayoutName": "1SLDK",
+            "averagePrice": 75076700,
+            "salesHistoriesCount": 238
+          },
+          {
+            "fullLayoutName": "2DK",
+            "averagePrice": 44102400,
+            "salesHistoriesCount": 21
+          },
+          {
+            "fullLayoutName": "2LDK",
+            "averagePrice": 121913000,
+            "salesHistoriesCount": 3453
+          },
+          {
+            "fullLayoutName": "2SDK",
+            "averagePrice": 72800000,
+            "salesHistoriesCount": 2
+          },
+          {
+            "fullLayoutName": "2SLDK",
+            "averagePrice": 145730000,
+            "salesHistoriesCount": 341
+          },
+          {
+            "fullLayoutName": "3DK",
+            "averagePrice": 43150000,
+            "salesHistoriesCount": 2
+          },
+          {
+            "fullLayoutName": "3LK",
+            "averagePrice": 67000000,
+            "salesHistoriesCount": 4
+          },
+          {
+            "fullLayoutName": "3LDK",
+            "averagePrice": 166223000,
+            "salesHistoriesCount": 1749
+          },
+          {
+            "fullLayoutName": "3SLDK",
+            "averagePrice": 230090000,
+            "salesHistoriesCount": 135
+          },
+          {
+            "fullLayoutName": "4LDK",
+            "averagePrice": 292030000,
+            "salesHistoriesCount": 33
+          },
+          {
+            "fullLayoutName": "4SLDK",
+            "averagePrice": 239000000,
+            "salesHistoriesCount": 1
+          },
+          {
+            "fullLayoutName": "5LDK",
+            "averagePrice": 500000000,
+            "salesHistoriesCount": 3
+          }
+        ],
+        "date": [
+          {
+            "age": 52,
+            "averagePrice": 26000000,
+            "salesHistoriesCount": 2
+          },
+          {
+            "age": 40,
+            "averagePrice": 56427300,
+            "salesHistoriesCount": 171
+          },
+          {
+            "age": 24,
+            "averagePrice": 53406100,
+            "salesHistoriesCount": 92
+          },
+          {
+            "age": 17,
+            "averagePrice": 208253000,
+            "salesHistoriesCount": 67
+          },
+          {
+            "age": 16,
+            "averagePrice": 64959100,
+            "salesHistoriesCount": 181
+          },
+          {
+            "age": 16,
+            "averagePrice": 165335000,
+            "salesHistoriesCount": 135
+          },
+          {
+            "age": 16,
+            "averagePrice": 22138200,
+            "salesHistoriesCount": 34
+          },
+          {
+            "age": 16,
+            "averagePrice": 33601700,
+            "salesHistoriesCount": 88
+          },
+          {
+            "age": 15,
+            "averagePrice": 41145800,
+            "salesHistoriesCount": 144
+          },
+          {
+            "age": 15,
+            "averagePrice": 32466200,
+            "salesHistoriesCount": 134
+          },
+          {
+            "age": 15,
+            "averagePrice": 80818200,
+            "salesHistoriesCount": 11
+          },
+          {
+            "age": 15,
+            "averagePrice": 60163100,
+            "salesHistoriesCount": 84
+          },
+          {
+            "age": 15,
+            "averagePrice": 36476900,
+            "salesHistoriesCount": 108
+          },
+          {
+            "age": 14,
+            "averagePrice": 28772600,
+            "salesHistoriesCount": 62
+          },
+          {
+            "age": 14,
+            "averagePrice": 112635000,
+            "salesHistoriesCount": 229
+          },
+          {
+            "age": 14,
+            "averagePrice": 88734700,
+            "salesHistoriesCount": 408
+          },
+          {
+            "age": 14,
+            "averagePrice": 37828800,
+            "salesHistoriesCount": 280
+          },
+          {
+            "age": 14,
+            "averagePrice": 74367900,
+            "salesHistoriesCount": 53
+          },
+          {
+            "age": 13,
+            "averagePrice": 34818000,
+            "salesHistoriesCount": 61
+          },
+          {
+            "age": 13,
+            "averagePrice": 132280000,
+            "salesHistoriesCount": 594
+          },
+          {
+            "age": 13,
+            "averagePrice": 160123000,
+            "salesHistoriesCount": 182
+          },
+          {
+            "age": 13,
+            "averagePrice": 92160800,
+            "salesHistoriesCount": 255
+          },
+          {
+            "age": 13,
+            "averagePrice": 41833300,
+            "salesHistoriesCount": 108
+          },
+          {
+            "age": 13,
+            "averagePrice": 31052600,
+            "salesHistoriesCount": 116
+          },
+          {
+            "age": 13,
+            "averagePrice": 125014000,
+            "salesHistoriesCount": 125
+          },
+          {
+            "age": 12,
+            "averagePrice": 145673000,
+            "salesHistoriesCount": 964
+          },
+          {
+            "age": 12,
+            "averagePrice": 35727900,
+            "salesHistoriesCount": 172
+          },
+          {
+            "age": 12,
+            "averagePrice": 48140000,
+            "salesHistoriesCount": 5
+          },
+          {
+            "age": 12,
+            "averagePrice": 120850000,
+            "salesHistoriesCount": 46
+          },
+          {
+            "age": 12,
+            "averagePrice": 272720000,
+            "salesHistoriesCount": 115
+          },
+          {
+            "age": 11,
+            "averagePrice": 219018000,
+            "salesHistoriesCount": 380
+          },
+          {
+            "age": 11,
+            "averagePrice": 60383500,
+            "salesHistoriesCount": 167
+          },
+          {
+            "age": 11,
+            "averagePrice": 91820000,
+            "salesHistoriesCount": 20
+          },
+          {
+            "age": 10,
+            "averagePrice": 71578000,
+            "salesHistoriesCount": 195
+          },
+          {
+            "age": 10,
+            "averagePrice": 33628100,
+            "salesHistoriesCount": 162
+          },
+          {
+            "age": 10,
+            "averagePrice": 150865000,
+            "salesHistoriesCount": 55
+          },
+          {
+            "age": 10,
+            "averagePrice": 108931000,
+            "salesHistoriesCount": 127
+          },
+          {
+            "age": 10,
+            "averagePrice": 55531600,
+            "salesHistoriesCount": 19
+          },
+          {
+            "age": 9,
+            "averagePrice": 52464300,
+            "salesHistoriesCount": 56
+          },
+          {
+            "age": 9,
+            "averagePrice": 60676400,
+            "salesHistoriesCount": 352
+          },
+          {
+            "age": 9,
+            "averagePrice": 43200800,
+            "salesHistoriesCount": 126
+          },
+          {
+            "age": 9,
+            "averagePrice": 50515100,
+            "salesHistoriesCount": 217
+          },
+          {
+            "age": 9,
+            "averagePrice": 36701600,
+            "salesHistoriesCount": 238
+          },
+          {
+            "age": 9,
+            "averagePrice": 39007700,
+            "salesHistoriesCount": 26
+          },
+          {
+            "age": 9,
+            "averagePrice": 64180900,
+            "salesHistoriesCount": 164
+          },
+          {
+            "age": 9,
+            "averagePrice": 36419400,
+            "salesHistoriesCount": 124
+          },
+          {
+            "age": 8,
+            "averagePrice": 53413100,
+            "salesHistoriesCount": 45
+          },
+          {
+            "age": 8,
+            "averagePrice": 114623000,
+            "salesHistoriesCount": 714
+          },
+          {
+            "age": 8,
+            "averagePrice": 43410800,
+            "salesHistoriesCount": 65
+          },
+          {
+            "age": 8,
+            "averagePrice": 41411500,
+            "salesHistoriesCount": 26
+          },
+          {
+            "age": 8,
+            "averagePrice": 59885600,
+            "salesHistoriesCount": 270
+          },
+          {
+            "age": 8,
+            "averagePrice": 130982000,
+            "salesHistoriesCount": 82
+          },
+          {
+            "age": 8,
+            "averagePrice": 63935100,
+            "salesHistoriesCount": 37
+          },
+          {
+            "age": 8,
+            "averagePrice": 44342700,
+            "salesHistoriesCount": 89
+          },
+          {
+            "age": 8,
+            "averagePrice": 66558300,
+            "salesHistoriesCount": 12
+          },
+          {
+            "age": 8,
+            "averagePrice": 42215600,
+            "salesHistoriesCount": 59
+          },
+          {
+            "age": 7,
+            "averagePrice": 111601000,
+            "salesHistoriesCount": 186
+          },
+          {
+            "age": 7,
+            "averagePrice": 117470000,
+            "salesHistoriesCount": 394
+          },
+          {
+            "age": 7,
+            "averagePrice": 126700000,
+            "salesHistoriesCount": 120
+          },
+          {
+            "age": 7,
+            "averagePrice": 42962500,
+            "salesHistoriesCount": 12
+          },
+          {
+            "age": 7,
+            "averagePrice": 155699000,
+            "salesHistoriesCount": 174
+          },
+          {
+            "age": 7,
+            "averagePrice": 89700000,
+            "salesHistoriesCount": 2
+          },
+          {
+            "age": 7,
+            "averagePrice": 57297100,
+            "salesHistoriesCount": 34
+          },
+          {
+            "age": 6,
+            "averagePrice": 75577800,
+            "salesHistoriesCount": 9
+          },
+          {
+            "age": 6,
+            "averagePrice": 52061800,
+            "salesHistoriesCount": 68
+          },
+          {
+            "age": 6,
+            "averagePrice": 73387000,
+            "salesHistoriesCount": 155
+          },
+          {
+            "age": 6,
+            "averagePrice": 34300000,
+            "salesHistoriesCount": 4
+          },
+          {
+            "age": 6,
+            "averagePrice": 58616700,
+            "salesHistoriesCount": 18
+          },
+          {
+            "age": 6,
+            "averagePrice": 60819000,
+            "salesHistoriesCount": 42
+          },
+          {
+            "age": 6,
+            "averagePrice": 44683600,
+            "salesHistoriesCount": 67
+          },
+          {
+            "age": 6,
+            "averagePrice": 43512500,
+            "salesHistoriesCount": 44
+          },
+          {
+            "age": 5,
+            "averagePrice": 81585300,
+            "salesHistoriesCount": 120
+          },
+          {
+            "age": 5,
+            "averagePrice": 82800000,
+            "salesHistoriesCount": 31
+          },
+          {
+            "age": 5,
+            "averagePrice": 76269600,
+            "salesHistoriesCount": 23
+          },
+          {
+            "age": 5,
+            "averagePrice": 44900000,
+            "salesHistoriesCount": 6
+          },
+          {
+            "age": 5,
+            "averagePrice": 42819200,
+            "salesHistoriesCount": 24
+          },
+          {
+            "age": 5,
+            "averagePrice": 137273000,
+            "salesHistoriesCount": 189
+          },
+          {
+            "age": 4,
+            "averagePrice": 94333300,
+            "salesHistoriesCount": 108
+          },
+          {
+            "age": 4,
+            "averagePrice": 51325000,
+            "salesHistoriesCount": 4
+          },
+          {
+            "age": 4,
+            "averagePrice": 287697000,
+            "salesHistoriesCount": 120
+          },
+          {
+            "age": 4,
+            "averagePrice": 99015500,
+            "salesHistoriesCount": 31
+          },
+          {
+            "age": 3,
+            "averagePrice": 44191000,
+            "salesHistoriesCount": 67
+          },
+          {
+            "age": 3,
+            "averagePrice": 68147800,
+            "salesHistoriesCount": 23
+          },
+          {
+            "age": 3,
+            "averagePrice": 71045200,
+            "salesHistoriesCount": 42
+          },
+          {
+            "age": 3,
+            "averagePrice": 120933000,
+            "salesHistoriesCount": 3
+          },
+          {
+            "age": 3,
+            "averagePrice": 277364000,
+            "salesHistoriesCount": 11
+          },
+          {
+            "age": 3,
+            "averagePrice": 89119100,
+            "salesHistoriesCount": 204
+          },
+          {
+            "age": 3,
+            "averagePrice": 105000000,
+            "salesHistoriesCount": 6
+          },
+          {
+            "age": 3,
+            "averagePrice": 106718000,
+            "salesHistoriesCount": 17
+          },
+          {
+            "age": 2,
+            "averagePrice": 265281000,
+            "salesHistoriesCount": 69
+          },
+          {
+            "age": 2,
+            "averagePrice": 92143100,
+            "salesHistoriesCount": 72
+          },
+          {
+            "age": 2,
+            "averagePrice": 45020000,
+            "salesHistoriesCount": 10
+          }
+        ]
+      }
+    },
+    "town": {
+      "name": "神田富山町"
+    },
+    "street": null,
+    "age": 10,
+    "blockNumber": "１６－１",
+    "updatedDate": "2020-12-11",
+    "access": [
+      {
+        "id": "24",
+        "stationId": 1363,
+        "stationLineName": "山手線",
+        "stationName": "神田",
+        "stationWalkingMinutes": 4,
+        "lineId": 63
+      }
+    ],
+    "salesHistorySummaries": [
+      {
+        "layout": "1DK",
+        "minPrice": 27000000,
+        "maxPrice": 47800000,
+        "minExclusiveArea": 45.16,
+        "maxExclusiveArea": 45.16,
+        "numberOfRooms": 1,
+        "layoutKind": {
+          "slug": "dk",
+          "sort": 4
+        },
+        "exclusiveAreas": [45.16]
+      },
+      {
+        "layout": "1K",
+        "minPrice": 20000000,
+        "maxPrice": 32000000,
+        "minExclusiveArea": 20.72,
+        "maxExclusiveArea": 30.24,
+        "numberOfRooms": 1,
+        "layoutKind": {
+          "slug": "k",
+          "sort": 2
+        },
+        "exclusiveAreas": [22.72, 30.24, 20.72, 22.82]
+      }
+    ],
+    "constructedIn": "2011-03-01",
+    "groundFloor": 13,
+    "undergroundFloor": null,
+    "unitAmount": 35,
+    "landPrivilege": "所有権",
+    "constructCompany": "株式会社谷口工務店",
+    "managementForm": "全部委託",
+    "managementCompany": "その他",
+    "structure": {
+      "name": "鉄筋鉄骨コンクリート造(SRC造)",
+      "slug": "src"
+    },
+    "parking": "無し",
+    "landUseZones": ["商業地域"],
+    "layouts": ["1DK", "1K"],
+    "salesHistories": {
+      "edges": [
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEyOTE=",
+            "price": 24960000,
+            "squarePrice": 1099000,
+            "saleOn": "2019-05-24",
+            "exclusiveArea": 22.72,
+            "floorNumber": 9,
+            "layout": "1K"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEyOTc=",
+            "price": 25900000,
+            "squarePrice": 1140000,
+            "saleOn": "2019-05-24",
+            "exclusiveArea": 22.72,
+            "floorNumber": 9,
+            "layout": "1K"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMDY=",
+            "price": 45500000,
+            "squarePrice": 1008000,
+            "saleOn": "2019-05-18",
+            "exclusiveArea": 45.16,
+            "floorNumber": 10,
+            "layout": "1DK"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMTI=",
+            "price": 46500000,
+            "squarePrice": 1030000,
+            "saleOn": "2019-05-18",
+            "exclusiveArea": 45.16,
+            "floorNumber": 10,
+            "layout": "1DK"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMTY=",
+            "price": 32000000,
+            "squarePrice": 1059000,
+            "saleOn": "2019-03-08",
+            "exclusiveArea": 30.24,
+            "floorNumber": 11,
+            "layout": "1K"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMjI=",
+            "price": 25900000,
+            "squarePrice": 1140000,
+            "saleOn": "2019-03-02",
+            "exclusiveArea": 22.72,
+            "floorNumber": 9,
+            "layout": "1K"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMjY=",
+            "price": 45800000,
+            "squarePrice": 1015000,
+            "saleOn": "2019-02-04",
+            "exclusiveArea": 45.16,
+            "floorNumber": 4,
+            "layout": "1DK"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMjg=",
+            "price": 47800000,
+            "squarePrice": 1059000,
+            "saleOn": "2019-02-04",
+            "exclusiveArea": 45.16,
+            "floorNumber": 4,
+            "layout": "1DK"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMzY=",
+            "price": 20000000,
+            "squarePrice": 966000,
+            "saleOn": "2018-09-27",
+            "exclusiveArea": 20.72,
+            "floorNumber": 3,
+            "layout": "1K"
+          }
+        },
+        {
+          "node": {
+            "id": "TWFuc2lvbjo6U2FsZXNIaXN0b3J5LTEzMzg=",
+            "price": 34800000,
+            "squarePrice": 771000,
+            "saleOn": "2018-09-20",
+            "exclusiveArea": 45.16,
+            "floorNumber": 2,
+            "layout": "1DK"
+          }
+        }
+      ],
+      "pageInfo": {
+        "startCursor": "MQ",
+        "endCursor": "MTA",
+        "hasPreviousPage": false,
+        "hasNextPage": true
+      }
+    },
+    "similarMansions": {
+      "edges": [
+        {
+          "node": {
+            "uniqueCode": "64275823fef26c607663fcba",
+            "name": "ザ・パークハウスアーバンス千代田お茶の水",
+            "constructedIn": "2016-03-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田猿楽町"
+            },
+            "street": {
+              "name": "１丁目"
+            },
+            "blockNumber": "２",
+            "salesHistorySummaries": [
+              {
+                "layout": "2LDK",
+                "minPrice": 79400000,
+                "maxPrice": 82000000
+              }
+            ],
+            "access": [
+              {
+                "id": "3193",
+                "stationId": 7683,
+                "stationLineName": "半蔵門線",
+                "stationName": "神保町",
+                "stationWalkingMinutes": 3
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "f207a96387f71c9946edbcb3",
+            "name": "プレミスト千代田　神田佐久間町",
+            "constructedIn": "2016-03-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田佐久間町"
+            },
+            "street": {
+              "name": "４丁目"
+            },
+            "blockNumber": null,
+            "salesHistorySummaries": [
+              {
+                "layout": "2LDK",
+                "minPrice": 69800000,
+                "maxPrice": 69800000
+              },
+              {
+                "layout": "2SLDK",
+                "minPrice": 69800000,
+                "maxPrice": 73000000
+              },
+              {
+                "layout": "3LDK",
+                "minPrice": 79800000,
+                "maxPrice": 85000000
+              }
+            ],
+            "access": [
+              {
+                "id": "5812",
+                "stationId": 7788,
+                "stationLineName": "山手線",
+                "stationName": "秋葉原",
+                "stationWalkingMinutes": 7
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "fe4a3df2d9627089d972e535",
+            "name": "ザ・パークハウスアーバンス千代田御茶ノ水",
+            "constructedIn": "2016-02-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田猿楽町"
+            },
+            "street": {
+              "name": "１丁目"
+            },
+            "blockNumber": "２－２",
+            "salesHistorySummaries": [
+              {
+                "layout": "1LDK",
+                "minPrice": 79800000,
+                "maxPrice": 82800000
+              },
+              {
+                "layout": "2LDK",
+                "minPrice": 79800000,
+                "maxPrice": 94800000
+              }
+            ],
+            "access": [
+              {
+                "id": "7086",
+                "stationId": 7683,
+                "stationLineName": "半蔵門線",
+                "stationName": "神保町",
+                "stationWalkingMinutes": 3
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "9aac1c41c6294ef7c7f6b6ae",
+            "name": "ＳＹＦＯＲＭＥ神保町",
+            "constructedIn": "2015-12-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田神保町"
+            },
+            "street": {
+              "name": "１丁目"
+            },
+            "blockNumber": null,
+            "salesHistorySummaries": [
+              {
+                "layout": "1K",
+                "minPrice": 32000000,
+                "maxPrice": 33000000
+              }
+            ],
+            "access": [
+              {
+                "id": "2392",
+                "stationId": 7683,
+                "stationLineName": "半蔵門線",
+                "stationName": "神保町",
+                "stationWalkingMinutes": 3
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "754d9b22841fc1cb979d4092",
+            "name": "デュアレス千代田三崎町",
+            "constructedIn": "2015-12-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田三崎町"
+            },
+            "street": {
+              "name": "３丁目"
+            },
+            "blockNumber": "５－５",
+            "salesHistorySummaries": [
+              {
+                "layout": "1K",
+                "minPrice": 32000000,
+                "maxPrice": 32000000
+              },
+              {
+                "layout": "1LDK",
+                "minPrice": 55000000,
+                "maxPrice": 62800000
+              }
+            ],
+            "access": [
+              {
+                "id": "5232",
+                "stationId": 7661,
+                "stationLineName": "中央線",
+                "stationName": "水道橋",
+                "stationWalkingMinutes": 3
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "c5f472915353218bf72ec419",
+            "name": "プレミスト麹町",
+            "constructedIn": "2015-12-01",
+            "age": 5,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "麹町"
+            },
+            "street": {
+              "name": "４丁目"
+            },
+            "blockNumber": "４ー１",
+            "salesHistorySummaries": [
+              {
+                "layout": "2LDK",
+                "minPrice": 78800000,
+                "maxPrice": 129000000
+              },
+              {
+                "layout": "2SLDK",
+                "minPrice": 124800000,
+                "maxPrice": 131800000
+              }
+            ],
+            "access": [
+              {
+                "id": "634",
+                "stationId": 5930,
+                "stationLineName": "有楽町線",
+                "stationName": "麹町",
+                "stationWalkingMinutes": 2
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "64bef71fcd1e5b6d858835f0",
+            "name": "ルジェンテ千代田神保町",
+            "constructedIn": "2015-11-01",
+            "age": 6,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "神田神保町"
+            },
+            "street": {
+              "name": "１丁目"
+            },
+            "blockNumber": "４４－１",
+            "salesHistorySummaries": [
+              {
+                "layout": "1LDK",
+                "minPrice": 39800000,
+                "maxPrice": 47900000
+              }
+            ],
+            "access": [
+              {
+                "id": "3275",
+                "stationId": 7683,
+                "stationLineName": "半蔵門線",
+                "stationName": "神保町",
+                "stationWalkingMinutes": 3
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "cc8eea1065c2765925c0ad60",
+            "name": "オープンレジデンシア千代田東神田",
+            "constructedIn": "2015-09-01",
+            "age": 6,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "東神田"
+            },
+            "street": {
+              "name": "１丁目"
+            },
+            "blockNumber": "２－１４",
+            "salesHistorySummaries": [
+              {
+                "layout": "2LDK",
+                "minPrice": 53650000,
+                "maxPrice": 56800000
+              }
+            ],
+            "access": [
+              {
+                "id": "1307",
+                "stationId": 1627,
+                "stationLineName": "総武線",
+                "stationName": "馬喰町",
+                "stationWalkingMinutes": 2
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "uniqueCode": "995997500a7844fbb28470c9",
+            "name": "シティインデックス千代田岩本町",
+            "constructedIn": "2015-09-01",
+            "age": 6,
+            "prefecture": {
+              "name": "東京都",
+              "jisCode": "13000"
+            },
+            "city": {
+              "name": "千代田区",
+              "jisCode": "13101"
+            },
+            "town": {
+              "name": "岩本町"
+            },
+            "street": {
+              "name": "２丁目"
+            },
+            "blockNumber": "１４－３",
+            "salesHistorySummaries": [
+              {
+                "layout": "1LDK",
+                "minPrice": 36000000,
+                "maxPrice": 48800000
+              },
+              {
+                "layout": "1SLDK",
+                "minPrice": 39900000,
+                "maxPrice": 39900000
+              }
+            ],
+            "access": [
+              {
+                "id": "2254",
+                "stationId": 7685,
+                "stationLineName": "都営新宿線",
+                "stationName": "岩本町",
+                "stationWalkingMinutes": 4
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "primarySchool": {
+      "schoolId": "29999",
+      "name": "千代田小学校",
+      "nameKana": "ちよだしょうがっこう",
+      "review": [
+        {
+          "id": "55758",
+          "personGender": "男性",
+          "title": "のんびりしています",
+          "admmisionYear": 2011,
+          "postYear": 2014,
+          "postMonth": 11,
+          "generalRate": 4,
+          "generalText": "地元の小学校です、何世代も知り合いが多いので気楽な感じです。経済的にも余裕のある家庭が多いのでのんびりしています。中学校は大半の子が私立や区立一貫校に行くので自然と勉強するようです",
+          "policyText": "特に目新しい理念やモットーがある訳ではないが長年の伝統があり安心しています、受験対策もそこそこ",
+          "policyRate": 4,
+          "classText": "児童数が少なく一人一人に目を配ってくれていると思います、私立受験を目標にした授業ではなく基礎を学ばせてくれているみたいです",
+          "classRate": 3,
+          "teacherText": "区立なので先生のレベルにバラツキはありますし異動もあるので若い先生も多い印象だが緊張感を持って臨んでくれているようなので満足しています",
+          "teacherRate": 3,
+          "institutionText": "新しい建物でプールも環境はいいが都心立地なので校庭が狭くかわいそう、階下に区立図書館がありお年寄の施設もあり情操教育には最適。通学路が日比谷通りや外堀通りなどで危険はあります",
+          "institutionRate": 5,
+          "accessText": "重複しますが学校を一歩出るとビジネス街と神田駅前の歓楽街なので来街者のレベルが低く不安はありますが警察官も多い地区なのでさほど心配はしてません",
+          "accessRate": 5,
+          "ptaText": "特に熱心でも無関心でもありません、昔からの住民は顔見知りなのでいいですが最近マンションが増え新しい住人の方には少し居心地悪いかも知れません",
+          "ptaRate": 4,
+          "eventText": "区のイベントなどにも参加していて楽しい生活を送れます、今月はトランスアーツトーキョーにも参加してました",
+          "eventRate": 3,
+          "howGoText": "徒歩のみ",
+          "uniformPresent": false,
+          "lunchPresent": true,
+          "lunchText": "色んなバリエーションで素晴らしい",
+          "costText": "他校が分からないので評価不可能",
+          "motivationText": "通学圏内、地元だから",
+          "proceedText": "",
+          "proceedReasonText": ""
+        },
+        {
+          "id": "307047",
+          "personGender": "女性",
+          "title": "地元でなければくる必要なし",
+          "admmisionYear": 2009,
+          "postYear": 2016,
+          "postMonth": 10,
+          "generalRate": 3,
+          "generalText": "普通の公立小学校ですが、地元住民が少ないので憧れる近郊からの越境組が多いです。",
+          "policyText": "毎年大げさに発表していますが、対して中身はありません。憧れる人の気が知れません。",
+          "policyRate": 3,
+          "classText": "普通の公立学校です。習熟度別にはなっている授業もありますが、点数が良くなるとわかりづらい先生になったりして、子供はわざと点を低くして調整したりしているようです。",
+          "classRate": 3,
+          "teacherText": "",
+          "teacherRate": null,
+          "institutionText": "運動場が2階で非常に狭いです。運動会などは見学スペースもなく、上の階のバルコニーに保護者がすずなりになっています。",
+          "institutionRate": 3,
+          "accessText": "地下鉄３駅、JR1駅から徒歩10分以内です。オフィス街なので大人が多いです。ただ通学路に居酒屋が多く、変な店も変な人もいるのが難点です。",
+          "accessRate": 3,
+          "ptaText": "PTAは基本的にこれまでのやり方の踏襲を主張する人が多く、効率が悪いこと極まりありません。強制参加の子供がいない時間の見守りなどがあります。",
+          "ptaRate": 3,
+          "eventText": "毎月何かあるので忙しいです。4年の夏休みに合宿に行ったのが、生徒より先生の方が多いのが不思議でした。",
+          "eventRate": 3,
+          "howGoText": "徒歩。バラバラです。",
+          "uniformPresent": null,
+          "lunchPresent": null,
+          "lunchText": "",
+          "costText": "",
+          "motivationText": "",
+          "proceedText": "",
+          "proceedReasonText": ""
+        },
+        {
+          "id": "667189",
+          "personGender": "男性",
+          "title": "ごく普通の公立校です。",
+          "admmisionYear": 2018,
+          "postYear": 2020,
+          "postMonth": 10,
+          "generalRate": 2,
+          "generalText": "良くも悪くも下町のフツーの小学校。そしてPTA活動がわりと盛ん。盛んと言っても一部役員が勝手に盛り上がっている。一部伝統だなんだとやたらいう人がいますが、ごくごく普通の公立。千代田区内の他の学校と違って、しんがくりつもそんなにたかくないですし、なぜここまで伝統とやらにこだわるかは謎。先生方は、かもなく不可もなく。そして、PTAを向いて仕事されています。",
+          "policyText": "ふつーの公立です。大層な目標を掲げていますが、踏襲的で目新しいことはないです。",
+          "policyRate": 2,
+          "classText": "普通です。習熟度別授業といっても、できる子を伸ばす、というより、遅れている子をいかに救い上げるかにフォーカス。できるこはごかていで、という感じです。",
+          "classRate": 3,
+          "teacherText": "普通です。",
+          "teacherRate": 3,
+          "institutionText": "屋内プール、区立図書館併設など、施設は充実していますが、今年はコロナの影響でほぼ使えず残念です。ただし、千代田区は他の小学校含めどこも施設は充実しています。古い屋内プールがない学校も順次建て替えを行っています。",
+          "institutionRate": 3,
+          "accessText": "",
+          "accessRate": 3,
+          "ptaText": "やたら頑張っていますが、伝統的なのが、非常に非効率極まりない。他の方の古い記載にもあるので全く変わっていない時代錯誤なPTAなんだなと思いました。",
+          "ptaRate": 2,
+          "eventText": "学校というよりPTAが仕切っています。",
+          "eventRate": 3,
+          "howGoText": "徒歩 各自",
+          "uniformPresent": false,
+          "lunchPresent": true,
+          "lunchText": "ごく普通の給食。子供も不満はなさそう。",
+          "costText": "",
+          "motivationText": "学区だったから",
+          "proceedText": "",
+          "proceedReasonText": ""
+        }
+      ]
+    },
+    "priceHubble": {
+      "salePricePerSquare": [
+        {
+          "date": "2016-01-01",
+          "building": 877439.97,
+          "station": 959724.62,
+          "prefecture": 742096.42,
+          "city": 1153575.99,
+          "town": 890157.78
+        },
+        {
+          "date": "2016-02-01",
+          "building": 878796.24,
+          "station": 961136.32,
+          "prefecture": 743727.74,
+          "city": 1155857.14,
+          "town": 891532.39
+        },
+        {
+          "date": "2016-03-01",
+          "building": 880152.5,
+          "station": 962548.7,
+          "prefecture": 745369.42,
+          "city": 1158145.68,
+          "town": 892908.98
+        },
+        {
+          "date": "2016-04-01",
+          "building": 881512.01,
+          "station": 963964.52,
+          "prefecture": 747022.34,
+          "city": 1160445.92,
+          "town": 894287.55
+        },
+        {
+          "date": "2016-05-01",
+          "building": 882874.76,
+          "station": 965383.31,
+          "prefecture": 748680.15,
+          "city": 1162751.77,
+          "town": 895670.05
+        },
+        {
+          "date": "2016-06-01",
+          "building": 884179.1,
+          "station": 966795.7,
+          "prefecture": 750191.48,
+          "city": 1165208.46,
+          "town": 896994.38
+        },
+        {
+          "date": "2016-07-01",
+          "building": 885379.62,
+          "station": 968201.21,
+          "prefecture": 751409.22,
+          "city": 1167974.32,
+          "town": 898211.22
+        },
+        {
+          "date": "2016-08-01",
+          "building": 886576.9,
+          "station": 969607.87,
+          "prefecture": 752629.82,
+          "city": 1170747.7,
+          "town": 899427.08
+        },
+        {
+          "date": "2016-09-01",
+          "building": 887777.42,
+          "station": 971014.76,
+          "prefecture": 753851.54,
+          "city": 1173524.36,
+          "town": 900643.92
+        },
+        {
+          "date": "2016-10-01",
+          "building": 888977.94,
+          "station": 972425.55,
+          "prefecture": 755077.81,
+          "city": 1176312.4,
+          "town": 901862.74
+        },
+        {
+          "date": "2016-11-01",
+          "building": 890184.94,
+          "station": 973838.62,
+          "prefecture": 756307.03,
+          "city": 1179108.03,
+          "town": 903086.48
+        },
+        {
+          "date": "2016-12-01",
+          "building": 891388.71,
+          "station": 975252.15,
+          "prefecture": 757537.3,
+          "city": 1181906.96,
+          "town": 904308.25
+        },
+        {
+          "date": "2017-01-01",
+          "building": 892595.72,
+          "station": 976668.88,
+          "prefecture": 758772.18,
+          "city": 1184717.36,
+          "town": 905532
+        },
+        {
+          "date": "2017-02-01",
+          "building": 893802.73,
+          "station": 978088.13,
+          "prefecture": 759940.91,
+          "city": 1187420.98,
+          "town": 906757.72
+        },
+        {
+          "date": "2017-03-01",
+          "building": 895785.2,
+          "station": 980221.36,
+          "prefecture": 761269.84,
+          "city": 1190620.96,
+          "town": 908689.48
+        },
+        {
+          "date": "2017-04-01",
+          "building": 897868.27,
+          "station": 982376.56,
+          "prefecture": 762610.64,
+          "city": 1193841.28,
+          "town": 910685.34
+        },
+        {
+          "date": "2017-05-01",
+          "building": 899961.06,
+          "station": 984540.23,
+          "prefecture": 763955.37,
+          "city": 1197071.67,
+          "town": 912688.1
+        },
+        {
+          "date": "2017-06-01",
+          "building": 902050.62,
+          "station": 986704.36,
+          "prefecture": 765301.43,
+          "city": 1200306.83,
+          "town": 914688.89
+        },
+        {
+          "date": "2017-07-01",
+          "building": 904149.9,
+          "station": 988877.19,
+          "prefecture": 766652.4,
+          "city": 1203556.09,
+          "town": 916698.55
+        },
+        {
+          "date": "2017-08-01",
+          "building": 906255.68,
+          "station": 991054.82,
+          "prefecture": 768006.41,
+          "city": 1206814.81,
+          "town": 918714.13
+        },
+        {
+          "date": "2017-09-01",
+          "building": 908361.45,
+          "station": 993234.06,
+          "prefecture": 769361.55,
+          "city": 1210078.43,
+          "town": 920729.71
+        },
+        {
+          "date": "2017-10-01",
+          "building": 910476.96,
+          "station": 995421.08,
+          "prefecture": 770721.61,
+          "city": 1213355.36,
+          "town": 922753.18
+        },
+        {
+          "date": "2017-11-01",
+          "building": 912839.07,
+          "station": 997795.12,
+          "prefecture": 771958.01,
+          "city": 1216474.17,
+          "town": 925027.12
+        },
+        {
+          "date": "2017-12-01",
+          "building": 915324.46,
+          "station": 1000262.33,
+          "prefecture": 773131.7,
+          "city": 1219510.3,
+          "town": 927425.3
+        },
+        {
+          "date": "2018-01-01",
+          "building": 917819.6,
+          "station": 1002738.7,
+          "prefecture": 774309.51,
+          "city": 1222554.36,
+          "town": 929833.35
+        },
+        {
+          "date": "2018-02-01",
+          "building": 920324.46,
+          "station": 1005222.16,
+          "prefecture": 775446.84,
+          "city": 1225398.17,
+          "town": 932249.29
+        },
+        {
+          "date": "2018-03-01",
+          "building": 922829.33,
+          "station": 1007744.53,
+          "prefecture": 776601.95,
+          "city": 1228269.78,
+          "town": 934747.07
+        },
+        {
+          "date": "2018-04-01",
+          "building": 925347.18,
+          "station": 1010295.3,
+          "prefecture": 777770.33,
+          "city": 1231165.17,
+          "town": 937297.11
+        },
+        {
+          "date": "2018-05-01",
+          "building": 927868.27,
+          "station": 1012852.47,
+          "prefecture": 778942.41,
+          "city": 1234068.5,
+          "town": 939851.1
+        },
+        {
+          "date": "2018-06-01",
+          "building": 930395.85,
+          "station": 1015412.61,
+          "prefecture": 780115.73,
+          "city": 1236974.76,
+          "town": 942411
+        },
+        {
+          "date": "2018-07-01",
+          "building": 932845.55,
+          "station": 1017884.4,
+          "prefecture": 781233.51,
+          "city": 1239796.29,
+          "town": 944893.01
+        },
+        {
+          "date": "2018-08-01",
+          "building": 935126.54,
+          "station": 1020163.9,
+          "prefecture": 782234.44,
+          "city": 1242432.06,
+          "town": 947203.43
+        },
+        {
+          "date": "2018-09-01",
+          "building": 937410.77,
+          "station": 1022446.15,
+          "prefecture": 783236.05,
+          "city": 1245069.72,
+          "town": 949517.8
+        },
+        {
+          "date": "2018-10-01",
+          "building": 939704.74,
+          "station": 1024736.41,
+          "prefecture": 784241.08,
+          "city": 1247717.18,
+          "town": 951841.04
+        },
+        {
+          "date": "2018-11-01",
+          "building": 942005.19,
+          "station": 1027032.39,
+          "prefecture": 785248.38,
+          "city": 1250370.61,
+          "town": 954170.2
+        },
+        {
+          "date": "2018-12-01",
+          "building": 944305.65,
+          "station": 1029329.52,
+          "prefecture": 786256.06,
+          "city": 1253025.96,
+          "town": 956501.33
+        },
+        {
+          "date": "2019-01-01",
+          "building": 946615.83,
+          "station": 1031635.34,
+          "prefecture": 787266.83,
+          "city": 1255691.04,
+          "town": 958841.34
+        },
+        {
+          "date": "2019-02-01",
+          "building": 948932.51,
+          "station": 1033947.12,
+          "prefecture": 788260.8,
+          "city": 1258226.23,
+          "town": 961187.26
+        },
+        {
+          "date": "2019-03-01",
+          "building": 951252.43,
+          "station": 1036293.46,
+          "prefecture": 789271.38,
+          "city": 1260794.82,
+          "town": 963536.14
+        },
+        {
+          "date": "2019-04-01",
+          "building": 953958.47,
+          "station": 1039208.88,
+          "prefecture": 790783.22,
+          "city": 1264355.05,
+          "town": 966277.49
+        },
+        {
+          "date": "2019-05-01",
+          "building": 956670.99,
+          "station": 1042132.77,
+          "prefecture": 792300.01,
+          "city": 1267926.7,
+          "town": 969025.74
+        },
+        {
+          "date": "2019-06-01",
+          "building": 959390.01,
+          "station": 1045060.78,
+          "prefecture": 793818.7,
+          "city": 1271503.23,
+          "town": 971779.9
+        },
+        {
+          "date": "2019-07-01",
+          "building": 962118.75,
+          "station": 1048000.69,
+          "prefecture": 795343,
+          "city": 1275095.05,
+          "town": 974543.93
+        },
+        {
+          "date": "2019-08-01",
+          "building": 964857.24,
+          "station": 1050950.21,
+          "prefecture": 796870.88,
+          "city": 1278697.32,
+          "town": 977317.82
+        },
+        {
+          "date": "2019-09-01",
+          "building": 967598.96,
+          "station": 1053902.94,
+          "prefecture": 798400.36,
+          "city": 1282304.67,
+          "town": 980094.67
+        },
+        {
+          "date": "2019-10-01",
+          "building": 970350.42,
+          "station": 1056867.57,
+          "prefecture": 799935.7,
+          "city": 1285927.32,
+          "town": 982882.36
+        },
+        {
+          "date": "2019-11-01",
+          "building": 973111.62,
+          "station": 1059841.82,
+          "prefecture": 801475.07,
+          "city": 1289560.41,
+          "town": 985678.93
+        },
+        {
+          "date": "2019-12-01",
+          "building": 976486.05,
+          "station": 1063458.17,
+          "prefecture": 803714.11,
+          "city": 1294182.7,
+          "town": 989096.74
+        },
+        {
+          "date": "2020-01-01",
+          "building": 980181.7,
+          "station": 1067412.84,
+          "prefecture": 806313.28,
+          "city": 1299322.32,
+          "town": 992839.96
+        },
+        {
+          "date": "2020-02-01",
+          "building": 983893.58,
+          "station": 1071383.54,
+          "prefecture": 808920.26,
+          "city": 1304482.48,
+          "town": 996599.94
+        },
+        {
+          "date": "2020-03-01",
+          "building": 987611.94,
+          "station": 1075389.72,
+          "prefecture": 811604.11,
+          "city": 1309684.46,
+          "town": 1000365.84
+        },
+        {
+          "date": "2020-04-01",
+          "building": 991349.77,
+          "station": 1079432.53,
+          "prefecture": 814254.01,
+          "city": 1314930.51,
+          "town": 1004152.45
+        },
+        {
+          "date": "2020-05-01",
+          "building": 995100.58,
+          "station": 1083492.73,
+          "prefecture": 816914.49,
+          "city": 1320199.84,
+          "town": 1007951.88
+        },
+        {
+          "date": "2020-06-01",
+          "building": 998861.13,
+          "station": 1087562.55,
+          "prefecture": 819580.79,
+          "city": 1325482.88,
+          "town": 1011761.17
+        },
+        {
+          "date": "2020-07-01",
+          "building": 1002641.14,
+          "station": 1091653.89,
+          "prefecture": 822260.07,
+          "city": 1330794.9,
+          "town": 1015590.18
+        },
+        {
+          "date": "2020-08-01",
+          "building": 1007089.55,
+          "station": 1096473.39,
+          "prefecture": 825471.37,
+          "city": 1337188.48,
+          "town": 1020095.65
+        },
+        {
+          "date": "2020-09-01",
+          "building": 1012858.53,
+          "station": 1102735.95,
+          "prefecture": 829738.25,
+          "city": 1345728.57,
+          "town": 1025938.27
+        },
+        {
+          "date": "2020-10-01",
+          "building": 1018666.45,
+          "station": 1109042.69,
+          "prefecture": 834034.83,
+          "city": 1354336.29,
+          "town": 1031821.32
+        },
+        {
+          "date": "2020-11-01",
+          "building": 1024510.06,
+          "station": 1115386.06,
+          "prefecture": 838355.1,
+          "city": 1362999.34,
+          "town": 1037740.85
+        },
+        {
+          "date": "2020-12-01",
+          "building": 1030376.38,
+          "station": 1121756.67,
+          "prefecture": 842692.77,
+          "city": 1371705.39,
+          "town": 1043683.07
+        },
+        {
+          "date": "2021-01-01",
+          "building": 1036284.88,
+          "station": 1128172.37,
+          "prefecture": 847060.6,
+          "city": 1380480.28,
+          "town": 1049667.69
+        },
+        {
+          "date": "2021-02-01",
+          "building": 1042229.07,
+          "station": 1134625.39,
+          "prefecture": 851451.77,
+          "city": 1389311.76,
+          "town": 1055688.79
+        },
+        {
+          "date": "2021-03-01",
+          "building": 1048195.98,
+          "station": 1141128.08,
+          "prefecture": 855874.54,
+          "city": 1398212.56,
+          "town": 1061733.56
+        },
+        {
+          "date": "2021-04-01",
+          "building": 1051096.69,
+          "station": 1144280.42,
+          "prefecture": 858032.45,
+          "city": 1402219.42,
+          "town": 1064671.14
+        },
+        {
+          "date": "2021-05-01",
+          "building": 1053994.16,
+          "station": 1147432.3,
+          "prefecture": 860213.64,
+          "city": 1406226.09,
+          "town": 1067605.76
+        },
+        {
+          "date": "2021-06-01",
+          "building": 1056891.63,
+          "station": 1150584.64,
+          "prefecture": 862371.67,
+          "city": 1410232.88,
+          "town": 1070541.37
+        },
+        {
+          "date": "2021-07-01",
+          "building": 1059792.34,
+          "station": 1153736.98,
+          "prefecture": 864529.71,
+          "city": 1414239.62,
+          "town": 1073478.95
+        },
+        {
+          "date": "2021-08-01",
+          "building": 1062689.81,
+          "station": 1156888.18,
+          "prefecture": 866687.72,
+          "city": 1418246.35,
+          "town": 1076413.57
+        },
+        {
+          "date": "2021-09-01",
+          "building": 1065587.28,
+          "station": 1160040.52,
+          "prefecture": 868845.74,
+          "city": 1422253.15,
+          "town": 1079349.18
+        },
+        {
+          "date": "2021-10-01",
+          "building": 1068487.99,
+          "station": 1163192.63,
+          "prefecture": 871003.77,
+          "city": 1426259.89,
+          "town": 1082286.76
+        },
+        {
+          "date": "2021-11-01",
+          "building": 1071385.46,
+          "station": 1166344.51,
+          "prefecture": 873161.79,
+          "city": 1430266.63,
+          "town": 1085222.36
+        },
+        {
+          "date": "2021-12-01",
+          "building": 1074282.93,
+          "station": 1169496.39,
+          "prefecture": 875319.81,
+          "city": 1434273.25,
+          "town": 1088156.99
+        },
+        {
+          "date": "2022-01-01",
+          "building": 1077183.65,
+          "station": 1172648.51,
+          "prefecture": 877477.85,
+          "city": 1438280.08,
+          "town": 1091094.57
+        },
+        {
+          "date": "2022-02-01",
+          "building": 1080081.12,
+          "station": 1175800.39,
+          "prefecture": 879635.88,
+          "city": 1442286.85,
+          "town": 1094030.17
+        },
+        {
+          "date": "2022-03-01",
+          "building": 1082981.83,
+          "station": 1178952.96,
+          "prefecture": 881793.9,
+          "city": 1446293.63,
+          "town": 1096967.75
+        },
+        {
+          "date": "2022-04-01",
+          "building": 1085879.3,
+          "station": 1182104.38,
+          "prefecture": 883951.91,
+          "city": 1450300.32,
+          "town": 1099902.38
+        },
+        {
+          "date": "2022-05-01",
+          "building": 1088776.77,
+          "station": 1185256.72,
+          "prefecture": 886109.95,
+          "city": 1454307.06,
+          "town": 1102837.98
+        },
+        {
+          "date": "2022-06-01",
+          "building": 1091677.48,
+          "station": 1188409.29,
+          "prefecture": 888267.98,
+          "city": 1458313.84,
+          "town": 1105775.56
+        },
+        {
+          "date": "2022-07-01",
+          "building": 1094574.95,
+          "station": 1191561.18,
+          "prefecture": 890425.99,
+          "city": 1462320.59,
+          "town": 1108711.17
+        },
+        {
+          "date": "2022-08-01",
+          "building": 1097472.42,
+          "station": 1194712.6,
+          "prefecture": 892584.02,
+          "city": 1466327.27,
+          "town": 1111645.79
+        },
+        {
+          "date": "2022-09-01",
+          "building": 1100373.13,
+          "station": 1197865.17,
+          "prefecture": 894742.05,
+          "city": 1470334.1,
+          "town": 1114583.37
+        },
+        {
+          "date": "2022-10-01",
+          "building": 1103270.6,
+          "station": 1201016.82,
+          "prefecture": 896900.07,
+          "city": 1474340.87,
+          "town": 1117518.98
+        },
+        {
+          "date": "2022-11-01",
+          "building": 1106168.07,
+          "station": 1204168.94,
+          "prefecture": 899058.1,
+          "city": 1478347.62,
+          "town": 1120454.59
+        },
+        {
+          "date": "2022-12-01",
+          "building": 1109068.79,
+          "station": 1207321.05,
+          "prefecture": 901216.12,
+          "city": 1482354.27,
+          "town": 1123391.18
+        },
+        {
+          "date": "2023-01-01",
+          "building": 1111966.26,
+          "station": 1210472.7,
+          "prefecture": 903374.15,
+          "city": 1486361.04,
+          "town": 1126326.79
+        },
+        {
+          "date": "2023-02-01",
+          "building": 1114863.72,
+          "station": 1213624.59,
+          "prefecture": 905532.18,
+          "city": 1490367.75,
+          "town": 1129262.4
+        },
+        {
+          "date": "2023-03-01",
+          "building": 1117764.44,
+          "station": 1216777.38,
+          "prefecture": 907690.21,
+          "city": 1494374.56,
+          "town": 1132199.98
+        },
+        {
+          "date": "2023-04-01",
+          "building": 1120661.91,
+          "station": 1219928.81,
+          "prefecture": 909848.23,
+          "city": 1498381.38,
+          "town": 1135134.6
+        },
+        {
+          "date": "2023-05-01",
+          "building": 1123559.38,
+          "station": 1223080.92,
+          "prefecture": 912006.25,
+          "city": 1502388.11,
+          "town": 1138070.21
+        },
+        {
+          "date": "2023-06-01",
+          "building": 1126460.09,
+          "station": 1226233.49,
+          "prefecture": 914164.28,
+          "city": 1506394.82,
+          "town": 1141007.79
+        },
+        {
+          "date": "2023-07-01",
+          "building": 1129357.56,
+          "station": 1229385.37,
+          "prefecture": 916322.3,
+          "city": 1510401.62,
+          "town": 1143943.4
+        },
+        {
+          "date": "2023-08-01",
+          "building": 1132255.03,
+          "station": 1232537.03,
+          "prefecture": 918480.33,
+          "city": 1514408.29,
+          "town": 1146878.02
+        },
+        {
+          "date": "2023-09-01",
+          "building": 1135155.74,
+          "station": 1235689.37,
+          "prefecture": 920638.35,
+          "city": 1518415,
+          "town": 1149815.6
+        },
+        {
+          "date": "2023-10-01",
+          "building": 1138053.21,
+          "station": 1238841.48,
+          "prefecture": 922796.38,
+          "city": 1522421.82,
+          "town": 1152751.21
+        },
+        {
+          "date": "2023-11-01",
+          "building": 1140953.93,
+          "station": 1241993.59,
+          "prefecture": 924954.4,
+          "city": 1526428.59,
+          "town": 1155688.79
+        },
+        {
+          "date": "2023-12-01",
+          "building": 1143851.4,
+          "station": 1245145.47,
+          "prefecture": 927112.43,
+          "city": 1530435.33,
+          "town": 1158623.41
+        },
+        {
+          "date": "2024-01-01",
+          "building": 1146748.86,
+          "station": 1248297.13,
+          "prefecture": 929270.45,
+          "city": 1534442.05,
+          "town": 1161559.02
+        },
+        {
+          "date": "2024-02-01",
+          "building": 1149649.58,
+          "station": 1251449.7,
+          "prefecture": 931428.49,
+          "city": 1538448.86,
+          "town": 1164496.6
+        },
+        {
+          "date": "2024-03-01",
+          "building": 1152547.05,
+          "station": 1254601.81,
+          "prefecture": 933586.5,
+          "city": 1542455.47,
+          "town": 1167432.21
+        },
+        {
+          "date": "2024-04-01",
+          "building": 1155444.52,
+          "station": 1257753.23,
+          "prefecture": 935744.53,
+          "city": 1546462.33,
+          "town": 1170366.83
+        },
+        {
+          "date": "2024-05-01",
+          "building": 1158345.23,
+          "station": 1260905.8,
+          "prefecture": 937699.16,
+          "city": 1550469.01,
+          "town": 1173304.41
+        },
+        {
+          "date": "2024-06-01",
+          "building": 1161242.7,
+          "station": 1264057.91,
+          "prefecture": 939856.56,
+          "city": 1554475.82,
+          "town": 1176240.02
+        },
+        {
+          "date": "2024-07-01",
+          "building": 1164140.17,
+          "station": 1267209.34,
+          "prefecture": 942013.96,
+          "city": 1558482.45,
+          "town": 1179175.62
+        },
+        {
+          "date": "2024-08-01",
+          "building": 1167040.88,
+          "station": 1270361.91,
+          "prefecture": 944171.36,
+          "city": 1562489.3,
+          "town": 1182112.22
+        },
+        {
+          "date": "2024-09-01",
+          "building": 1169938.35,
+          "station": 1273513.79,
+          "prefecture": 946328.75,
+          "city": 1566496.02,
+          "town": 1185047.83
+        },
+        {
+          "date": "2024-10-01",
+          "building": 1172835.82,
+          "station": 1276665.67,
+          "prefecture": 948486.15,
+          "city": 1570502.78,
+          "town": 1187983.43
+        },
+        {
+          "date": "2024-11-01",
+          "building": 1175736.53,
+          "station": 1279817.79,
+          "prefecture": 950643.54,
+          "city": 1574509.54,
+          "town": 1190921.01
+        },
+        {
+          "date": "2024-12-01",
+          "building": 1178634,
+          "station": 1282969.9,
+          "prefecture": 952800.93,
+          "city": 1578516.28,
+          "town": 1193855.64
+        },
+        {
+          "date": "2025-01-01",
+          "building": 1181531.47,
+          "station": 1286121.55,
+          "prefecture": 954958.33,
+          "city": 1582522.9,
+          "town": 1196791.24
+        },
+        {
+          "date": "2025-02-01",
+          "building": 1184432.19,
+          "station": 1289273.89,
+          "prefecture": 957115.73,
+          "city": 1586529.84,
+          "town": 1199728.82
+        },
+        {
+          "date": "2025-03-01",
+          "building": 1187329.66,
+          "station": 1292426,
+          "prefecture": 959273.13,
+          "city": 1590536.44,
+          "town": 1202664.43
+        },
+        {
+          "date": "2025-04-01",
+          "building": 1190227.13,
+          "station": 1295577.43,
+          "prefecture": 961430.52,
+          "city": 1594543.24,
+          "town": 1205599.05
+        },
+        {
+          "date": "2025-05-01",
+          "building": 1193127.84,
+          "station": 1298730,
+          "prefecture": 963587.92,
+          "city": 1598549.97,
+          "town": 1208536.63
+        },
+        {
+          "date": "2025-06-01",
+          "building": 1196025.31,
+          "station": 1301881.65,
+          "prefecture": 965745.3,
+          "city": 1602556.75,
+          "town": 1211472.24
+        },
+        {
+          "date": "2025-07-01",
+          "building": 1198922.78,
+          "station": 1305033.76,
+          "prefecture": 967902.7,
+          "city": 1606563.51,
+          "town": 1214407.85
+        },
+        {
+          "date": "2025-08-01",
+          "building": 1201823.49,
+          "station": 1308186.11,
+          "prefecture": 970060.09,
+          "city": 1610570.25,
+          "town": 1217344.44
+        },
+        {
+          "date": "2025-09-01",
+          "building": 1204720.96,
+          "station": 1311337.99,
+          "prefecture": 972217.49,
+          "city": 1614577.03,
+          "town": 1220280.05
+        },
+        {
+          "date": "2025-10-01",
+          "building": 1207621.67,
+          "station": 1314490.33,
+          "prefecture": 974374.89,
+          "city": 1618583.78,
+          "town": 1223217.63
+        },
+        {
+          "date": "2025-11-01",
+          "building": 1210519.14,
+          "station": 1317641.98,
+          "prefecture": 976532.28,
+          "city": 1622590.4,
+          "town": 1226153.24
+        },
+        {
+          "date": "2025-12-01",
+          "building": 1213416.61,
+          "station": 1320793.87,
+          "prefecture": 978689.67,
+          "city": 1626597.23,
+          "town": 1229087.86
+        },
+        {
+          "date": "2026-01-01",
+          "building": 1216317.33,
+          "station": 1323946.43,
+          "prefecture": 980847.07,
+          "city": 1630604.02,
+          "town": 1232025.44
+        },
+        {
+          "date": "2026-02-01",
+          "building": 1219214.8,
+          "station": 1327098.09,
+          "prefecture": 983004.48,
+          "city": 1634610.82,
+          "town": 1234961.05
+        },
+        {
+          "date": "2026-03-01",
+          "building": 1222112.26,
+          "station": 1330250.66,
+          "prefecture": 985161.85,
+          "city": 1638617.49,
+          "town": 1237896.66
+        },
+        {
+          "date": "2026-04-01",
+          "building": 1225012.98,
+          "station": 1333402.31,
+          "prefecture": 987319.25,
+          "city": 1642624.15,
+          "town": 1240833.25
+        },
+        {
+          "date": "2026-05-01",
+          "building": 1227910.45,
+          "station": 1336554.19,
+          "prefecture": 989476.64,
+          "city": 1646630.94,
+          "town": 1243768.86
+        },
+        {
+          "date": "2026-06-01",
+          "building": 1230807.92,
+          "station": 1339706.31,
+          "prefecture": 991634.05,
+          "city": 1650637.71,
+          "town": 1246704.47
+        },
+        {
+          "date": "2026-07-01",
+          "building": 1233708.63,
+          "station": 1342858.65,
+          "prefecture": 993791.45,
+          "city": 1654644.5,
+          "town": 1249642.05
+        },
+        {
+          "date": "2026-08-01",
+          "building": 1236606.1,
+          "station": 1346010.53,
+          "prefecture": 995948.84,
+          "city": 1658651.17,
+          "town": 1252576.67
+        },
+        {
+          "date": "2026-09-01",
+          "building": 1239503.57,
+          "station": 1349162.64,
+          "prefecture": 998106.22,
+          "city": 1662657.96,
+          "town": 1255512.28
+        },
+        {
+          "date": "2026-10-01",
+          "building": 1242404.28,
+          "station": 1352314.75,
+          "prefecture": 1000263.63,
+          "city": 1666664.75,
+          "town": 1258449.86
+        },
+        {
+          "date": "2026-11-01",
+          "building": 1245301.75,
+          "station": 1355466.41,
+          "prefecture": 1002421.02,
+          "city": 1670671.54,
+          "town": 1261384.48
+        },
+        {
+          "date": "2026-12-01",
+          "building": 1248199.22,
+          "station": 1358618.52,
+          "prefecture": 1004578.43,
+          "city": 1674678.26,
+          "town": 1264320.09
+        }
+      ],
+      "salePricePerTsubo": [
+        {
+          "date": "2016-01-01",
+          "building": 265810.35,
+          "station": 3168050.97,
+          "prefecture": 2449660.28,
+          "city": 3807954.34,
+          "town": 2938410.83
+        },
+        {
+          "date": "2016-02-01",
+          "building": 266221.22,
+          "station": 3172710.99,
+          "prefecture": 2455045.27,
+          "city": 3815484.42,
+          "town": 2942948.42
+        },
+        {
+          "date": "2016-03-01",
+          "building": 266632.08,
+          "station": 3177373.26,
+          "prefecture": 2460464.46,
+          "city": 3823038.89,
+          "town": 2947492.54
+        },
+        {
+          "date": "2016-04-01",
+          "building": 267043.93,
+          "station": 3182046.88,
+          "prefecture": 2465920.74,
+          "city": 3830631.98,
+          "town": 2952043.2
+        },
+        {
+          "date": "2016-05-01",
+          "building": 267456.76,
+          "station": 3186730.31,
+          "prefecture": 2471393.18,
+          "city": 3838243.59,
+          "town": 2956606.84
+        },
+        {
+          "date": "2016-06-01",
+          "building": 267851.89,
+          "station": 3191392.61,
+          "prefecture": 2476382.08,
+          "city": 3846353.13,
+          "town": 2960978.45
+        },
+        {
+          "date": "2016-07-01",
+          "building": 268215.58,
+          "station": 3196032.19,
+          "prefecture": 2480401.84,
+          "city": 3855483.23,
+          "town": 2964995.24
+        },
+        {
+          "date": "2016-08-01",
+          "building": 268578.28,
+          "station": 3200675.58,
+          "prefecture": 2484431.04,
+          "city": 3864638.16,
+          "town": 2969008.79
+        },
+        {
+          "date": "2016-09-01",
+          "building": 268941.96,
+          "station": 3205319.72,
+          "prefecture": 2488463.93,
+          "city": 3873803.91,
+          "town": 2973025.58
+        },
+        {
+          "date": "2016-10-01",
+          "building": 269305.65,
+          "station": 3209976.74,
+          "prefecture": 2492511.85,
+          "city": 3883007.23,
+          "town": 2977048.9
+        },
+        {
+          "date": "2016-11-01",
+          "building": 269671.29,
+          "station": 3214641.28,
+          "prefecture": 2496569.51,
+          "city": 3892235.61,
+          "town": 2981088.47
+        },
+        {
+          "date": "2016-12-01",
+          "building": 270035.96,
+          "station": 3219307.35,
+          "prefecture": 2500630.63,
+          "city": 3901474.87,
+          "town": 2985121.53
+        },
+        {
+          "date": "2017-01-01",
+          "building": 270401.61,
+          "station": 3223983.97,
+          "prefecture": 2504706.97,
+          "city": 3910752.01,
+          "town": 2989161.13
+        },
+        {
+          "date": "2017-02-01",
+          "building": 270767.26,
+          "station": 3228668.92,
+          "prefecture": 2508564.94,
+          "city": 3919676.65,
+          "town": 2993207.23
+        },
+        {
+          "date": "2017-03-01",
+          "building": 271367.83,
+          "station": 3235710.71,
+          "prefecture": 2512951.74,
+          "city": 3930239.79,
+          "town": 2999583.97
+        },
+        {
+          "date": "2017-04-01",
+          "building": 271998.87,
+          "station": 3242825.02,
+          "prefecture": 2517377.72,
+          "city": 3940870.07,
+          "town": 3006172.31
+        },
+        {
+          "date": "2017-05-01",
+          "building": 272632.86,
+          "station": 3249967.3,
+          "prefecture": 2521816.68,
+          "city": 3951533.58,
+          "town": 3012783.42
+        },
+        {
+          "date": "2017-06-01",
+          "building": 273265.86,
+          "station": 3257111.09,
+          "prefecture": 2526260.02,
+          "city": 3962212.85,
+          "town": 3019388.03
+        },
+        {
+          "date": "2017-07-01",
+          "building": 273901.82,
+          "station": 3264283.6,
+          "prefecture": 2530719.57,
+          "city": 3972938.65,
+          "town": 3026021.91
+        },
+        {
+          "date": "2017-08-01",
+          "building": 274539.74,
+          "station": 3271471.96,
+          "prefecture": 2535189.16,
+          "city": 3983695.69,
+          "town": 3032675.34
+        },
+        {
+          "date": "2017-09-01",
+          "building": 275177.66,
+          "station": 3278665.63,
+          "prefecture": 2539662.48,
+          "city": 3994468.9,
+          "town": 3039328.77
+        },
+        {
+          "date": "2017-10-01",
+          "building": 275818.53,
+          "station": 3285884.99,
+          "prefecture": 2544152.03,
+          "city": 4005286.04,
+          "town": 3046008.25
+        },
+        {
+          "date": "2017-11-01",
+          "building": 276534.1,
+          "station": 3293721.69,
+          "prefecture": 2548233.39,
+          "city": 4015581.24,
+          "town": 3053514.52
+        },
+        {
+          "date": "2017-12-01",
+          "building": 277287.02,
+          "station": 3301865.95,
+          "prefecture": 2552107.74,
+          "city": 4025603.5,
+          "town": 3061430.92
+        },
+        {
+          "date": "2018-01-01",
+          "building": 278042.9,
+          "station": 3310040.45,
+          "prefecture": 2555995.69,
+          "city": 4035651.94,
+          "town": 3069379.89
+        },
+        {
+          "date": "2018-02-01",
+          "building": 278801.71,
+          "station": 3318238.35,
+          "prefecture": 2559750.02,
+          "city": 4045039.36,
+          "town": 3077354.91
+        },
+        {
+          "date": "2018-03-01",
+          "building": 279560.54,
+          "station": 3326564.69,
+          "prefecture": 2563563.04,
+          "city": 4054518.54,
+          "town": 3085600.08
+        },
+        {
+          "date": "2018-04-01",
+          "building": 280323.29,
+          "station": 3334984.79,
+          "prefecture": 2567419.86,
+          "city": 4064076.23,
+          "town": 3094017.76
+        },
+        {
+          "date": "2018-05-01",
+          "building": 281087.03,
+          "station": 3343426,
+          "prefecture": 2571288.9,
+          "city": 4073660.12,
+          "town": 3102448.48
+        },
+        {
+          "date": "2018-06-01",
+          "building": 281852.73,
+          "station": 3351877.03,
+          "prefecture": 2575162.02,
+          "city": 4083253.68,
+          "town": 3110898.71
+        },
+        {
+          "date": "2018-07-01",
+          "building": 282594.83,
+          "station": 3360036.4,
+          "prefecture": 2578851.82,
+          "city": 4092567.55,
+          "town": 3119091.83
+        },
+        {
+          "date": "2018-08-01",
+          "building": 283285.83,
+          "station": 3367561.03,
+          "prefecture": 2582155.89,
+          "city": 4101268.23,
+          "town": 3126718.52
+        },
+        {
+          "date": "2018-09-01",
+          "building": 283977.82,
+          "station": 3375094.74,
+          "prefecture": 2585462.2,
+          "city": 4109975.15,
+          "town": 3134358.26
+        },
+        {
+          "date": "2018-10-01",
+          "building": 284672.75,
+          "station": 3382654.89,
+          "prefecture": 2588779.81,
+          "city": 4118714.41,
+          "town": 3142027.27
+        },
+        {
+          "date": "2018-11-01",
+          "building": 285369.64,
+          "station": 3390233.92,
+          "prefecture": 2592104.9,
+          "city": 4127473.38,
+          "town": 3149715.83
+        },
+        {
+          "date": "2018-12-01",
+          "building": 286066.54,
+          "station": 3397816.75,
+          "prefecture": 2595431.25,
+          "city": 4136238.69,
+          "town": 3157410.89
+        },
+        {
+          "date": "2019-01-01",
+          "building": 286766.38,
+          "station": 3405428.26,
+          "prefecture": 2598767.81,
+          "city": 4145036.12,
+          "town": 3165135.26
+        },
+        {
+          "date": "2019-02-01",
+          "building": 287468.19,
+          "station": 3413059.44,
+          "prefecture": 2602048.9,
+          "city": 4153404.79,
+          "town": 3172879.15
+        },
+        {
+          "date": "2019-03-01",
+          "building": 288170.99,
+          "station": 3420804.71,
+          "prefecture": 2605384.83,
+          "city": 4161883.7,
+          "town": 3180632.8
+        },
+        {
+          "date": "2019-04-01",
+          "building": 288990.75,
+          "station": 3430428.51,
+          "prefecture": 2610375.41,
+          "city": 4173636.02,
+          "town": 3189681.99
+        },
+        {
+          "date": "2019-05-01",
+          "building": 289812.48,
+          "station": 3440080.27,
+          "prefecture": 2615382.33,
+          "city": 4185426.04,
+          "town": 3198753.97
+        },
+        {
+          "date": "2019-06-01",
+          "building": 290636.17,
+          "station": 3449745.63,
+          "prefecture": 2620395.53,
+          "city": 4197232.16,
+          "town": 3207845.45
+        },
+        {
+          "date": "2019-07-01",
+          "building": 291462.81,
+          "station": 3459450.28,
+          "prefecture": 2625427.24,
+          "city": 4209088.76,
+          "town": 3216969.51
+        },
+        {
+          "date": "2019-08-01",
+          "building": 292292.41,
+          "station": 3469186.64,
+          "prefecture": 2630470.77,
+          "city": 4220979.85,
+          "town": 3226126.12
+        },
+        {
+          "date": "2019-09-01",
+          "building": 293122.98,
+          "station": 3478933.6,
+          "prefecture": 2635519.59,
+          "city": 4232887.72,
+          "town": 3235292.51
+        },
+        {
+          "date": "2019-10-01",
+          "building": 293956.5,
+          "station": 3488719.85,
+          "prefecture": 2640587.75,
+          "city": 4244846.08,
+          "town": 3244494.67
+        },
+        {
+          "date": "2019-11-01",
+          "building": 294792.98,
+          "station": 3498537.85,
+          "prefecture": 2645669.21,
+          "city": 4256838.91,
+          "town": 3253726.15
+        },
+        {
+          "date": "2019-12-01",
+          "building": 295815.22,
+          "station": 3510475.42,
+          "prefecture": 2653060.28,
+          "city": 4272097.09,
+          "town": 3265008.34
+        },
+        {
+          "date": "2020-01-01",
+          "building": 296934.78,
+          "station": 3523529.78,
+          "prefecture": 2661640.14,
+          "city": 4289062.98,
+          "town": 3277364.71
+        },
+        {
+          "date": "2020-02-01",
+          "building": 298059.25,
+          "station": 3536637.07,
+          "prefecture": 2670245.78,
+          "city": 4306096.67,
+          "town": 3289776.4
+        },
+        {
+          "date": "2020-03-01",
+          "building": 299185.68,
+          "station": 3549861.47,
+          "prefecture": 2679105.17,
+          "city": 4323268.4,
+          "town": 3302207.64
+        },
+        {
+          "date": "2020-04-01",
+          "building": 300318.02,
+          "station": 3563206.78,
+          "prefecture": 2687852.49,
+          "city": 4340585.61,
+          "town": 3314707.24
+        },
+        {
+          "date": "2020-05-01",
+          "building": 301454.28,
+          "station": 3576609.5,
+          "prefecture": 2696634.73,
+          "city": 4357979.67,
+          "town": 3327249.16
+        },
+        {
+          "date": "2020-06-01",
+          "building": 302593.5,
+          "station": 3590043.98,
+          "prefecture": 2705436.19,
+          "city": 4375418.99,
+          "town": 3339823.62
+        },
+        {
+          "date": "2020-07-01",
+          "building": 303738.61,
+          "station": 3603549.49,
+          "prefecture": 2714280.49,
+          "city": 4392953.96,
+          "town": 3352463.18
+        },
+        {
+          "date": "2020-08-01",
+          "building": 305086.2,
+          "station": 3619458.66,
+          "prefecture": 2724880.99,
+          "city": 4414059.17,
+          "town": 3367335.74
+        },
+        {
+          "date": "2020-09-01",
+          "building": 306833.85,
+          "station": 3640131.37,
+          "prefecture": 2738965.96,
+          "city": 4442250.01,
+          "town": 3386622.23
+        },
+        {
+          "date": "2020-10-01",
+          "building": 308593.29,
+          "station": 3660949.92,
+          "prefecture": 2753148.97,
+          "city": 4470664.09,
+          "town": 3406042.18
+        },
+        {
+          "date": "2020-11-01",
+          "building": 310363.54,
+          "station": 3681889.38,
+          "prefecture": 2767410.19,
+          "city": 4499260.82,
+          "town": 3425582.55
+        },
+        {
+          "date": "2020-12-01",
+          "building": 312140.68,
+          "station": 3702918.77,
+          "prefecture": 2781728.83,
+          "city": 4527999.49,
+          "town": 3445197.81
+        },
+        {
+          "date": "2021-01-01",
+          "building": 313930.59,
+          "station": 3724096.99,
+          "prefecture": 2796147.04,
+          "city": 4556965.4,
+          "town": 3464953.04
+        },
+        {
+          "date": "2021-02-01",
+          "building": 315731.31,
+          "station": 3745398.41,
+          "prefecture": 2810642.29,
+          "city": 4586118.12,
+          "town": 3484828.7
+        },
+        {
+          "date": "2021-03-01",
+          "building": 317538.92,
+          "station": 3766863.79,
+          "prefecture": 2825241.86,
+          "city": 4615499.66,
+          "town": 3504782.48
+        },
+        {
+          "date": "2021-04-01",
+          "building": 318417.66,
+          "station": 3777269.67,
+          "prefecture": 2832365.12,
+          "city": 4628726.31,
+          "town": 3514479.43
+        },
+        {
+          "date": "2021-05-01",
+          "building": 319295.41,
+          "station": 3787674.02,
+          "prefecture": 2839565.23,
+          "city": 4641952.32,
+          "town": 3524166.61
+        },
+        {
+          "date": "2021-06-01",
+          "building": 320173.17,
+          "station": 3798079.9,
+          "prefecture": 2846688.88,
+          "city": 4655178.74,
+          "town": 3533857.06
+        },
+        {
+          "date": "2021-07-01",
+          "building": 321051.91,
+          "station": 3808485.77,
+          "prefecture": 2853812.57,
+          "city": 4668404.99,
+          "town": 3543554.01
+        },
+        {
+          "date": "2021-08-01",
+          "building": 321929.66,
+          "station": 3818887.88,
+          "prefecture": 2860936.16,
+          "city": 4681631.2,
+          "town": 3553241.19
+        },
+        {
+          "date": "2021-09-01",
+          "building": 322807.42,
+          "station": 3829293.76,
+          "prefecture": 2868059.79,
+          "city": 4694857.65,
+          "town": 3562931.64
+        },
+        {
+          "date": "2021-10-01",
+          "building": 323686.15,
+          "station": 3839698.87,
+          "prefecture": 2875183.44,
+          "city": 4708083.9,
+          "town": 3572628.59
+        },
+        {
+          "date": "2021-11-01",
+          "building": 324563.91,
+          "station": 3850103.23,
+          "prefecture": 2882307.07,
+          "city": 4721310.15,
+          "town": 3582319.01
+        },
+        {
+          "date": "2021-12-01",
+          "building": 325441.66,
+          "station": 3860507.58,
+          "prefecture": 2889430.69,
+          "city": 4734536,
+          "town": 3592006.22
+        },
+        {
+          "date": "2022-01-01",
+          "building": 326320.4,
+          "station": 3870912.73,
+          "prefecture": 2896554.38,
+          "city": 4747762.54,
+          "town": 3601703.18
+        },
+        {
+          "date": "2022-02-01",
+          "building": 327198.16,
+          "station": 3881317.09,
+          "prefecture": 2903678.04,
+          "city": 4760988.89,
+          "town": 3611393.59
+        },
+        {
+          "date": "2022-03-01",
+          "building": 328076.89,
+          "station": 3891723.72,
+          "prefecture": 2910801.66,
+          "city": 4774215.27,
+          "town": 3621090.54
+        },
+        {
+          "date": "2022-04-01",
+          "building": 328954.65,
+          "station": 3902126.56,
+          "prefecture": 2917925.25,
+          "city": 4787441.36,
+          "town": 3630777.76
+        },
+        {
+          "date": "2022-05-01",
+          "building": 329832.41,
+          "station": 3912532.43,
+          "prefecture": 2925048.94,
+          "city": 4800667.61,
+          "town": 3640468.17
+        },
+        {
+          "date": "2022-06-01",
+          "building": 330711.14,
+          "station": 3922939.07,
+          "prefecture": 2932172.6,
+          "city": 4813893.99,
+          "town": 3650165.12
+        },
+        {
+          "date": "2022-07-01",
+          "building": 331588.9,
+          "station": 3933343.46,
+          "prefecture": 2939296.19,
+          "city": 4827120.27,
+          "town": 3659855.57
+        },
+        {
+          "date": "2022-08-01",
+          "building": 332466.65,
+          "station": 3943746.29,
+          "prefecture": 2946419.85,
+          "city": 4840346.32,
+          "town": 3669542.75
+        },
+        {
+          "date": "2022-09-01",
+          "building": 333345.39,
+          "station": 3954152.93,
+          "prefecture": 2953543.51,
+          "city": 4853572.86,
+          "town": 3679239.7
+        },
+        {
+          "date": "2022-10-01",
+          "building": 334223.14,
+          "station": 3964556.52,
+          "prefecture": 2960667.13,
+          "city": 4866799.21,
+          "town": 3688930.15
+        },
+        {
+          "date": "2022-11-01",
+          "building": 335100.9,
+          "station": 3974961.67,
+          "prefecture": 2967790.79,
+          "city": 4880025.49,
+          "town": 3698620.6
+        },
+        {
+          "date": "2022-12-01",
+          "building": 335979.64,
+          "station": 3985366.79,
+          "prefecture": 2974914.41,
+          "city": 4893251.45,
+          "town": 3708314.29
+        },
+        {
+          "date": "2023-01-01",
+          "building": 336857.39,
+          "station": 3995770.38,
+          "prefecture": 2982038.07,
+          "city": 4906477.79,
+          "town": 3718004.73
+        },
+        {
+          "date": "2023-02-01",
+          "building": 337735.15,
+          "station": 4006174.77,
+          "prefecture": 2989161.73,
+          "city": 4919703.94,
+          "town": 3727695.18
+        },
+        {
+          "date": "2023-03-01",
+          "building": 338613.89,
+          "station": 4016582.13,
+          "prefecture": 2996285.38,
+          "city": 4932930.42,
+          "town": 3737392.13
+        },
+        {
+          "date": "2023-04-01",
+          "building": 339491.64,
+          "station": 4026985,
+          "prefecture": 3003409.01,
+          "city": 4946156.94,
+          "town": 3747079.31
+        },
+        {
+          "date": "2023-05-01",
+          "building": 340369.4,
+          "station": 4037390.12,
+          "prefecture": 3010532.63,
+          "city": 4959383.15,
+          "town": 3756769.76
+        },
+        {
+          "date": "2023-06-01",
+          "building": 341248.13,
+          "station": 4047796.75,
+          "prefecture": 3017656.29,
+          "city": 4972609.3,
+          "town": 3766466.71
+        },
+        {
+          "date": "2023-07-01",
+          "building": 342125.89,
+          "station": 4058201.11,
+          "prefecture": 3024779.91,
+          "city": 4985835.75,
+          "town": 3776157.16
+        },
+        {
+          "date": "2023-08-01",
+          "building": 343003.64,
+          "station": 4068604.74,
+          "prefecture": 3031903.57,
+          "city": 4999061.77,
+          "town": 3785844.34
+        },
+        {
+          "date": "2023-09-01",
+          "building": 343882.38,
+          "station": 4079010.61,
+          "prefecture": 3039027.19,
+          "city": 5012287.92,
+          "town": 3795541.3
+        },
+        {
+          "date": "2023-10-01",
+          "building": 344760.14,
+          "station": 4089415.73,
+          "prefecture": 3046150.85,
+          "city": 5025514.43,
+          "town": 3805231.74
+        },
+        {
+          "date": "2023-11-01",
+          "building": 345638.88,
+          "station": 4099820.84,
+          "prefecture": 3053274.47,
+          "city": 5038740.78,
+          "town": 3814928.7
+        },
+        {
+          "date": "2023-12-01",
+          "building": 346516.63,
+          "station": 4110225.2,
+          "prefecture": 3060398.13,
+          "city": 5051967.02,
+          "town": 3824615.88
+        },
+        {
+          "date": "2024-01-01",
+          "building": 347394.38,
+          "station": 4120628.83,
+          "prefecture": 3067521.76,
+          "city": 5065193.21,
+          "town": 3834306.33
+        },
+        {
+          "date": "2024-02-01",
+          "building": 348273.12,
+          "station": 4131035.46,
+          "prefecture": 3074645.45,
+          "city": 5078419.69,
+          "town": 3844003.28
+        },
+        {
+          "date": "2024-03-01",
+          "building": 349150.88,
+          "station": 4141440.57,
+          "prefecture": 3081769.04,
+          "city": 5091645.51,
+          "town": 3853693.73
+        },
+        {
+          "date": "2024-04-01",
+          "building": 350028.63,
+          "station": 4151843.41,
+          "prefecture": 3088892.69,
+          "city": 5104872.15,
+          "town": 3863380.91
+        },
+        {
+          "date": "2024-05-01",
+          "building": 350907.37,
+          "station": 4162250.05,
+          "prefecture": 3095344.93,
+          "city": 5118098.2,
+          "town": 3873077.86
+        },
+        {
+          "date": "2024-06-01",
+          "building": 351785.13,
+          "station": 4172655.16,
+          "prefecture": 3102466.5,
+          "city": 5131324.68,
+          "town": 3882768.31
+        },
+        {
+          "date": "2024-07-01",
+          "building": 352662.88,
+          "station": 4183058.03,
+          "prefecture": 3109588.08,
+          "city": 5144550.57,
+          "town": 3892458.72
+        },
+        {
+          "date": "2024-08-01",
+          "building": 353541.62,
+          "station": 4193464.66,
+          "prefecture": 3116709.66,
+          "city": 5157777.18,
+          "town": 3902152.44
+        },
+        {
+          "date": "2024-09-01",
+          "building": 354419.37,
+          "station": 4203869.02,
+          "prefecture": 3123831.2,
+          "city": 5171003.36,
+          "town": 3911842.89
+        },
+        {
+          "date": "2024-10-01",
+          "building": 355297.13,
+          "station": 4214273.38,
+          "prefecture": 3130952.78,
+          "city": 5184229.68,
+          "town": 3921533.3
+        },
+        {
+          "date": "2024-11-01",
+          "building": 356175.86,
+          "station": 4224678.52,
+          "prefecture": 3138074.33,
+          "city": 5197455.99,
+          "town": 3931230.25
+        },
+        {
+          "date": "2024-12-01",
+          "building": 357053.62,
+          "station": 4235083.64,
+          "prefecture": 3145195.87,
+          "city": 5210682.24,
+          "town": 3940917.47
+        },
+        {
+          "date": "2025-01-01",
+          "building": 357931.38,
+          "station": 4245487.24,
+          "prefecture": 3152317.45,
+          "city": 5223908.09,
+          "town": 3950607.88
+        },
+        {
+          "date": "2025-02-01",
+          "building": 358810.12,
+          "station": 4255893.11,
+          "prefecture": 3159439.02,
+          "city": 5237135,
+          "town": 3960304.83
+        },
+        {
+          "date": "2025-03-01",
+          "building": 359687.87,
+          "station": 4266298.23,
+          "prefecture": 3166560.6,
+          "city": 5250360.79,
+          "town": 3969995.28
+        },
+        {
+          "date": "2025-04-01",
+          "building": 360565.63,
+          "station": 4276701.1,
+          "prefecture": 3173682.15,
+          "city": 5263587.24,
+          "town": 3979682.46
+        },
+        {
+          "date": "2025-05-01",
+          "building": 361444.36,
+          "station": 4287107.73,
+          "prefecture": 3180803.72,
+          "city": 5276813.45,
+          "town": 3989379.42
+        },
+        {
+          "date": "2025-06-01",
+          "building": 362322.12,
+          "station": 4297511.33,
+          "prefecture": 3187925.24,
+          "city": 5290039.83,
+          "town": 3999069.86
+        },
+        {
+          "date": "2025-07-01",
+          "building": 363199.87,
+          "station": 4307916.44,
+          "prefecture": 3195046.81,
+          "city": 5303266.15,
+          "town": 4008760.31
+        },
+        {
+          "date": "2025-08-01",
+          "building": 364078.61,
+          "station": 4318322.35,
+          "prefecture": 3202168.36,
+          "city": 5316492.4,
+          "town": 4018454
+        },
+        {
+          "date": "2025-09-01",
+          "building": 364956.36,
+          "station": 4328726.7,
+          "prefecture": 3209289.93,
+          "city": 5329718.78,
+          "town": 4028144.45
+        },
+        {
+          "date": "2025-10-01",
+          "building": 365835.1,
+          "station": 4339132.58,
+          "prefecture": 3216411.51,
+          "city": 5342945.06,
+          "town": 4037841.4
+        },
+        {
+          "date": "2025-11-01",
+          "building": 366712.86,
+          "station": 4349536.18,
+          "prefecture": 3223533.06,
+          "city": 5356170.91,
+          "town": 4047531.85
+        },
+        {
+          "date": "2025-12-01",
+          "building": 367590.61,
+          "station": 4359940.56,
+          "prefecture": 3230654.6,
+          "city": 5369397.46,
+          "town": 4057219.03
+        },
+        {
+          "date": "2026-01-01",
+          "building": 368469.35,
+          "station": 4370347.17,
+          "prefecture": 3237776.18,
+          "city": 5382623.87,
+          "town": 4066915.98
+        },
+        {
+          "date": "2026-02-01",
+          "building": 369347.11,
+          "station": 4380750.8,
+          "prefecture": 3244897.79,
+          "city": 5395850.32,
+          "town": 4076606.43
+        },
+        {
+          "date": "2026-03-01",
+          "building": 370224.86,
+          "station": 4391157.43,
+          "prefecture": 3252019.27,
+          "city": 5409076.33,
+          "town": 4086296.87
+        },
+        {
+          "date": "2026-04-01",
+          "building": 371103.6,
+          "station": 4401561.03,
+          "prefecture": 3259140.84,
+          "city": 5422302.32,
+          "town": 4095990.56
+        },
+        {
+          "date": "2026-05-01",
+          "building": 371981.35,
+          "station": 4411965.38,
+          "prefecture": 3266262.39,
+          "city": 5435528.73,
+          "town": 4105681.01
+        },
+        {
+          "date": "2026-06-01",
+          "building": 372859.11,
+          "station": 4422370.53,
+          "prefecture": 3273384,
+          "city": 5448755.08,
+          "town": 4115371.46
+        },
+        {
+          "date": "2026-07-01",
+          "building": 373737.85,
+          "station": 4432776.4,
+          "prefecture": 3280505.58,
+          "city": 5461981.49,
+          "town": 4125068.41
+        },
+        {
+          "date": "2026-08-01",
+          "building": 374615.6,
+          "station": 4443180.76,
+          "prefecture": 3287627.12,
+          "city": 5475207.51,
+          "town": 4134755.59
+        },
+        {
+          "date": "2026-09-01",
+          "building": 375493.36,
+          "station": 4453585.87,
+          "prefecture": 3294748.63,
+          "city": 5488433.93,
+          "town": 4144446.04
+        },
+        {
+          "date": "2026-10-01",
+          "building": 376372.09,
+          "station": 4463990.99,
+          "prefecture": 3301870.24,
+          "city": 5501660.34,
+          "town": 4154142.99
+        },
+        {
+          "date": "2026-11-01",
+          "building": 377249.85,
+          "station": 4474394.62,
+          "prefecture": 3308991.79,
+          "city": 5514886.75,
+          "town": 4163830.17
+        },
+        {
+          "date": "2026-12-01",
+          "building": 378127.6,
+          "station": 4484799.73,
+          "prefecture": 3316113.4,
+          "city": 5528112.94,
+          "town": 4173520.62
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,818 @@
+{
+  "station": {
+    "id": "1322",
+    "name": "品川",
+    "stationToStations": [
+      {
+        "minutes": 14,
+        "transferTime": 0,
+        "station": {
+          "id": "1345",
+          "name": "渋谷",
+          "groupCode": "1130205",
+          "mansionCount": 33,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "81",
+                "name": "埼京線"
+              }
+            },
+            {
+              "line": {
+                "id": "88",
+                "name": "JR成田エクスプレス"
+              }
+            },
+            {
+              "line": {
+                "id": "93",
+                "name": "湘南新宿ライン"
+              }
+            },
+            {
+              "line": {
+                "id": "265",
+                "name": "井の頭線"
+              }
+            },
+            {
+              "line": {
+                "id": "270",
+                "name": "東横線"
+              }
+            },
+            {
+              "line": {
+                "id": "272",
+                "name": "田園都市線"
+              }
+            },
+            {
+              "line": {
+                "id": "283",
+                "name": "銀座線"
+              }
+            },
+            {
+              "line": {
+                "id": "289",
+                "name": "半蔵門線"
+              }
+            },
+            {
+              "line": {
+                "id": "291",
+                "name": "副都心線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1559030
+          },
+          "city": {
+            "name": "渋谷区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 11,
+        "transferTime": 0,
+        "station": {
+          "id": "1344",
+          "name": "恵比寿",
+          "groupCode": "1130204",
+          "mansionCount": 28,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "81",
+                "name": "埼京線"
+              }
+            },
+            {
+              "line": {
+                "id": "93",
+                "name": "湘南新宿ライン"
+              }
+            },
+            {
+              "line": {
+                "id": "285",
+                "name": "日比谷線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1425920
+          },
+          "city": {
+            "name": "渋谷区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 9,
+        "transferTime": 0,
+        "station": {
+          "id": "1343",
+          "name": "目黒",
+          "groupCode": "1130203",
+          "mansionCount": 55,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "271",
+                "name": "目黒線"
+              }
+            },
+            {
+              "line": {
+                "id": "290",
+                "name": "南北線"
+              }
+            },
+            {
+              "line": {
+                "id": "404",
+                "name": "都営三田線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1362410
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 15,
+        "transferTime": 1,
+        "station": {
+          "id": "7636",
+          "name": "高輪台",
+          "groupCode": "9930206",
+          "mansionCount": 23,
+          "sameStations": [
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1299220
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 8,
+        "transferTime": 0,
+        "station": {
+          "id": "1367",
+          "name": "浜松町",
+          "groupCode": "1130227",
+          "mansionCount": 13,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            },
+            {
+              "line": {
+                "id": "437",
+                "name": "東京モノレール"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1291270
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 10,
+        "transferTime": 0,
+        "station": {
+          "id": "1321",
+          "name": "新橋",
+          "groupCode": "1130102",
+          "mansionCount": 7,
+          "sameStations": [
+            {
+              "line": {
+                "id": "62",
+                "name": "東海道線"
+              }
+            },
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "69",
+                "name": "横須賀線"
+              }
+            },
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            },
+            {
+              "line": {
+                "id": "283",
+                "name": "銀座線"
+              }
+            },
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            },
+            {
+              "line": {
+                "id": "412",
+                "name": "ゆりかもめ"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1277520
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 10,
+        "transferTime": 0,
+        "station": {
+          "id": "1321",
+          "name": "新橋",
+          "groupCode": "1130102",
+          "mansionCount": 7,
+          "sameStations": [
+            {
+              "line": {
+                "id": "62",
+                "name": "東海道線"
+              }
+            },
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "69",
+                "name": "横須賀線"
+              }
+            },
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            },
+            {
+              "line": {
+                "id": "283",
+                "name": "銀座線"
+              }
+            },
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            },
+            {
+              "line": {
+                "id": "412",
+                "name": "ゆりかもめ"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1277520
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 7,
+        "transferTime": 0,
+        "station": {
+          "id": "5727",
+          "name": "泉岳寺",
+          "groupCode": "2700101",
+          "mansionCount": 9,
+          "sameStations": [
+            {
+              "line": {
+                "id": "278",
+                "name": "京浜急行線"
+              }
+            },
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1245640
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 5,
+        "transferTime": 0,
+        "station": {
+          "id": "1341",
+          "name": "大崎",
+          "groupCode": "1130201",
+          "mansionCount": 30,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "81",
+                "name": "埼京線"
+              }
+            },
+            {
+              "line": {
+                "id": "93",
+                "name": "湘南新宿ライン"
+              }
+            },
+            {
+              "line": {
+                "id": "438",
+                "name": "りんかい線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1200910
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 15,
+        "transferTime": 1,
+        "station": {
+          "id": "7655",
+          "name": "芝公園",
+          "groupCode": "9930305",
+          "mansionCount": 9,
+          "sameStations": [
+            {
+              "line": {
+                "id": "404",
+                "name": "都営三田線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1098760
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 7,
+        "transferTime": 0,
+        "station": {
+          "id": "5729",
+          "name": "北品川",
+          "groupCode": "2700103",
+          "mansionCount": 9,
+          "sameStations": [
+            {
+              "line": {
+                "id": "278",
+                "name": "京浜急行線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1089060
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 7,
+        "transferTime": 0,
+        "station": {
+          "id": "1342",
+          "name": "五反田",
+          "groupCode": "1130202",
+          "mansionCount": 26,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "274",
+                "name": "池上線"
+              }
+            },
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1088420
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 6,
+        "transferTime": 0,
+        "station": {
+          "id": "1368",
+          "name": "田町",
+          "groupCode": "1130228",
+          "mansionCount": 26,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1065640
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 15,
+        "transferTime": 0,
+        "station": {
+          "id": "5863",
+          "name": "東銀座",
+          "groupCode": "2800313",
+          "mansionCount": 5,
+          "sameStations": [
+            {
+              "line": {
+                "id": "285",
+                "name": "日比谷線"
+              }
+            },
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 1052380
+          },
+          "city": {
+            "name": "中央区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 9,
+        "transferTime": 0,
+        "station": {
+          "id": "7638",
+          "name": "三田",
+          "groupCode": "9930208",
+          "mansionCount": 6,
+          "sameStations": [
+            {
+              "line": {
+                "id": "403",
+                "name": "都営浅草線"
+              }
+            },
+            {
+              "line": {
+                "id": "404",
+                "name": "都営三田線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 993260
+          },
+          "city": {
+            "name": "港区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 15,
+        "transferTime": 0,
+        "station": {
+          "id": "1363",
+          "name": "神田",
+          "groupCode": "1130223",
+          "mansionCount": 11,
+          "sameStations": [
+            {
+              "line": {
+                "id": "63",
+                "name": "山手線"
+              }
+            },
+            {
+              "line": {
+                "id": "72",
+                "name": "中央線(快速)"
+              }
+            },
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            },
+            {
+              "line": {
+                "id": "283",
+                "name": "銀座線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 990068
+          },
+          "city": {
+            "name": "千代田区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 6,
+        "transferTime": 0,
+        "station": {
+          "id": "2002",
+          "name": "大井町",
+          "groupCode": "1133228",
+          "mansionCount": 35,
+          "sameStations": [
+            {
+              "line": {
+                "id": "92",
+                "name": "京浜東北線"
+              }
+            },
+            {
+              "line": {
+                "id": "273",
+                "name": "大井町線"
+              }
+            },
+            {
+              "line": {
+                "id": "438",
+                "name": "りんかい線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 982548
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 8,
+        "transferTime": 0,
+        "station": {
+          "id": "5730",
+          "name": "新馬場",
+          "groupCode": "2700104",
+          "mansionCount": 11,
+          "sameStations": [
+            {
+              "line": {
+                "id": "278",
+                "name": "京浜急行線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 940171
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 12,
+        "transferTime": 0,
+        "station": {
+          "id": "1475",
+          "name": "西大井",
+          "groupCode": "1130804",
+          "mansionCount": 8,
+          "sameStations": [
+            {
+              "line": {
+                "id": "69",
+                "name": "横須賀線"
+              }
+            },
+            {
+              "line": {
+                "id": "93",
+                "name": "湘南新宿ライン"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 831201
+          },
+          "city": {
+            "name": "品川区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      },
+      {
+        "minutes": 12,
+        "transferTime": 0,
+        "station": {
+          "id": "5738",
+          "name": "京急蒲田",
+          "groupCode": "2700112",
+          "mansionCount": 16,
+          "sameStations": [
+            {
+              "line": {
+                "id": "278",
+                "name": "京浜急行線"
+              }
+            },
+            {
+              "line": {
+                "id": "279",
+                "name": "京急空港線"
+              }
+            }
+          ],
+          "averageMansionPrice": {
+            "averageSquarePrice": 810693
+          },
+          "city": {
+            "name": "大田区",
+            "prefecture": {
+              "name": "東京都"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

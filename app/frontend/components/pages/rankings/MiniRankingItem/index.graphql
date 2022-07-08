@@ -1,0 +1,5 @@
+fragment MsLibraryMiniRankingMansions on Mansion {
+  name
+  pageView
+  uniqueCode
+}

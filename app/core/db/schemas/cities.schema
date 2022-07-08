@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+create_table 'cities', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.string 'name', null: false, comment: '市区名'
+  t.string 'kana', comment: '市区名カナ'
+  t.bigint 'prefecture_id', comment: 'prefectureのid'
+  t.bigint 'start_version_id', comment: 'maddress_versions の id、 開始'
+  t.bigint 'end_version_id', comment: 'maddress_versions の id、 終了'
+  t.string 'slug', comment: 'slug市区名'
+  t.timestamps
+  t.index ['end_version_id'], name: 'index_cities_on_end_version_id'
+  t.index ['prefecture_id'], name: 'index_cities_on_prefecture_id'
+  t.index ['slug'], name: 'index_cities_on_slug', unique: true
+  t.index ['start_version_id'], name: 'index_cities_on_start_version_id'
+end
+
+add_foreign_key 'cities', 'prefectures', name: 'fk_rails_cc74ecd368'

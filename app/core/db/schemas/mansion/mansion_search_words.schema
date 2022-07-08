@@ -1,0 +1,22 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+create_table :mansion_search_words, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.references :building, null: false
+  t.string :value, null: false, comment: '全文検索用キーワード'
+
+  t.index ['value'], name: 'fulltext_idx_mansion_search_words', type: :fulltext, ignore: true
+  t.timestamps
+end
+
+add_foreign_key 'mansion_search_words', 'mansion_buildings',
+                name: 'fk_mansion_search_words_mansion_buildings',
+                column: 'building_id'
+
+# フルテキストインデックスはRailsのDSLで対応していないのでSQLを書く
+# see: https://so-wh.at/entry/2019/01/12/232306
+execute('CREATE FULLTEXT INDEX fulltext_idx_mansion_search_words ON mansion_search_words(value) WITH PARSER ngram') do |c|
+  rows = c.raw_connection.query('SHOW INDEX FROM mansion_search_words', as: :hash)
+  rows.map { |r| r.fetch('Key_name') }.exclude?('fulltext_idx_mansion_search_words')
+end

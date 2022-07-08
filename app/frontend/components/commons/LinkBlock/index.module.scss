@@ -1,0 +1,58 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.item {
+  color: #afafaf;
+  width: 25%;
+  margin-bottom: 20px;
+
+  @include screenMd {
+    width: 50%;
+    margin-bottom: 0;
+    border-bottom: 1px solid #d0d0d0;
+
+    &:nth-child(odd) {
+      border-right: 1px solid #d0d0d0;
+    }
+
+    &:nth-child(-n + 2) {
+      border-top: 1px solid #d0d0d0;
+    }
+  }
+}
+
+button.link {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  position: relative;
+  color: $color-main;
+  text-decoration: underline;
+  background-color: unset;
+  padding: 0;
+  line-height: 1;
+
+  @include screenMd {
+    display: block;
+    padding: 15px 18px;
+    line-height: 1.3;
+
+    &::after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #bca565;
+      border-right: 1px solid #bca565;
+      transform: translateY(-50%) rotate(45deg);
+      position: absolute;
+      top: 50%;
+      right: 18px;
+    }
+  }
+}
+
+.count {
+  @include screenMd {
+    font-size: 10px;
+  }
+}

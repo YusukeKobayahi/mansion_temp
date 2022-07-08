@@ -1,0 +1,76 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  width: 800px;
+  margin: 50px auto 0;
+
+  @include screenMd {
+    width: auto;
+    padding: 0 16px;
+  }
+}
+
+%table {
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.tablePc {
+  @extend %table;
+
+  th {
+    padding: 14px;
+    text-align: center;
+    background-color: #faf9f7;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: #646464;
+  }
+
+  td {
+    padding: 14px;
+    text-align: center;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    color: #646464;
+  }
+}
+
+.tableSp {
+  @extend %table;
+
+  tr {
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 14px;
+  }
+
+  th {
+    text-align: left;
+    padding: 10px;
+    background-color: #faf9f7;
+    vertical-align: middle;
+  }
+
+  td {
+    text-align: left;
+    padding: 10px;
+    line-height: 1.4;
+  }
+
+  &__price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__info {
+    font-size: 12px;
+  }
+}
+
+.showmoreContainer {
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/ShowMoreBtn ローディング中はスピナーが表示される 1`] = `
+<DocumentFragment>
+  <button
+    class="btn"
+  >
+    <span
+      class="skCircleFade"
+    >
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+      <span
+        class="skCircleFadeDot"
+      />
+    </span>
+    読み込み中...
+  </button>
+</DocumentFragment>
+`;
+
+exports[`components/commons/ShowMoreBtn 正常に表示される 1`] = `
+<DocumentFragment>
+  <button
+    class="btn"
+  >
+    さらに表示する
+  </button>
+</DocumentFragment>
+`;

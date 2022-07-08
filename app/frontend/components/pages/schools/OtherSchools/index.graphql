@@ -1,0 +1,10 @@
+fragment MsLibraryPrimarySchoolOtherSchools on PrimarySchool {
+  city {
+    name
+    primarySchools {
+      schoolId
+      name
+      mansionCount
+    }
+  }
+}

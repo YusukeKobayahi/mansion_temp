@@ -1,0 +1,31 @@
+query stations($st: String!) {
+  stations(st: $st) {
+    id
+    name
+    ...MsLibraryStationsMarketPrice
+    ...MsLibraryRailwayStationNeighborStations
+    line {
+      id
+      name
+      stations {
+        id
+      }
+    }
+    city {
+      jisCode
+      name
+      mansionCount
+      ...MsLibraryCityIncludedStations
+      prefecture {
+        jisCode
+        name
+      }
+    }
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+    commuteStations {
+      ...StationInfo
+    }
+  }
+}

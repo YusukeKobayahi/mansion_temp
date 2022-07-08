@@ -1,0 +1,43 @@
+fragment MsLibraryTownsLinkedBuildings on Town {
+  name
+  city {
+    name
+    prefecture {
+      name
+    }
+  }
+  linkedBuildings {
+    uniqueCode
+    name
+    constructedIn
+    age
+    prefecture {
+      name
+      jisCode
+    }
+    city {
+      name
+      jisCode
+    }
+    town {
+      name
+    }
+    street {
+      name
+    }
+    blockNumber
+    salesHistorySummaries {
+      layout
+      minPrice
+      maxPrice
+    }
+    access {
+      id
+      stationId
+      stationLineName
+      stationName
+      stationWalkingMinutes
+      lineId
+    }
+  }
+}

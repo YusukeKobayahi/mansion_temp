@@ -1,0 +1,2369 @@
+type Area {
+  activePrefectures: [Prefecture!]!
+  citiesCount: Int!
+  id: ID!
+  name: String!
+}
+
+type AveragePriceAboveFiveRoom {
+  averagePrice: Int!
+  averageSquarePrice: Int!
+  averageTsuboPrice: Int!
+  fullLayoutName: String!
+  salesHistoriesCount: Int!
+}
+
+type AveragePriceBase {
+  averagePrice: Int!
+  averageSquarePrice: Int!
+  averageTsuboPrice: Int!
+  salesHistoriesCount: Int!
+}
+
+type AveragePriceDate {
+  age: Int!
+  averagePrice: Int!
+  averageSquarePrice: Int!
+  averageTsuboPrice: Int!
+  salesHistoriesCount: Int!
+}
+
+type AveragePriceLayout {
+  averagePrice: Int!
+  averageSquarePrice: Int!
+  averageTsuboPrice: Int!
+  fullLayoutName: String!
+  layoutKindId: ID!
+  numberOfRooms: Int!
+  salesHistoriesCount: Int!
+}
+
+"""
+Represents non-fractional signed whole numeric values. Since the value may
+exceed the size of a 32-bit integer, it's encoded as a string.
+"""
+scalar BigInt
+
+type Brand {
+  id: ID!
+
+  """
+  N+1回避しつつ、Mansionをカウントするためのフィールド
+  """
+  mansionCount: Int!
+  name: String!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+}
+
+type City {
+  averagePrice: CityAveragePriceType!
+  id: ID!
+  indexedTowns: [Town!]
+  info: CityInfo!
+  jisCode: String!
+
+  """
+  N+1回避しつつ、Mansionをカウントするためのフィールド
+  """
+  mansionCount: Int!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  name: String!
+  neighborCities: [City!]
+  prefecture: Prefecture!
+  pricePredictions: Pricehubble!
+  primarySchools: [PrimarySchool!]
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+  salesHistories(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+
+    """
+    並び替え順
+    """
+    orderBy: SalesHistoryOrder
+  ): MansionSalesHistoryConnection!
+  stations: [RailwayStation!]
+  towns: [Town!]!
+  writing: Writing
+}
+
+type CityAveragePriceType {
+  aboveFiveRooms: AveragePriceAboveFiveRoom
+  activeLayouts: [AveragePriceLayout!]!
+  base: [AveragePriceBase!]!
+  date: [AveragePriceDate!]!
+  layout(
+    """
+    間取りID
+    """
+    layoutKindId: ID
+
+    """
+    部屋数
+    """
+    numberOfRooms: Int
+  ): [AveragePriceLayout!]!
+  layouts: [AveragePriceLayout!]!
+}
+
+type CityInfo {
+  age: CityInfoAge
+  birthrate: CityInfoBirthrate
+  care: CityInfoCare
+  crime: CityInfoCrime
+  household: CityInfoHousehold
+  income: CityInfoIncome
+  medical: CityInfoMedical
+  park: CityInfoPark
+  population: CityInfoPopulation
+  school: CityInfoSchool
+  waitingChild: CityInfoWaitingChild
+}
+
+type CityInfoAge {
+  area: Area
+  areaRank: Int
+  averageAge: Float
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+}
+
+type CityInfoBirthrate {
+  area: Area
+  areaRank: Int
+  birthrate: Float
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+}
+
+type CityInfoCare {
+  area: Area
+  areaRank: Int
+  careHomes: Float
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+  seniorPopulation: BigInt
+}
+
+type CityInfoCrime {
+  area: Area
+  areaRank: Int
+  crimeRatioPercentage: Float
+  crimes: Int
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+}
+
+type CityInfoHousehold {
+  area: Area
+  areaRank: Int
+  capitalRank: Int
+  deviation: Float
+  grade: Grade
+  households: Int
+  ownedHouseholds: Int
+  ownedPercentage: Float
+  prefectureRank: Int
+}
+
+type CityInfoIncome {
+  area: Area
+  areaRank: Int
+  averageIncome: BigInt
+  capitalRank: Int
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+  taxpayers: BigInt
+  totalIncome: BigInt
+}
+
+type CityInfoMedical {
+  bed: CityInfoMedicalBed
+  hospitalClinic: CityInfoMedicalHospitalClinic
+}
+
+type CityInfoMedicalBed {
+  area: Area
+  areaRank: Int
+  beds: BigInt
+  deviation: Float
+  grade: Grade
+  perPopulation: Float
+  prefectureRank: Int
+}
+
+type CityInfoMedicalHospitalClinic {
+  area: Area
+  areaRank: Int
+  clinics: BigInt
+  deviation: Float
+  grade: Grade
+  hospitals: BigInt
+  perPopulation: Float
+  prefectureRank: Int
+}
+
+type CityInfoPark {
+  area: Area
+  areaPerPerson: Float
+  areaRank: Int
+  capitalRank: Int
+  deviation: Float
+  grade: Grade
+  parkArea: BigInt
+  parks: BigInt
+  prefectureRank: Int
+}
+
+type CityInfoPopulation {
+  basic: CityInfoPopulationBasic
+  density: CityInfoPopulationDensity
+  growth: CityInfoPopulationGrowth
+  underFifteen: CityInfoPopulationUnderFifteen
+}
+
+type CityInfoPopulationBasic {
+  population: Int
+}
+
+type CityInfoPopulationDensity {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  populationDensity: Float
+  prefectureRank: Int
+}
+
+type CityInfoPopulationGrowth {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  populationGrowthPercentage: Float
+  prefectureRank: Int
+}
+
+type CityInfoPopulationUnderFifteen {
+  capitalRank: Int
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+  underFifteenPopulation: Int
+  underFifteenPopulationPercentage: Float
+}
+
+type CityInfoSchool {
+  high: CityInfoSchoolHigh
+  kindergarten: CityInfoSchoolKindergarten
+  middle: CityInfoSchoolMiddle
+  middleProceed: CityInfoSchoolMiddleProceed
+  primary: CityInfoSchoolPrimary
+}
+
+type CityInfoSchoolHigh {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  highSchools: BigInt
+  prefectureRank: Int
+}
+
+type CityInfoSchoolKindergarten {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  kindergartens: BigInt
+  prefectureRank: Int
+}
+
+type CityInfoSchoolMiddle {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  middleSchools: BigInt
+  prefectureRank: Int
+}
+
+type CityInfoSchoolMiddleProceed {
+  capitalRank: Int
+  deviation: Float
+  grade: Grade
+  nationalSchoolProceed: BigInt
+  prefectureRank: Int
+  privateSchoolProceed: BigInt
+  proceedRatioPercentage: Float
+  schoolProceed: BigInt
+}
+
+type CityInfoSchoolPrimary {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+  primarySchools: BigInt
+}
+
+type CityInfoWaitingChild {
+  area: Area
+  areaRank: Int
+  deviation: Float
+  grade: Grade
+  prefectureRank: Int
+  underFourPopulation: Int
+  waitingChilds: Int
+  waitingChildsPerUnderFourPopulation: Float
+}
+
+type Grade {
+  id: ID
+  typeName: String
+}
+
+"""
+An ISO 8601-encoded date
+"""
+scalar ISO8601Date
+
+type IndexIeulColumnType {
+  description: String
+  href: String
+  thumbnail: String
+  title: String
+}
+
+type IndexPath {
+  path: String
+}
+
+input IntRange {
+  from: Int
+  to: Int
+}
+
+type Mansion {
+  access: [MansionAccess!]!
+  age: Int!
+  blockNumber: String
+  brand: Brand
+  city: City!
+  constructCompany: String
+  constructedIn: ISO8601Date!
+  display(
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+  ): MansionDisplay!
+  displays(
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+  ): [MansionDisplay!]!
+  groundFloor: Int
+  id: ID!
+  landPrivilege: String
+  landUseZones: [String!]!
+  layouts: [String!]!
+  managementCompany: String
+  managementForm: String
+  name: String!
+  pageView: Int!
+  parking: String
+  prefecture: Prefecture!
+  priceHubble: Pricehubble
+  primarySchool: PrimarySchool
+  salesHistories(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    専有面積での絞り込み
+    """
+    exclusiveAreaRange: IntRange
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+
+    """
+    並び替え順
+    """
+    orderBy: SalesHistoryOrder
+  ): MansionSalesHistoryConnection!
+  salesHistorySummaries: [MansionSalesHistorySummary!]!
+  similarMansions(
+    """
+    Returns the elements in the list that come after the specified cursor.
+    """
+    after: String
+
+    """
+    築年数の前後幅
+    """
+    ageBeforeAndAfter: Int! = 5
+
+    """
+    Returns the elements in the list that come before the specified cursor.
+    """
+    before: String
+
+    """
+    Returns the first _n_ elements from the list.
+    """
+    first: Int
+
+    """
+    Returns the last _n_ elements from the list.
+    """
+    last: Int
+
+    """
+    並び替え順
+    """
+    orderBy: SimilarMansionOrder
+  ): MansionConnection!
+  street: Street
+  structure: MansionStructure!
+  town: Town!
+  undergroundFloor: Int
+  uniqueCode: ID!
+  unitAmount: Int
+  updatedDate: ISO8601Date!
+  zipCode: String
+}
+
+type MansionAccess {
+  id: ID!
+  lineId: Int!
+  stationId: Int!
+  stationLineName: String!
+  stationName: String!
+  stationWalkingMinutes: Int
+}
+
+"""
+The connection type for Mansion.
+"""
+type MansionConnection {
+  """
+  A list of edges.
+  """
+  edges: [MansionEdge]
+
+  """
+  A list of nodes.
+  """
+  nodes: [Mansion]
+
+  """
+  Information to aid in pagination.
+  """
+  pageInfo: PageInfo!
+}
+
+type MansionDisplay {
+  age: Int!
+  constructedIn: ISO8601Date!
+  id: ID!
+  layoutName: String!
+  maxExclusiveArea: Float!
+  maxPrice: Int!
+  minExclusiveArea: Float!
+  minPrice: Int!
+  name: String
+  unitAmount: Int
+}
+
+"""
+An edge in a connection.
+"""
+type MansionEdge {
+  """
+  A cursor for use in pagination.
+  """
+  cursor: String!
+
+  """
+  The item at the end of the edge.
+  """
+  node: Mansion
+}
+
+type MansionLayoutKind {
+  id: ID!
+  name: String!
+  slug: String!
+  sort: Int!
+}
+
+enum MansionOrderField {
+  """
+  築年月日
+  """
+  CONSTRUCTED_IN
+}
+
+type MansionPagination {
+  isNoindex(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): Boolean
+  mansions: [Mansion!]!
+  pagination: Pagination!
+}
+
+type MansionSalesHistory implements Node {
+  exclusiveArea: Float!
+  floorNumber: Int
+  id: ID!
+  layout: String!
+  mansion: Mansion!
+  openingDirection: String
+  price: Int!
+  saleOn: ISO8601Date!
+  squarePrice: Int!
+}
+
+"""
+The connection type for MansionSalesHistory.
+"""
+type MansionSalesHistoryConnection {
+  """
+  A list of edges.
+  """
+  edges: [MansionSalesHistoryEdge]
+
+  """
+  A list of nodes.
+  """
+  nodes: [MansionSalesHistory]
+
+  """
+  Information to aid in pagination.
+  """
+  pageInfo: PageInfo!
+}
+
+"""
+An edge in a connection.
+"""
+type MansionSalesHistoryEdge {
+  """
+  A cursor for use in pagination.
+  """
+  cursor: String!
+
+  """
+  The item at the end of the edge.
+  """
+  node: MansionSalesHistory
+}
+
+type MansionSalesHistorySummary {
+  exclusiveAreas: [Float!]!
+  layout: String!
+  layoutKind: MansionLayoutKind!
+  maxExclusiveArea: Float!
+  maxPrice: Int!
+  minExclusiveArea: Float!
+  minPrice: Int!
+  numberOfRooms: Int!
+}
+
+type MansionStructure {
+  id: ID!
+  name: String!
+  slug: String!
+}
+
+type Mutation {
+  """
+  An example field added by the generator
+  """
+  testField: String!
+}
+
+"""
+An object with an ID.
+"""
+interface Node {
+  """
+  ID of the object.
+  """
+  id: ID!
+}
+
+enum OrderDirection {
+  """
+  昇順
+  """
+  ASC
+
+  """
+  降順
+  """
+  DESC
+}
+
+"""
+Information about pagination in a connection.
+"""
+type PageInfo {
+  """
+  When paginating forwards, the cursor to continue.
+  """
+  endCursor: String
+
+  """
+  When paginating forwards, are there more items?
+  """
+  hasNextPage: Boolean!
+
+  """
+  When paginating backwards, are there more items?
+  """
+  hasPreviousPage: Boolean!
+
+  """
+  When paginating backwards, the cursor to continue.
+  """
+  startCursor: String
+}
+
+type PagePath {
+  value: String!
+}
+
+type Pagination {
+  currentPage: Int!
+  limitValue: Int!
+  totalCount: Int!
+  totalPages: Int!
+}
+
+type Param {
+  key: String!
+  name: String!
+  value: String!
+}
+
+type Prefecture {
+  averagePrice: PrefectureAveragePriceType!
+  category: [IndexIeulColumnType!]
+  cities: [City!]!
+  citiesCount: Int!
+  companies: [RailwayCompany!]!
+  id: ID!
+  ids: [IndexIeulColumnType!]
+  jisCode: String!
+  mansionCount(
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+  ): Int!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  name: String!
+  pricePredictions: Pricehubble!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+}
+
+type PrefectureAveragePriceType {
+  base: [AveragePriceBase!]!
+  layout(
+    """
+    間取りID
+    """
+    layoutKindId: ID
+
+    """
+    部屋数
+    """
+    numberOfRooms: Int
+  ): [AveragePriceLayout!]!
+  layouts: [AveragePriceLayout!]!
+}
+
+type Pricehubble {
+  salePricePerSquare: [PricehubbleType!]!
+  salePricePerTsubo: [PricehubbleType!]!
+}
+
+type PricehubbleType {
+  building: Float
+  city: Float
+  date: ISO8601Date!
+  line: Float
+  prefecture: Float
+  station: Float
+  town: Float
+}
+
+type PrimarySchool {
+  averagePrice: PrimarySchoolAveragePriceType!
+  city: City
+  mansionCount(
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+  ): Int!
+  name: String!
+  nameKana: String!
+  prefecture: Prefecture!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+  review: [PrimarySchoolReview!]
+  schoolId: ID!
+}
+
+type PrimarySchoolAveragePriceType {
+  base: [AveragePriceBase!]!
+  layout(
+    """
+    間取りID
+    """
+    layoutKindId: ID
+
+    """
+    部屋数
+    """
+    numberOfRooms: Int
+  ): [AveragePriceLayout!]!
+}
+
+type PrimarySchoolReview {
+  accessRate: Int
+  accessText: String
+  admmisionYear: Int!
+  classRate: Int
+  classText: String
+  costText: String
+  eventRate: Int
+  eventText: String
+  generalRate: Int!
+  generalText: String!
+  howGoText: String
+  id: ID!
+  institutionRate: Int
+  institutionText: String
+  lunchPresent: Boolean
+  lunchText: String
+  motivationText: String
+  personGender: String!
+  policyRate: Int
+  policyText: String
+  postMonth: Int!
+  postYear: Int!
+  proceedReasonText: String
+  proceedText: String
+  ptaRate: Int
+  ptaText: String
+  teacherRate: Int
+  teacherText: String
+  title: String!
+  uniformPresent: Boolean
+}
+
+type Query {
+  allIndexedBrands: [IndexPath!]!
+  allIndexedCities: [IndexPath!]!
+  allIndexedCitiesWithParams: [IndexPath!]!
+  allIndexedCommuteStations: [IndexPath!]!
+  allIndexedPrimarySchools: [IndexPath!]!
+  allIndexedStations: [IndexPath!]!
+  allIndexedTownWithParams: [IndexPath!]!
+  allIndexedTowns: [IndexPath!]!
+  brands(
+    """
+    複数のブランドid。カンマ区切り
+    """
+    brd: String
+  ): [Brand!]!
+  cities(
+    """
+    複数の市区jis_code。カンマ区切り
+    """
+    ct: String
+  ): [City!]!
+  city(jisCode: String!): City!
+  freeWord(
+    """
+    リミット
+    """
+    limit: Int
+
+    """
+    検索ワード
+    """
+    word: String!
+  ): [SearchWord!]!
+  indexedLineIds: [IndexPath!]!
+  indexedSearchParams: [SearchParam!]!
+  libraryAreaPagePaths: [PagePath!]!
+  libraryMansionPagePaths: [PagePath!]!
+  line(
+    """
+    路線ID
+    """
+    ln: String!
+  ): RailwayLine!
+  lines(
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String!
+  ): [RailwayLine!]!
+  mansion(historyCursor: String, uniqueCode: ID!): Mansion!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  prefecture(jisCode: String!): Prefecture!
+  prefectures: [Prefecture!]!
+  primarySchools(
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+  ): [PrimarySchool!]!
+  station(
+    """
+    駅ID。
+    """
+    st: String!
+  ): RailwayStation!
+  stations(
+    """
+    駅ID。カンマ区切り
+    """
+    st: String!
+  ): [RailwayStation!]!
+  town(
+    """
+    町村ID
+    """
+    tw: String
+  ): Town!
+  towns(
+    """
+    町村。カンマ区切り
+    """
+    tw: String
+  ): [Town!]!
+}
+
+type RailwayCompany {
+  lines: [RailwayLine!]!
+  name: String!
+}
+
+type RailwayLine {
+  cities: [City!]!
+  company: RailwayCompany!
+  id: ID!
+  mansionCount(
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+  ): Int!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  name: String!
+  pricePredictions: Pricehubble!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+  stations: [RailwayStation!]!
+  writing: Writing
+}
+
+type RailwayStation {
+  averageMansionPrice: RailwayStationAverageMansionPrice
+  city: City!
+  commuteStations: [RailwayStationToStation!]!
+  groupCode: ID!
+  id: ID!
+  line: RailwayLine!
+  mansionCount(
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+  ): Int!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  name: String!
+  nextStations: [RailwayStation!]!
+  pricePredictions: Pricehubble!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+  sameStations: [RailwayStation!]!
+  stationToStations(
+    """
+    平均相場以上
+    """
+    apb: Int
+
+    """
+    平均相場以下
+    """
+    apt: Int
+
+    """
+    取得数
+    """
+    limit: Int
+
+    """
+    〜分以内
+    """
+    mnt: Int
+
+    """
+    平均相場 並び替え
+    """
+    orap: String
+
+    """
+    駅までの時間 並び替え
+    """
+    ormn: String
+
+    """
+    乗り換え 並び替え
+    """
+    ortt: String
+
+    """
+    乗り換え回数〇〇以内
+    """
+    trt: Int
+  ): [RailwayStationToStation!]
+  topPriorityStation: RailwayStation!
+  writing: Writing
+}
+
+type RailwayStationAverageMansionPrice {
+  averagePrice: Int!
+  averageSquarePrice: Int!
+  salesHistoriesCount: Int!
+}
+
+type RailwayStationToStation {
+  endStation: RailwayStation
+  endStationGroupCode: ID!
+  id: ID!
+  minutes: Int!
+  startStation: RailwayStation
+  startStationGroupCode: ID!
+  transferTime: Int!
+}
+
+input SalesHistoryOrder {
+  """
+  並び順
+  """
+  direction: OrderDirection
+
+  """
+  並び替えの基準となるフィールド
+  """
+  field: SalesHistoryOrderField
+}
+
+enum SalesHistoryOrderField {
+  """
+  売却価格
+  """
+  PRICE
+
+  """
+  売却日
+  """
+  SALE_ON
+
+  """
+  平米単価
+  """
+  SQUARE_PRICE
+}
+
+type SearchParam {
+  id: ID!
+  param: [Param!]!
+}
+
+type SearchWord {
+  buildingId: ID!
+  value: String!
+}
+
+input SimilarMansionOrder {
+  """
+  並び順
+  """
+  direction: OrderDirection
+
+  """
+  並び替えの基準となるフィールド
+  """
+  field: MansionOrderField
+}
+
+type Street {
+  id: ID!
+  name: String!
+}
+
+type Town {
+  city: City!
+  id: ID!
+  linkedBuildings: [Mansion!]
+  linkedSearchConditions: [Param!]
+  linkedStations: [RailwayStation!]
+  linkedTowns: [Town!]
+
+  """
+  N+1回避しつつ、Mansionをカウントするためのフィールド
+  """
+  mansionCount(
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+  ): Int!
+  mansionPagination(
+    """
+    ブランドID。 カンマ区切り
+    """
+    brd: String
+
+    """
+    築年数　以下
+    """
+    ckt: Int
+
+    """
+    市区
+    """
+    ct: String
+
+    """
+    占有面積　以上
+    """
+    eab: Int
+
+    """
+    占有面積　以下
+    """
+    eat: Int
+
+    """
+    物件規模　階数　以上
+    """
+    gfb: Int
+
+    """
+    物件規模　階数　以下
+    """
+    gft: Int
+
+    """
+    路線ID。カンマ区切り
+    """
+    ln: String
+
+    """
+    間取り
+    """
+    md: String
+
+    """
+    占有面積並び替え
+    """
+    orar: String
+
+    """
+    築年数並び替え
+    """
+    orck: String
+
+    """
+    間取り部屋数並び替え
+    """
+    ormd: String
+
+    """
+    価格並び替え
+    """
+    orpr: String
+
+    """
+    更新日並び替え
+    """
+    orud: String
+
+    """
+    ページネーション　ページ数
+    """
+    page: Int
+
+    """
+    ページネーション　１ページ辺りの件数
+    """
+    per: Int
+
+    """
+    価格　以上
+    """
+    prb: Int
+
+    """
+    価格　以下
+    """
+    prt: Int
+
+    """
+    学校ID。 カンマ区切り
+    """
+    psc: String
+
+    """
+    駅ID。カンマ区切り
+    """
+    st: String
+
+    """
+    駅徒歩　以上
+    """
+    thb: Int
+
+    """
+    駅徒歩 以下
+    """
+    tht: Int
+
+    """
+    町村
+    """
+    tw: String
+
+    """
+    物件規模　戸数　以上
+    """
+    utb: Int
+
+    """
+    フリーワード
+    """
+    wd: String
+  ): MansionPagination!
+  name: String!
+  pricePredictions: Pricehubble!
+  rankingMansions(
+    """
+    リミット
+    """
+    limit: Int
+  ): [Mansion!]
+  writing: Writing
+}
+
+type Writing {
+  introduce: String
+  recommendArea: String
+  recommendSpot: String
+  tips: String
+  traffic: String
+}

@@ -1,0 +1,17 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'railway_line_sorts', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'line_id', null: false, comment: '路線ID'
+  t.bigint 'company_id', null: false, comment: '事業者ID'
+  t.integer 'line_sort', null: false, comment: '全体路線ソート'
+  t.integer 'company_sort', null: false, comment: '事業者内での路線ソート'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['line_id'], name: 'idx_railway_line_sorts_line_id'
+  t.index ['company_id'], name: 'idx_railway_line_sorts_company_id'
+end
+
+add_foreign_key 'railway_line_sorts', 'railway_lines', column: 'line_id', name: 'fk_railway_line_sorts_railway_lines'

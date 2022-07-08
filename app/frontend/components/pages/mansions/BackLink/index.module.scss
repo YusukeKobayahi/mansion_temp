@@ -1,0 +1,29 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  width: 100%;
+  padding: 50px calc(50vw - 50%);
+  color: $color-text-main;
+  box-sizing: content-box;
+  margin-bottom: -50px;
+  margin: 0 calc(50% - 50vw) -50px;
+  background-color: #f5f5f5;
+  text-align: center;
+
+  @include screenMd {
+    max-width: 100%;
+  }
+}
+
+a.btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 24px;
+  background-color: #f8f6f0;
+  border: 2px solid $color-main;
+  border-radius: 0px;
+  font-size: 16px;
+  color: $color-main;
+  cursor: pointer;
+}

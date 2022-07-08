@@ -1,0 +1,5 @@
+fragment MsLibraryIndexPrefecture on Prefecture {
+  id
+  name
+  jisCode
+}

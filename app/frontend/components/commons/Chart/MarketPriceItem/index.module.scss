@@ -1,0 +1,239 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 28px;
+  padding: 0 40px;
+  box-sizing: border-box;
+
+  @include screenMd {
+    padding: 0 16px;
+  }
+}
+
+.text {
+  font-size: 16px;
+  color: #646464;
+
+  @include screenMd {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+}
+
+.main {
+  margin-top: 40px;
+  display: flex;
+  @include screenMd {
+    margin-top: 10px;
+    flex-direction: column-reverse;
+  }
+}
+
+.charts {
+  width: 630px;
+
+  @include screenMd {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .legends {
+    display: flex;
+    margin-left: 60px;
+
+    @include screenMd {
+      width: 50%;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+
+    p {
+      font-size: 10px;
+      color: #646464;
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+
+      @include screenMd {
+        margin-bottom: 3px;
+        margin: 0 0 3px 15px;
+      }
+
+      span {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .chart {
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+
+    @include screenMd {
+      width: 300px;
+      margin: 10px auto 0;
+      height: 250px;
+      transform: unset;
+      text-align: center;
+    }
+
+    tspan {
+      @include screenMd {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.summary {
+  margin-left: 25px;
+
+  @include screenMd {
+    margin: 0;
+  }
+
+  h3 {
+    text-align: center;
+
+    span {
+      font-size: 14px;
+      font-weight: bold;
+      color: #b2a173;
+      position: relative;
+
+      @include screenMd {
+        font-size: 18px;
+      }
+
+      &::before {
+        content: "";
+        width: 14px;
+        height: 2px;
+        background-color: #b2a173;
+        position: absolute;
+        top: 50%;
+        left: -18px;
+        transform: translateY(-50%);
+      }
+
+      &::after {
+        content: "";
+        width: 14px;
+        height: 2px;
+        background-color: #b2a173;
+        position: absolute;
+        top: 50%;
+        right: -18px;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .block {
+    margin-top: 23px;
+    padding-left: 20px;
+
+    @include screenMd {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 15px;
+    }
+
+    .head {
+      position: relative;
+      background-color: unset;
+      font-size: 14px;
+      font-weight: bold;
+      color: #646464;
+      padding: 0;
+
+      @include screenMd {
+        width: 55%;
+        text-align: left;
+      }
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        left: -20px;
+        top: 20%;
+        width: 15.5px;
+        height: 15.5px;
+        box-sizing: border-box;
+        border: 1.5px solid #dddddd;
+        border-radius: 50px;
+      }
+
+      &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: -16px;
+        top: 25%;
+        transform: rotate(-45deg);
+        width: 12px;
+        height: 5px;
+        box-sizing: border-box;
+        border-left: 1px solid #dddddd;
+        border-bottom: 1px solid #dddddd;
+      }
+
+      &.display {
+        &::before {
+          background-color: #bca565;
+          border: none;
+        }
+
+        &::after {
+          border-color: #ffffff;
+        }
+      }
+    }
+
+    .body {
+      display: flex;
+      margin-top: 8px;
+
+      p {
+        font-size: 14px;
+        color: #646464;
+
+        &.slash {
+          margin: 0 5px;
+
+          @include screenMd {
+            margin: 0;
+          }
+        }
+
+        span {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+.today {
+  text {
+    transform: translateY(-125px);
+
+    @include screenMd {
+      transform: translateY(-39vw);
+    }
+  }
+  tspan {
+    fill: #f10000;
+    font-size: 12px;
+
+    @include screenMd {
+      font-size: 12px;
+    }
+  }
+}

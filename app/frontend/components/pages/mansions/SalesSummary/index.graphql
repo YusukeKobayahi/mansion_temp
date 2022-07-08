@@ -1,0 +1,12 @@
+fragment MsLibraryMansionsSalesSummary on Mansion {
+  constructedIn
+  age
+  name
+  salesHistorySummaries {
+    layout
+    minPrice
+    maxPrice
+    minExclusiveArea
+    maxExclusiveArea
+  }
+}

@@ -1,0 +1,19 @@
+query primarySchools($psc: String, $numberOfRooms: Int, $layoutKindId: ID) {
+  primarySchools(psc: $psc) {
+    schoolId
+    name
+    nameKana
+    ...MsLibraryPrimarySchoolOtherSchools
+    ...SchoolReviewsData
+    ...SchoolInfoData
+    city {
+      prefecture {
+        name
+        jisCode
+      }
+    }
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+  }
+}

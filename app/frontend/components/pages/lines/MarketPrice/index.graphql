@@ -1,0 +1,13 @@
+fragment MsLibraryLinesMarketPrice on RailwayLine {
+  name
+  pricePredictions {
+    salePricePerTsubo {
+      date
+      line
+    }
+    salePricePerSquare {
+      date
+      line
+    }
+  }
+}

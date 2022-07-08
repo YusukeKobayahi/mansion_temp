@@ -1,0 +1,34 @@
+fragment MsLibraryMansionsBaseInfo on Mansion {
+  uniqueCode
+  name
+  prefecture {
+    name
+    jisCode
+  }
+  city {
+    name
+    jisCode
+  }
+  town {
+    id
+    name
+  }
+  street {
+    name
+  }
+  age
+  constructedIn
+  blockNumber
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+    lineId
+  }
+  display {
+    minExclusiveArea
+    maxExclusiveArea
+  }
+}

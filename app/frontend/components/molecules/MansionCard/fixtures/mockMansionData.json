@@ -1,0 +1,727 @@
+{
+  "mansionPagination": {
+    "isNoindex": false,
+    "mansions": [
+      {
+        "uniqueCode": "004cb433657e33726825cba0",
+        "name": "ナイスクオリティス横濱鶴見",
+        "age": 9,
+        "constructedIn": "2012-08-01",
+        "unitAmount": 390,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "市場下町"
+        },
+        "street": null,
+        "blockNumber": "１１－３７",
+        "display": {
+          "minPrice": 29300000,
+          "maxPrice": 52800000,
+          "minExclusiveArea": 56.1,
+          "maxExclusiveArea": 76.51,
+          "layoutName": "2LDK、3LDK、4LDK"
+        },
+        "access": [
+          {
+            "id": "11",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 15,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "887bdc6a1da7a5e6fb61b3a1",
+        "name": "クリオ横浜鶴見",
+        "age": 10,
+        "constructedIn": "2011-02-01",
+        "unitAmount": 41,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "潮田町"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": "２３－４",
+        "display": {
+          "minPrice": 27800000,
+          "maxPrice": 39800000,
+          "minExclusiveArea": 56.27,
+          "maxExclusiveArea": 70.43,
+          "layoutName": "2LDK、3LDK"
+        },
+        "access": [
+          {
+            "id": "231",
+            "stationId": 5744,
+            "stationLineName": "京浜急行線",
+            "stationName": "京急鶴見",
+            "stationWalkingMinutes": 9,
+            "lineId": 278
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "4a14b77b1d0767c1c7260e20",
+        "name": "プレミスト菊名",
+        "age": 5,
+        "constructedIn": "2016-02-01",
+        "unitAmount": 86,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "上の宮"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": "５－２０",
+        "display": {
+          "minPrice": 47500000,
+          "maxPrice": 56800000,
+          "minExclusiveArea": 72.13,
+          "maxExclusiveArea": 75.27,
+          "layoutName": "3LDK、3SLDK、4LDK、4SLDK"
+        },
+        "access": [
+          {
+            "id": "255",
+            "stationId": 5628,
+            "stationLineName": "東横線",
+            "stationName": "菊名",
+            "stationWalkingMinutes": 12,
+            "lineId": 270
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "8a836f085db06ac580fd71e7",
+        "name": "Ｌ’ＡＶＥＮＩＲ　Ｓｔａｔｉｏｎ　ｔｏｗｅｒ",
+        "age": 6,
+        "constructedIn": "2015-11-01",
+        "unitAmount": null,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "生麦"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": "１０",
+        "display": {
+          "minPrice": 21500000,
+          "maxPrice": 21500000,
+          "minExclusiveArea": 20.65,
+          "maxExclusiveArea": 20.65,
+          "layoutName": "1K"
+        },
+        "access": [
+          {
+            "id": "415",
+            "stationId": 5746,
+            "stationLineName": "京浜急行線",
+            "stationName": "生麦",
+            "stationWalkingMinutes": 1,
+            "lineId": 278
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "0708beae8b91a028c0782e22",
+        "name": "デュオヒルズ横濱北寺尾",
+        "age": 6,
+        "constructedIn": "2015-02-01",
+        "unitAmount": 118,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "北寺尾"
+        },
+        "street": {
+          "name": "４丁目"
+        },
+        "blockNumber": null,
+        "display": {
+          "minPrice": 32800000,
+          "maxPrice": 52800000,
+          "minExclusiveArea": 68.35,
+          "maxExclusiveArea": 83.43,
+          "layoutName": "3LDK、4LDK"
+        },
+        "access": [
+          {
+            "id": "709",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": null,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "8d95578e8c964deb3361edae",
+        "name": "リストレジデンス鶴見エアリーコート",
+        "age": 7,
+        "constructedIn": "2014-10-01",
+        "unitAmount": 139,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "元宮"
+        },
+        "street": {
+          "name": "２丁目"
+        },
+        "blockNumber": "４－３",
+        "display": {
+          "minPrice": 29800000,
+          "maxPrice": 43800000,
+          "minExclusiveArea": 65.18,
+          "maxExclusiveArea": 85.05,
+          "layoutName": "2SLDK、3LDK、4LDK"
+        },
+        "access": [
+          {
+            "id": "745",
+            "stationId": 5743,
+            "stationLineName": "京浜急行線",
+            "stationName": "鶴見市場",
+            "stationWalkingMinutes": 15,
+            "lineId": 278
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "c7f2c5ea535b7846b8b176e9",
+        "name": "クレストシティ・アクアグランデ　サウスレジデンス",
+        "age": 10,
+        "constructedIn": "2012-01-01",
+        "unitAmount": 486,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "江ケ崎町"
+        },
+        "street": null,
+        "blockNumber": null,
+        "display": {
+          "minPrice": 42500000,
+          "maxPrice": 42900000,
+          "minExclusiveArea": 77.23,
+          "maxExclusiveArea": 77.23,
+          "layoutName": "3LDK"
+        },
+        "access": [
+          {
+            "id": "863",
+            "stationId": 1373,
+            "stationLineName": "南武線",
+            "stationName": "矢向",
+            "stationWalkingMinutes": 8,
+            "lineId": 64
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "096840338f527b6dcc2e49a9",
+        "name": "ヴェレーナ横浜東寺尾",
+        "age": 7,
+        "constructedIn": "2014-02-01",
+        "unitAmount": 80,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "東寺尾"
+        },
+        "street": {
+          "name": "５丁目"
+        },
+        "blockNumber": "５番１４号",
+        "display": {
+          "minPrice": 28990000,
+          "maxPrice": 36800000,
+          "minExclusiveArea": 68.4,
+          "maxExclusiveArea": 72.53,
+          "layoutName": "3LDK"
+        },
+        "access": [
+          {
+            "id": "1077",
+            "stationId": 5746,
+            "stationLineName": "京浜急行線",
+            "stationName": "生麦",
+            "stationWalkingMinutes": 13,
+            "lineId": 278
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "0aa5f25e0503789782f86542",
+        "name": "オーベルグランディオ横浜鶴見",
+        "age": 6,
+        "constructedIn": "2015-12-01",
+        "unitAmount": 180,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "鶴見中央"
+        },
+        "street": {
+          "name": "２丁目"
+        },
+        "blockNumber": "１１－１",
+        "display": {
+          "minPrice": 40800000,
+          "maxPrice": 62800000,
+          "minExclusiveArea": 63.51,
+          "maxExclusiveArea": 82.68,
+          "layoutName": "3LDK、3SLDK、4LDK"
+        },
+        "access": [
+          {
+            "id": "1173",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 8,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "0ad503604724901127d2ee08",
+        "name": "プライム生麦",
+        "age": 8,
+        "constructedIn": "2013-02-01",
+        "unitAmount": null,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "生麦"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": "６－１８",
+        "display": {
+          "minPrice": 36800000,
+          "maxPrice": 39800000,
+          "minExclusiveArea": 72.08,
+          "maxExclusiveArea": 72.08,
+          "layoutName": "3LDK"
+        },
+        "access": [
+          {
+            "id": "1191",
+            "stationId": 5746,
+            "stationLineName": "京浜急行線",
+            "stationName": "生麦",
+            "stationWalkingMinutes": 3,
+            "lineId": 278
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "0b5c95e1ce393694982c814c",
+        "name": "サンクレイドル横濱妙蓮寺",
+        "age": 3,
+        "constructedIn": "2018-11-01",
+        "unitAmount": null,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "東寺尾"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": null,
+        "display": {
+          "minPrice": 34580000,
+          "maxPrice": 37880000,
+          "minExclusiveArea": 65.6,
+          "maxExclusiveArea": 71.1,
+          "layoutName": "3LDK"
+        },
+        "access": [
+          {
+            "id": "1248",
+            "stationId": 5628,
+            "stationLineName": "東横線",
+            "stationName": "菊名",
+            "stationWalkingMinutes": null,
+            "lineId": 270
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "ce3213a79c2ab9724178fdd2",
+        "name": "Ｌｅ’ａ横濱鶴見中央",
+        "age": 8,
+        "constructedIn": "2013-07-01",
+        "unitAmount": 30,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "鶴見中央"
+        },
+        "street": {
+          "name": "４丁目"
+        },
+        "blockNumber": "３５－２４",
+        "display": {
+          "minPrice": 17500000,
+          "maxPrice": 19500000,
+          "minExclusiveArea": 21.75,
+          "maxExclusiveArea": 22.75,
+          "layoutName": "1K"
+        },
+        "access": [
+          {
+            "id": "1444",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 6,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "0fca284a9e8f79d6b2cd363c",
+        "name": "シェフルール鶴見中央",
+        "age": 9,
+        "constructedIn": "2012-11-01",
+        "unitAmount": 58,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "鶴見中央"
+        },
+        "street": {
+          "name": "５丁目"
+        },
+        "blockNumber": "３－８",
+        "display": {
+          "minPrice": 44800000,
+          "maxPrice": 56800000,
+          "minExclusiveArea": 62.74,
+          "maxExclusiveArea": 65.15,
+          "layoutName": "2LDK、2SLDK、3LDK"
+        },
+        "access": [
+          {
+            "id": "1647",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 5,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "565f5e048d8d32d8250fa05a",
+        "name": "ポレスター横濱鶴見",
+        "age": 9,
+        "constructedIn": "2012-12-01",
+        "unitAmount": 24,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "鶴見中央"
+        },
+        "street": {
+          "name": "１丁目"
+        },
+        "blockNumber": "１３－１２",
+        "display": {
+          "minPrice": 37500000,
+          "maxPrice": 39800000,
+          "minExclusiveArea": 55.14,
+          "maxExclusiveArea": 55.14,
+          "layoutName": "2LDK"
+        },
+        "access": [
+          {
+            "id": "1723",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 3,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      },
+      {
+        "uniqueCode": "569691f354e514ce25b00359",
+        "name": "ノブレス横浜鶴見東寺尾中台",
+        "age": 6,
+        "constructedIn": "2016-01-01",
+        "unitAmount": 26,
+        "prefecture": {
+          "name": "神奈川県"
+        },
+        "city": {
+          "name": "横浜市鶴見区"
+        },
+        "town": {
+          "name": "東寺尾中台"
+        },
+        "street": null,
+        "blockNumber": "３７－１０",
+        "display": {
+          "minPrice": 32800000,
+          "maxPrice": 37800000,
+          "minExclusiveArea": 45.83,
+          "maxExclusiveArea": 46.41,
+          "layoutName": "1LDK"
+        },
+        "access": [
+          {
+            "id": "1753",
+            "stationId": 2006,
+            "stationLineName": "京浜東北線",
+            "stationName": "鶴見",
+            "stationWalkingMinutes": 10,
+            "lineId": 92
+          }
+        ],
+        "salesHistorySummaries": [
+          {
+            "layout": "1LDK",
+            "numberOfRooms": 1,
+            "layoutKind": {
+              "slug": "ldk",
+              "sort": 7
+            },
+            "exclusiveAreas": [55.04, 59.42]
+          }
+        ]
+      }
+    ],
+    "pagination": {
+      "totalCount": 116,
+      "totalPages": 8,
+      "currentPage": 1,
+      "limitValue": 15
+    }
+  }
+}

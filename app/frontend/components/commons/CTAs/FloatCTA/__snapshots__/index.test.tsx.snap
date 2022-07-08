@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/FloatCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <p
+      class="description"
+    >
+      ＼ 複数の不動産会社があなたの理想の物件を提案／
+    </p>
+    <button
+      class="btn"
+    >
+      <span>
+        完全
+        <br />
+        無料
+      </span>
+      まずは希望の条件を登録してみる
+    </button>
+  </section>
+</DocumentFragment>
+`;

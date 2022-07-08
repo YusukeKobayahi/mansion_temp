@@ -1,0 +1,14 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.radios {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+
+  .radio {
+    width: calc(100% / 3);
+    line-height: 2;
+    align-items: center;
+  }
+}

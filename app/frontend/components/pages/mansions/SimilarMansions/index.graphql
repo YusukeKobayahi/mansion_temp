@@ -1,0 +1,50 @@
+# 現状9件で固定
+fragment MsLibraryMansionsSimilarMansions on Mansion {
+  name
+  city {
+    name
+    jisCode
+  }
+  similarMansions(
+    first: 9
+    orderBy: { field: CONSTRUCTED_IN, direction: DESC }
+  ) {
+    edges {
+      node {
+        uniqueCode
+        name
+        constructedIn
+        age
+
+        prefecture {
+          name
+          jisCode
+        }
+        city {
+          name
+          jisCode
+        }
+        town {
+          name
+        }
+        street {
+          name
+        }
+        blockNumber
+        salesHistorySummaries {
+          layout
+          minPrice
+          maxPrice
+        }
+        access {
+          id
+          stationId
+          stationLineName
+          stationName
+          stationWalkingMinutes
+          lineId
+        }
+      }
+    }
+  }
+}

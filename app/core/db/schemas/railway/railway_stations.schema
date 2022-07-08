@@ -1,0 +1,25 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'railway_stations', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'line_id', null: false, comment: '路線ID'
+  t.integer 'code', null: false, comment: '駅データ.jpの駅コード'
+  t.integer 'group_code', null: false, comment: '駅データ.jpの駅グループコード'
+  t.string 'msl_name', limit: 45, comment: 'マンションライブラリー駅名'
+  t.string 'master_name', null: false, comment: 'マスター駅名'
+  t.integer 'prefecture_id', null: false, comment: 'maddressのprefecture_id'
+  t.bigint 'city_id', null: false, comment: 'maddressのcity_id'
+  t.integer 'status_id', null: false, comment: '0: 運用中, 1: 運用前, 2: 廃止'
+  t.integer 'sort', null: false, comment: '並び順'
+  t.datetime 'created_at', null: false
+  t.datetime 'updated_at', null: false
+  t.index ['city_id'], name: 'idx_railway_stations_on_city_id'
+  t.index ['code'], name: 'idx_railway_stations_on_code', unique: true
+  t.index ['group_code'], name: 'idx_railway_stations_on_group_code'
+  t.index ['line_id'], name: 'index_railway_stations_on_line_id'
+  t.index ['prefecture_id'], name: 'idx_railway_stations_on_prefecture_id'
+end
+
+add_foreign_key 'railway_stations', 'railway_lines', column: 'line_id', name: 'fk_railway_station_railway_line'

@@ -1,0 +1,42 @@
+{
+  "orap": {
+    "type": "string",
+    "patterns": [
+      {
+        "name": "平均相場が安い順",
+        "value": "ASC",
+        "priority": "8"
+      },
+      {
+        "name": "平均相場が高い順",
+        "value": "DESC",
+        "priority": "9"
+      }
+    ]
+  },
+  "ortt": {
+    "type": "string",
+    "patterns": [
+      {
+        "name": "乗り換えが少ない順",
+        "value": "ASC",
+        "priority": "5"
+      }
+    ]
+  },
+  "ormn": {
+    "type": "string",
+    "patterns": [
+      {
+        "name": "駅までの時間が短い順",
+        "value": "ASC",
+        "priority": "6"
+      },
+      {
+        "name": "駅までの時間が長い順",
+        "value": "DESC",
+        "priority": "7"
+      }
+    ]
+  }
+}

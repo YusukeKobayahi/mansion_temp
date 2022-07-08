@@ -1,0 +1,30 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.label {
+  width: 100%;
+  justify-content: start;
+  font-size: 12px;
+  font-weight: bold;
+  color: #373a3c;
+}
+
+.inputs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 1fr 5fr;
+  margin-top: 13px;
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.unit {
+  margin-left: 10px;
+  width: 50px;
+  font-size: 12px;
+  font-weight: lighter;
+}

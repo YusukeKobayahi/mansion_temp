@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/index/MembersCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div
+      class="cta"
+    >
+      <p
+        class="description"
+      >
+        ＼ メールアドレス設定と条件入力で会員登録完了 ／
+      </p>
+      <button
+        class="btn"
+      >
+        <span>
+          完全
+          <br />
+          無料
+        </span>
+        理想の家探しスタート
+      </button>
+      <button
+        class="link"
+      >
+        Housiiについての詳しい情報はこちらから
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;

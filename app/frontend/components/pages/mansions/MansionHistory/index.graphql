@@ -1,0 +1,34 @@
+fragment MsLibraryMansionsMansionHistory on Mansion {
+  uniqueCode
+  name
+  constructedIn
+  age
+  prefecture {
+    name
+    jisCode
+  }
+  city {
+    name
+    jisCode
+  }
+  town {
+    name
+  }
+  street {
+    name
+  }
+  blockNumber
+  salesHistorySummaries {
+    layout
+    minPrice
+    maxPrice
+  }
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+    lineId
+  }
+}

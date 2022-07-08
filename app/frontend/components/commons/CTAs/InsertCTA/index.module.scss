@@ -1,0 +1,63 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin: 20px auto;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #f8f6f0;
+}
+
+.description {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #746744;
+  font-size: 16px;
+
+  @include screenMd {
+    padding: 0 16px;
+    font-size: 12px;
+  }
+}
+
+.emphasisText {
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 60px;
+  background-color: #f15e3a;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+
+  @include screenMd {
+    box-sizing: border-box;
+    padding: 16px 30px;
+    margin: 0 16px;
+    width: calc(100% - 32px);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: translateY(-50%) rotate(45deg);
+
+    @include screenMd {
+      right: 20px;
+    }
+  }
+}

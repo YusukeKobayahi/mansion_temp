@@ -1,0 +1,15 @@
+query PrimarySchoolsList($jisCode: String!) {
+  prefecture(jisCode: $jisCode) {
+    name
+    jisCode
+    cities {
+      name
+      id
+      primarySchools {
+        schoolId
+        name
+        mansionCount
+      }
+    }
+  }
+}

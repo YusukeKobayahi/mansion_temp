@@ -1,0 +1,53 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  margin-bottom: 30px;
+}
+
+.checkbox {
+  font-size: 12px;
+  p {
+    height: 22px;
+    overflow: visible;
+    transform: translate(-10px, 0px);
+    white-space: nowrap;
+  }
+}
+.menu {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 4fr 2fr 4fr 2fr;
+  column-gap: 20px;
+  align-items: center;
+  color: $color-text-main;
+  font-weight: bold;
+
+  @include screenMd {
+    padding-top: 0;
+    margin-bottom: 30px;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 5fr 4fr 10fr;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justifyRight {
+  display: flex;
+  justify-content: right;
+}
+
+.fontSizeLg {
+  font-size: 24px;
+}
+
+.fontSizeSm {
+  font-size: 12px;
+}

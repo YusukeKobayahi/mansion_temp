@@ -1,0 +1,16 @@
+@import "~/styles/utils";
+@import "~/styles/variables";
+
+.searchButtonOutline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: #fafafa;
+}
+.searchButtonInline {
+  width: 55%;
+}

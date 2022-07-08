@@ -1,0 +1,12 @@
+fragment MsLibraryMansionsUnitSize on Mansion {
+  name
+  salesHistorySummaries {
+    layout
+    numberOfRooms
+    layoutKind {
+      slug
+      sort
+    }
+    exclusiveAreas
+  }
+}

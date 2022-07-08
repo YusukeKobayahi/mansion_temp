@@ -1,0 +1,21 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  display: flex;
+}
+
+.currentCount {
+  font-size: 25px;
+  color: #746744;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.totalCount {
+  font-size: 16px;
+  color: #746744;
+  font-weight: bold;
+  white-space: nowrap;
+  align-self: flex-end;
+}

@@ -1,0 +1,40 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.children {
+  margin-top: 30px;
+  text-align: center;
+}
+
+$brown: $color-main;
+$red: #ff3300;
+
+@mixin fill($color: $red) {
+  border: 2px solid $color;
+  background-color: $color;
+  color: white;
+}
+@mixin outline($color: $red) {
+  &.outline {
+    border: 2px solid $color;
+    background-color: unset;
+    color: $color;
+  }
+}
+
+.red {
+  @include fill;
+  @include outline;
+}
+
+.brown {
+  @include fill($brown);
+  @include outline($brown);
+}

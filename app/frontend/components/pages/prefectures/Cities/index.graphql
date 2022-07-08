@@ -1,0 +1,7 @@
+fragment MsLibraryPrefecturesCities on Prefecture {
+  cities {
+    name
+    jisCode
+    mansionCount
+  }
+}

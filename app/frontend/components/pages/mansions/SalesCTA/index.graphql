@@ -1,0 +1,7 @@
+fragment MsLibraryMansionsSalesCTA on Mansion {
+  name
+  street {
+    id
+  }
+  blockNumber
+}

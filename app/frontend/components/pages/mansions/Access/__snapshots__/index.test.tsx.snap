@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/Access 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  />
+</DocumentFragment>
+`;

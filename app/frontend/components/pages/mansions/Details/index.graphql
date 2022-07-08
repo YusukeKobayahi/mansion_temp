@@ -1,0 +1,42 @@
+fragment MsLibraryMansionsDetails on Mansion {
+  name
+  age
+  constructedIn
+  blockNumber
+  groundFloor
+  undergroundFloor
+  unitAmount
+  landPrivilege
+  constructCompany
+  managementForm
+  managementCompany
+  structure {
+    name
+  }
+  prefecture {
+    name
+    jisCode
+  }
+  city {
+    name
+    jisCode
+  }
+  town {
+    id
+    name
+  }
+  street {
+    name
+  }
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+    lineId
+  }
+  parking
+  landUseZones
+  layouts
+}

@@ -1,0 +1,84 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.slick-list {
+  .slick-track {
+    display: flex;
+  }
+  .slick-slide {
+    height: auto;
+
+    > div {
+      height: 100%;
+
+      > div {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.slick-arrow {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 45%;
+  background-color: unset;
+  cursor: pointer;
+  font-size: 0;
+
+  &.slick-prev {
+    border-top: 2px solid #bca565;
+    border-left: 2px solid #bca565;
+    transform: rotate(-45deg) translateY(-50%);
+    left: -20px;
+
+    @include screenMd {
+      left: 20px;
+    }
+  }
+
+  &.slick-next {
+    border-top: 2px solid #bca565;
+    border-right: 2px solid #bca565;
+    transform: rotate(45deg) translateY(-50%);
+    right: -20px;
+
+    @include screenMd {
+      right: 20px;
+    }
+  }
+}
+
+.slick-dots {
+  margin-top: 20px;
+  // slickのstyle上書きのためにimportantを使用
+  display: flex !important;
+  justify-content: center;
+
+  @include screenMd {
+    margin-top: 12px;
+  }
+
+  li {
+    background-color: unset;
+    cursor: pointer;
+    margin: 0 5px;
+    line-height: 1;
+
+    button {
+      font-size: 0;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      color: #efe4c5;
+      background-color: #efe4c5;
+    }
+
+    &.slick-active {
+      button {
+        background-color: #b2a173;
+      }
+    }
+  }
+}

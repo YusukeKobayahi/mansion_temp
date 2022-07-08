@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/prefectures/MembersCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <p
+      class="description"
+    >
+      ＼東京都の未公開物件情報多数／
+    </p>
+    <button
+      class="btn"
+    >
+      <span>
+        完全
+        <br />
+        無料
+      </span>
+      いますぐ会員登録でオファーを待つ
+    </button>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/MembersCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <div>
+      <p
+        class="description"
+      >
+        人がこの物件の購入を検討しています！
+      </p>
+    </div>
+    <div
+      class="cta_area"
+    >
+      <div
+        class="cta_offer"
+      >
+        <p
+          class="description"
+        >
+          プラネスーペリア南行徳をご検討の皆様
+          <br />
+          ＼ 条件の近い未公開物件があります！ ／
+        </p>
+        <button
+          class="btn"
+        >
+          <span>
+            完全
+            <br />
+            無料
+          </span>
+          会員登録して物件情報を受け取る
+        </button>
+      </div>
+      <div
+        class="cta_register"
+      >
+        <p
+          class="description"
+        >
+          複数の不動産会社が
+          <br />
+          ＼ あなたの理想の物件を提案 ／
+        </p>
+        <button
+          class="btn"
+        >
+          <span>
+            完全
+            <br />
+            無料
+          </span>
+          会員登録して理想の物件を見つける
+        </button>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

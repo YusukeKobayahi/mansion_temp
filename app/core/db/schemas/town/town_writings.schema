@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+create_table 'town_writings', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'town_id', comment: 'townsのid'
+  t.text 'introduce', null: false, comment: '町村の紹介文'
+  t.text 'tips', null: false, comment: '町村のマンション探しのコツ'
+  t.text 'recommend_area', null: false, comment: '町村のおすすめエリア'
+  t.text 'traffic', null: false, comment: '町村の交通情報'
+  t.text 'recommend_spot', null: false, comment: '町村のおすすめスポット'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['town_id'], name: 'index_town_writings_on_town_id'
+end
+
+add_foreign_key 'town_writings', 'towns', name: 'fk_town_writings_towns'

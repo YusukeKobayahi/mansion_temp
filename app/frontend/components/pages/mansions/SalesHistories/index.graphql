@@ -1,0 +1,22 @@
+fragment MsLibraryMansionsSalesHistories on Mansion
+@argumentDefinitions(historyCursor: { type: "String", defaultValue: "" }) {
+  salesHistories(first: 4, after: $historyCursor) {
+    edges {
+      node {
+        id
+        price
+        squarePrice
+        saleOn
+        exclusiveArea
+        floorNumber
+        layout
+      }
+    }
+    pageInfo {
+      startCursor
+      endCursor
+      hasPreviousPage
+      hasNextPage
+    }
+  }
+}

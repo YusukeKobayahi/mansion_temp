@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/CTAs/BottomCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <button
+    class="container"
+  >
+    <div
+      class="image"
+    >
+      <div
+        style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+      >
+        <div
+          style="box-sizing: border-box; display: block; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjUwIiBoZWlnaHQ9IjE2NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+          />
+        </div>
+        <noscript />
+        <img
+          alt="未公開物件を不動産会社から紹介"
+          data-nimg="true"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+      </div>
+    </div>
+    <div
+      class="bottom"
+    >
+      <p
+        class="texts"
+      >
+        未公開物件に1番に申し込みができる！
+        <br />
+        Housiiは複数の不動産会社からあなたにあった物件を提案するサービスです。良質な未公開物件に1番早く申し込むことができます。
+      </p>
+    </div>
+    <div
+      class="btn_container"
+    >
+      <div
+        class="btn"
+      >
+        まずは無料会員登録で希望を伝えてみる
+      </div>
+    </div>
+  </button>
+</DocumentFragment>
+`;

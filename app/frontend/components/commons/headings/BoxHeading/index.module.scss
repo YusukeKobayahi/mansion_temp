@@ -1,0 +1,16 @@
+@import "~/styles/utils";
+
+.heading {
+  background-color: #c9b47a;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 24px;
+  padding: 10px;
+
+  @include screenMd {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

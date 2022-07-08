@@ -1,0 +1,27 @@
+fragment MsLibraryMansionsAccess on Mansion {
+  name
+  prefecture {
+    name
+    jisCode
+  }
+  city {
+    name
+    jisCode
+  }
+  town {
+    id
+    name
+  }
+  street {
+    name
+  }
+  blockNumber
+  access {
+    id
+    stationId
+    stationLineName
+    stationName
+    stationWalkingMinutes
+    lineId
+  }
+}

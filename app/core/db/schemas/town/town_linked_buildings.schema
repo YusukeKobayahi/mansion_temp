@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+create_table 'town_linked_buildings', id: :integer, options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4',
+                                      force: :cascade do |t|
+  t.bigint 'town_id', null: false
+  t.bigint 'linked_building_id', null: false
+  t.string 'linked_building_unique_code', null: false
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['town_id'], name: 'index_town_linked_buildings_town_id'
+  t.index ['linked_building_id'], name: 'index_town_linked_stations_linked_building_id'
+  t.index ['linked_building_id'], name: 'index_town_linked_stations_linked_building_unique_code'
+end
+
+add_foreign_key 'town_linked_buildings', 'towns', name: 'fk_town_linked_buildings_towns'

@@ -1,0 +1,40 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.title {
+  color: #746744;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #c0ad8e;
+  padding-bottom: 25px;
+  margin-bottom: 1.5em;
+
+  @include screenMd {
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+}
+
+.description {
+  color: #746744;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.linkWrapper {
+  text-align: center;
+}
+
+a.link {
+  color: $color-main;
+  text-decoration: underline;
+}

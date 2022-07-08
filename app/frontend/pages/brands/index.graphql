@@ -1,0 +1,10 @@
+query brands($brd: String) {
+  brands(brd: $brd) {
+    id
+    name
+    mansionCount
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+  }
+}

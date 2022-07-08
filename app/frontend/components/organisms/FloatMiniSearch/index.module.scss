@@ -1,0 +1,38 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.toggle {
+  position: fixed;
+  z-index: 20000;
+  top: 12px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+
+  button {
+    padding: 0;
+    background-color: unset;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  z-index: 2000;
+  top: 44px;
+  left: 0;
+  width: 100vw;
+  padding: 16px 16px 16px;
+}
+
+.mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  opacity: 0.6;
+}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/components/pages/search/freeword/NoResults 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <p
+      class="text"
+    >
+      ご指定のキーワードを含むマンションはありませんでした。
+      <br />
+      キーワードを変更し、再度検索ください。
+    </p>
+    <div
+      class="faq"
+    >
+      <p
+        class="title"
+      >
+        もしかして...
+      </p>
+      <div
+        class="block"
+      >
+        <p
+          class="question"
+        >
+          マンション名は正しいですか？
+        </p>
+        <p
+          class="answer"
+        >
+          <span>
+            例) 
+          </span>
+          ○ヴェールマンション ×ベールマンション
+          <br />
+          ○プラウドマンション ×ブラウドマンション
+        </p>
+      </div>
+      <div
+        class="block"
+      >
+        <p
+          class="question"
+        >
+          マンション名以外のキーワードが入っていませんか？
+        </p>
+        <p
+          class="answer"
+        >
+          <span>
+            例) 
+          </span>
+          ×ヴェールマンション205 3LDK
+          <br />
+          ○ヴェールマンション
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

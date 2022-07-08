@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/SelectBox 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="selectBox"
+  >
+    <select>
+      <option
+        value="10"
+      >
+        10
+      </option>
+      <option
+        value="20"
+      >
+        20
+      </option>
+      <option
+        value="30"
+      >
+        30
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,87 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.title {
+  margin-top: 60px;
+  background-color: #c9b47a;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  @include screenMd {
+    margin-top: 0;
+    background-color: #edf2f4de;
+    text-align: center;
+    line-height: 29px;
+    font-size: 12px;
+    color: #746744;
+    font-weight: bold;
+    padding: 0;
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 486px;
+  margin: 0 auto;
+  height: 58px;
+  position: relative;
+  @include screenMd {
+    width: calc(100% - 34px);
+    margin: 12px auto 0;
+  }
+
+  .submit {
+    width: 76px;
+    line-height: 58px;
+    background-color: #c3ae75;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    flex: 1;
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid #c3ae75;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: 0;
+    @include screenMd {
+      box-sizing: border-box;
+      height: 100%;
+      border: 1px solid #f2f2f2;
+    }
+
+    &::placeholder {
+      font-size: 14px;
+      color: #d0d0d0;
+    }
+  }
+}
+
+.tags {
+  display: none;
+
+  @include screenMd {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 17px;
+
+    .link {
+      background-color: unset;
+      padding: 0;
+      margin-top: 10px;
+      margin-right: 10px;
+      font-size: 14px;
+      color: #036eb8;
+      text-decoration: underline;
+    }
+  }
+}

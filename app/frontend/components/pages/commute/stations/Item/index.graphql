@@ -1,0 +1,25 @@
+fragment MsLibraryRailwayStationToStationItem on RailwayStationToStation {
+  minutes
+  transferTime
+  endStation {
+    id
+    name
+    groupCode
+    mansionCount
+    sameStations {
+      line {
+        id
+        name
+      }
+    }
+    averageMansionPrice {
+      averageSquarePrice
+    }
+    city {
+      name
+      prefecture {
+        name
+      }
+    }
+  }
+}

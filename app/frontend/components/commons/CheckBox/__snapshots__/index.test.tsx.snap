@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/CheckBox 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="checkbox"
+  >
+    <input
+      id="checkbox-value"
+      type="checkbox"
+      value="value"
+    />
+    <label
+      class=""
+      for="checkbox-value"
+    >
+      ✔︎
+    </label>
+  </div>
+</DocumentFragment>
+`;

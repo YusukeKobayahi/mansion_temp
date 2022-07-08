@@ -1,0 +1,17 @@
+query FindFromLines($jisCode: String!) {
+  prefecture(jisCode: $jisCode) {
+    companies {
+      name
+      lines {
+        id
+        name
+        mansionCount
+        stations {
+          id
+          name
+          mansionCount
+        }
+      }
+    }
+  }
+}

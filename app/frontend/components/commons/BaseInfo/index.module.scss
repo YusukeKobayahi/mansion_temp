@@ -1,0 +1,16 @@
+@import "~/styles/utils";
+
+.title {
+  margin-top: 20px;
+}
+
+.info {
+  font-size: 16px;
+  color: #746744;
+  line-height: 1.5;
+
+  @include screenMd {
+    padding: 0 16px;
+    font-size: 14px;
+  }
+}

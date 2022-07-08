@@ -1,0 +1,35 @@
+query Prefecture(
+  $jisCode: String!
+  $md: String
+  $eab: Int
+  $eat: Int
+  $prb: Int
+  $prt: Int
+  $tht: Int
+  $ckt: Int
+  $utb: Int
+  $gfb: Int
+  $gft: Int
+) {
+  prefecture(jisCode: $jisCode) {
+    name
+    mansionCount
+    ...MsLibraryPrefecturesCities
+    ...MsLibraryPrefecturesLines
+      @arguments(
+        md: $md
+        eab: $eab
+        eat: $eat
+        prb: $prb
+        prt: $prt
+        tht: $tht
+        ckt: $ckt
+        utb: $utb
+        gfb: $gfb
+        gft: $gft
+      )
+    rankingMansions {
+      ...MsLibraryMiniRankingMansions
+    }
+  }
+}

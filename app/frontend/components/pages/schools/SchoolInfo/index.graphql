@@ -1,0 +1,56 @@
+fragment SchoolInfoData on PrimarySchool {
+  name
+  averagePrice {
+    base {
+      averageSquarePrice
+    }
+    layout(numberOfRooms: $numberOfRooms, layoutKindId: $layoutKindId) {
+      fullLayoutName
+      averageSquarePrice
+    }
+  }
+  city {
+    name
+    averagePrice {
+      base {
+        averageSquarePrice
+      }
+      layout(numberOfRooms: $numberOfRooms, layoutKindId: $layoutKindId) {
+        averageSquarePrice
+      }
+    }
+    info {
+      crime {
+        crimes
+        areaRank
+        grade {
+          typeName
+        }
+        area {
+          citiesCount
+        }
+      }
+      park {
+        parks
+        areaRank
+        grade {
+          typeName
+        }
+        area {
+          citiesCount
+        }
+      }
+    }
+  }
+  prefecture {
+    name
+    averagePrice {
+      base {
+        averageSquarePrice
+      }
+      layout(numberOfRooms: $numberOfRooms, layoutKindId: $layoutKindId) {
+        averageSquarePrice
+      }
+    }
+  }
+}

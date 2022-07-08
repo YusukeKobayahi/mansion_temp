@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/cities/Info/Wrting 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h2>
+      <div
+        class="heading"
+      >
+        神奈川県横浜市鶴見区周辺に関する情報
+      </div>
+    </h2>
+    <div
+      class="tableWrapper"
+    >
+      <table
+        class="table"
+      >
+        <tbody />
+      </table>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -1,0 +1,14 @@
+fragment MsLibraryRailwayStationNeighborStations on RailwayStation {
+  name
+  sameStations {
+    line {
+      name
+    }
+    name
+    nextStations {
+      id
+      name
+      mansionCount
+    }
+  }
+}

@@ -1,0 +1,12 @@
+query CityList($jisCode: String!) {
+  prefecture(jisCode: $jisCode) {
+    cities {
+      name
+      jisCode
+      mansionCount
+      towns {
+        id
+      }
+    }
+  }
+}

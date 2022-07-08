@@ -1,0 +1,77 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  max-width: 650px;
+  background-color: unset;
+  margin-top: 50px;
+  padding: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+
+  @include screenMd {
+    margin-top: 32px;
+  }
+}
+
+.bottom {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include screenMd {
+    padding: 8px;
+  }
+}
+
+.texts {
+  text-align: left;
+  font-size: 15px;
+  color: #646464;
+  margin-right: 5px;
+
+  @include screenMd {
+    font-size: 2vw;
+  }
+}
+
+.btn_container {
+  padding: 1rem;
+}
+
+.btn {
+  width: 100%;
+  color: #c33e32;
+  line-height: 1;
+  padding: 16px 35px 16px 16px;
+  border-radius: 4px;
+  border: 1px solid #c33e32;
+  position: relative;
+  font-size: 16px;
+  white-space: nowrap;
+  font-weight: bold;
+  background-color: white;
+  box-shadow: 1px 1px 4px grey;
+
+  @include screenMd {
+    font-size: 2.3vw;
+    padding: 2.2vw 4.5vw 2.2vw 2.2vw;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  &::after {
+    content: "＞";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+
+    @include screenMd {
+      right: 5px;
+    }
+  }
+}

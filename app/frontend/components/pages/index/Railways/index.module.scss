@@ -1,0 +1,78 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+}
+
+.title {
+  display: none;
+
+  @include screenMd {
+    display: block;
+    background-color: #edf2f4de;
+    text-align: center;
+    line-height: 29px;
+    font-size: 12px;
+    color: #746744;
+    font-weight: bold;
+  }
+}
+
+.main {
+  @include screenMd {
+    padding: 10px 17px 20px;
+  }
+
+  .trigger {
+    display: block;
+    margin: 80px auto 0;
+    padding: 16px 32px;
+    border-radius: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 445px;
+    height: 76px;
+    color: #ffffff;
+    position: relative;
+    background-color: #746742;
+    @include screenMd {
+      margin: 0;
+      border-radius: 0;
+      font-weight: normal;
+      height: unset;
+      background-color: unset;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: unset;
+      padding: 17px 18px;
+      font-size: 16px;
+      margin: 0;
+      height: unset;
+      box-shadow: 2px 3px 0px #00000029;
+      border: 1px solid #bca565;
+      text-align: left;
+      color: #bca565;
+    }
+
+    &::after {
+      content: "";
+      width: 16px;
+      height: 16px;
+      border-top: 2px solid #ffffff;
+      border-right: 2px solid #ffffff;
+      transform: rotate(45deg) translateY(-50%);
+      position: absolute;
+      right: 30px;
+      top: 50%;
+
+      @include screenMd {
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid #bca565;
+        border-right: 1px solid #bca565;
+        right: 18px;
+      }
+    }
+  }
+}

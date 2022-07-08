@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/stations/IncludedCity 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h2>
+      <div
+        class="heading"
+      >
+        横浜駅のある横浜市西区から中古マンションを探す
+      </div>
+    </h2>
+    <ul
+      class="list"
+    >
+      <li
+        class="item"
+      >
+        <button
+          class="link"
+          href="/cities/14103"
+        >
+          横浜市西区
+          <span
+            class="count"
+          >
+            (94件)
+          </span>
+        </button>
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

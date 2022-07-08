@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/BaseInfo 正常に表示される 1`] = `
+<DocumentFragment>
+  <div>
+    <h1
+      class="title"
+    >
+      <div
+        class="heading"
+      >
+        <span>
+          <p
+            class="pcOnly"
+          >
+            東京都港区の中古マンション一覧
+          </p>
+          <p
+            class="spOnly"
+          >
+            東京都港区の中古マンション一覧
+          </p>
+        </span>
+      </div>
+    </h1>
+    <p
+      class="info pcOnly"
+    >
+      Housiiでは、「東京都港区」の中古マンションについて紹介しています。
+    </p>
+  </div>
+</DocumentFragment>
+`;

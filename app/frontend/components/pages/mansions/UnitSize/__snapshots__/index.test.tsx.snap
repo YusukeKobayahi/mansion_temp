@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/UnitSize 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <h3>
+      <div
+        class="heading"
+      >
+        <span
+          class="inner"
+        >
+          間取り・広さ
+        </span>
+      </div>
+    </h3>
+    <p
+      class="info"
+    >
+      間取りには1K～1DKがあり、一人暮らしを検討している方～部屋を活用する一人暮らし・二人暮らしを検討している方におすすめのマンションです。
+      <br />
+      広さでみると20.72㎡～45.16㎡の物件があり、リヴシティ神田では表内の色がついている広さの部屋が存在しています。
+    </p>
+    <table
+      class="table"
+    >
+      <tbody>
+        <tr>
+          <th
+            class="hasUnit"
+          >
+            ～39㎡
+          </th>
+          <td>
+            一人暮らしに向いており、特に30㎡以上だとゆったり使えるスペースがあります。
+          </td>
+        </tr>
+        <tr>
+          <th
+            class="hasUnit"
+          >
+            40～59㎡
+          </th>
+          <td>
+            二人暮らしに向いている広さです。リビング・ダイニングの他に1,2部屋つく目安です。
+          </td>
+        </tr>
+        <tr>
+          <th
+            class=""
+          >
+            60～89㎡
+          </th>
+          <td>
+            家族3人でも過ごしやすく、お子様がいる場合にもおすすめです。
+          </td>
+        </tr>
+        <tr>
+          <th
+            class=""
+          >
+            90㎡～
+          </th>
+          <td>
+            家族4人以上で暮らす場合にも適しており、色々な用途でスペースを使い分けられます。
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</DocumentFragment>
+`;

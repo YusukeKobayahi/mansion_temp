@@ -1,0 +1,9 @@
+fragment MsLibraryMansionsSeismicSafety on Mansion {
+  name
+  age
+  constructedIn
+  structure {
+    name
+    slug
+  }
+}

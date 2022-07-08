@@ -1,0 +1,109 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  margin-top: 50px;
+
+  @include screenMd {
+    margin-top: 40px;
+  }
+}
+
+.title {
+  background-color: #bca565;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+
+  @include screenMd {
+    display: block;
+    padding: 0;
+  }
+}
+
+.comments {
+  @include screenMd {
+    margin-top: 26px;
+    padding: 0 15px;
+  }
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+
+  @include screenMd {
+    max-width: 325px;
+  }
+
+  &:nth-child(n + 2) {
+    margin-top: 20px;
+    @include screenMd {
+      margin-top: 13px;
+    }
+  }
+
+  &Head {
+    width: 60px;
+    padding: 10px 0 20px;
+    background-image: url(/ms-library/images/index/chat.png);
+    background-size: cover;
+    text-align: center;
+
+    span {
+      display: block;
+      font-size: 10px;
+      color: #1a1311;
+    }
+
+    p {
+      font-size: 23px;
+      font-weight: bold;
+      color: #1a1311;
+      margin-top: 6px;
+    }
+  }
+
+  &Body {
+    margin-left: 11px;
+
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      color: #746742;
+      line-height: 1.5;
+
+      @include screenMd {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.chart {
+  margin-top: 30px;
+  padding: 0 15px;
+  text-align: center;
+  width: 500px;
+
+  @include screenMd {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}

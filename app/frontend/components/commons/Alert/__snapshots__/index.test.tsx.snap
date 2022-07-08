@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/commons/Alert 正常に表示される 1`] = `
+<DocumentFragment>
+  <div
+    class="container red outline"
+  >
+    <p>
+      条件に合う物件がありません。条件を変更して再度検索してください。
+    </p>
+  </div>
+</DocumentFragment>
+`;

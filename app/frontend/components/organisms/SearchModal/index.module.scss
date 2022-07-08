@@ -1,0 +1,168 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.block {
+  height: 290px;
+  overflow: auto;
+
+  @include screenMd {
+    height: calc(100% - 150px);
+  }
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 30px 0;
+  background-color: #fff;
+
+  @include screenMd {
+    padding: 0;
+  }
+}
+
+.radio {
+  width: calc(100% / 4);
+  margin-bottom: 10px;
+  line-height: 2;
+  align-items: center;
+  display: flex;
+  @include screenMd {
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 16px;
+    box-sizing: border-box;
+  }
+}
+
+.bigRadio {
+  padding: 0 0 0 30px;
+  display: flex;
+
+  @include screenMd {
+    padding: 0 0 10px 16px;
+  }
+
+  input {
+    display: none;
+
+    &:checked {
+      + label {
+        &::before {
+          background-color: #bca565;
+          border: none;
+        }
+
+        &::after {
+          border-color: #ffffff;
+        }
+      }
+    }
+  }
+
+  label {
+    display: block;
+    color: #bca565;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+
+    @include screenMd {
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 25px;
+      height: 25px;
+      box-sizing: border-box;
+      border: 1.5px solid #dddddd;
+      border-radius: 50%;
+    }
+
+    &::after {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 10%;
+      transform: rotate(-45deg);
+      width: 20px;
+      height: 8px;
+      box-sizing: border-box;
+      border-left: 2px solid #dddddd;
+      border-bottom: 2px solid #dddddd;
+    }
+  }
+}
+
+.group {
+  margin-top: 30px;
+
+  @include screenMd {
+    margin-top: 20px;
+  }
+
+  &Name {
+    padding: 0 0 0 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #bca565;
+
+    @include screenMd {
+      margin-bottom: 10px;
+      padding: 0 0 0 16px;
+    }
+  }
+}
+
+.btn_outer {
+  @include screenMd {
+    margin: 10px 0;
+  }
+}
+.btn {
+  @include screenMd {
+    line-height: 1;
+    height: 40px;
+  }
+}
+
+.btn_container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  @include screenMd {
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    transform: unset;
+    padding: 10px 16px;
+  }
+
+  .btn_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin: 10px 0;
+    @include screenMd {
+      margin: 0 0;
+    }
+  }
+}

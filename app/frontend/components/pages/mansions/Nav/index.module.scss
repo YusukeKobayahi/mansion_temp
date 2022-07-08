@@ -1,0 +1,47 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  background-color: #ffffff;
+  position: sticky;
+  margin: 0 calc(50% - 50vw);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.inner {
+  padding: 0 calc(50vw - 500px);
+  display: flex;
+  background-color: #d6c79b44;
+}
+
+a.btn {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+  font-size: 13px;
+  color: #746744;
+  font-weight: bold;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 4px solid #746744;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+  }
+
+  &:hover {
+    color: #c9b47a;
+
+    &::after {
+      border-top-color: #c9b47a;
+    }
+  }
+}

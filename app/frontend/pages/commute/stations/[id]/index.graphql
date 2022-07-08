@@ -1,0 +1,37 @@
+query commuteStations(
+  $st: String!
+  $mnt: Int
+  $trt: Int
+  $apb: Int
+  $apt: Int
+  $orap: String
+  $ortt: String
+  $ormn: String
+  $limit: Int
+) {
+  station(st: $st) {
+    id
+    name
+    sameStations {
+      line {
+        id
+        name
+      }
+    }
+    stationToStations(
+      mnt: $mnt
+      trt: $trt
+      apb: $apb
+      apt: $apt
+      orap: $orap
+      ortt: $ortt
+      ormn: $ormn
+      limit: $limit
+    ) {
+      ...MsLibraryRailwayStationToStationItem
+    }
+    topPriorityStation {
+      id
+    }
+  }
+}

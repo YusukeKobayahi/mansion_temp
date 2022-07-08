@@ -1,0 +1,64 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: $color-main;
+  padding: 13px 20px;
+}
+
+.arrow {
+  margin-left: auto;
+  margin-right: 7px;
+  background-color: transparent;
+  color: $color-main;
+  span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-right: 1px solid #746742;
+    border-bottom: 1px solid #746742;
+    transform-origin: center center;
+    transform: rotate(-45deg);
+  }
+}
+
+/**
+ * Background color
+ */
+.bg-white {
+  background-color: white;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+
+/**
+ * FontSize
+ */
+.font-size-sm {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.font-size-md {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/**
+ * UnderLine
+ */
+
+.underline-solid {
+  border-bottom: 1px solid #d8d8d8;
+}
+.underline-dashed {
+  border-bottom: 1px dashed #d8d8d8;
+}
+.underline-none {
+  border-bottom: 1px none #d8d8d8;
+}

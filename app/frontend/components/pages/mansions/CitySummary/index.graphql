@@ -1,0 +1,16 @@
+fragment MsLibraryMansionsCitySummary on Mansion {
+  city {
+    averagePrice {
+      layout {
+        fullLayoutName
+        averagePrice
+        salesHistoriesCount
+      }
+      date {
+        age
+        averagePrice
+        salesHistoriesCount
+      }
+    }
+  }
+}

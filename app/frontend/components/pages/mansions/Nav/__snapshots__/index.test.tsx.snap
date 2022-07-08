@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/Nav 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container pcOnly"
+  >
+    <div
+      class="inner"
+    >
+      <a
+        class="btn"
+        href="/#used"
+      >
+        中古販売価格
+      </a>
+      <a
+        class="btn"
+        href="/#info"
+      >
+        物件の情報
+      </a>
+      <a
+        class="btn"
+        href="/#price"
+      >
+        相場価格
+      </a>
+      <a
+        class="btn"
+        href="/#local"
+      >
+        数字で見る地域情報
+      </a>
+      <a
+        class="btn"
+        href="/#detail"
+      >
+        物件概要
+      </a>
+    </div>
+  </section>
+</DocumentFragment>
+`;

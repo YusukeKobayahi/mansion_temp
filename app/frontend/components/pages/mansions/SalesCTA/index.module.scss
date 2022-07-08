@@ -1,0 +1,56 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  max-width: 750px;
+  margin: -10px auto 0;
+  color: $color-text-main;
+
+  @include screenMd {
+    width: 100%;
+  }
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  border: 2px solid #f15e3a;
+  border-radius: 40px;
+  font-size: 22px;
+  color: #f15e3a;
+  cursor: pointer;
+  text-align: center;
+  line-height: 56px;
+  position: relative;
+  font-weight: bold;
+  background-color: #ffffff;
+
+  @include screenMd {
+    width: 100%;
+    padding: 0;
+    line-height: 43px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #f15e3a;
+    border-right: 2px solid #f15e3a;
+    transform: translateY(-50%) rotate(45deg);
+
+    @include screenMd {
+      right: 20px;
+      width: 7px;
+      height: 7px;
+      border-top-width: 1px;
+      border-right-width: 1px;
+    }
+  }
+}

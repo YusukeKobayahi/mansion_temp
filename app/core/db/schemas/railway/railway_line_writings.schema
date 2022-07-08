@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+create_table 'railway_line_writings', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.bigint 'line_id', comment: 'lineのid'
+  t.text 'introduce', null: false, comment: '路線の紹介文'
+  t.text 'tips', null: false, comment: '路線のマンション探しのコツ'
+  t.text 'recommend_area', null: false, comment: '路線のおすすめエリア'
+  t.text 'traffic', null: false, comment: '路線の交通情報'
+  t.text 'recommend_spot', null: false, comment: '路線のおすすめスポット'
+  t.datetime 'created_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.datetime 'updated_at', default: -> { 'CURRENT_TIMESTAMP' }, null: false
+  t.index ['line_id'], name: 'index_line_codes_on_line_id'
+end
+
+add_foreign_key 'railway_line_writings', 'railway_lines', column: 'line_id', name: 'fk_railway_line_writings_railway_lines'

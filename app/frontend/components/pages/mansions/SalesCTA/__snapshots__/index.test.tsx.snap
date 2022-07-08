@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/mansions/SalesCTA 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+  >
+    <button
+      class="btn"
+    >
+      いますぐ無料査定を依頼する
+    </button>
+  </section>
+</DocumentFragment>
+`;

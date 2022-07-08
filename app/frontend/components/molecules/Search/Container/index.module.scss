@@ -1,0 +1,79 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.container {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  background-color: #f4f4f4;
+  padding-left: 10px;
+
+  @include screenMd {
+    padding: 10px 16px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+
+  p {
+    line-height: 40px;
+    font-size: 16px;
+
+    @include screenMd {
+      line-height: unset;
+      padding-left: 10px;
+    }
+  }
+}
+
+.body {
+  display: block;
+  padding: 20px;
+
+  @include screenMd {
+    height: 100%;
+    overflow-y: auto;
+    max-height: calc(100vh - 85px);
+    display: none;
+    padding: 15px 16px 50px;
+    box-sizing: border-box;
+  }
+}
+
+.toggler {
+  margin-left: auto;
+  cursor: pointer;
+  background-color: transparent;
+  align-self: center;
+
+  span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transform-origin: center center;
+  }
+  .open {
+    transform: translateY(30%) rotate(-135deg);
+  }
+  .close {
+    transform: translateY(-30%) rotate(45deg);
+  }
+}
+
+.visible {
+  display: block;
+}
+.invisible {
+  display: none;
+}

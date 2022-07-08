@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+create_table 'areable_code_zip_codes', options: 'ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', force: :cascade do |t|
+  t.string 'areable_type', comment: 'City, Town, Street など areable_code_id の type を示す'
+  t.bigint 'areable_code_id', comment: 'city_codes, town_codes, street_codes の id'
+  t.bigint 'zip_code_id', comment: 'zip_code の id'
+  t.bigint 'start_version_id', comment: 'maddress_versions の id、 開始'
+  t.bigint 'end_version_id', comment: 'maddress_versions の id、 終了'
+  t.timestamps
+  t.index %w[areable_type areable_code_id], name: 'index_areable_code_zip_codes_on_areable_type_and_areable_code_id'
+  t.index ['end_version_id'], name: 'index_areable_code_zip_codes_on_end_version_id'
+  t.index ['start_version_id'], name: 'index_areable_code_zip_codes_on_start_version_id'
+  t.index ['zip_code_id'], name: 'index_areable_code_zip_codes_on_zip_code_id'
+end
+
+add_foreign_key 'areable_code_zip_codes', 'maddress_versions', column: 'end_version_id', name: 'fk_rails_aec1444e7b'
+add_foreign_key 'areable_code_zip_codes', 'maddress_versions', column: 'start_version_id', name: 'fk_rails_dfaedd6516'
+add_foreign_key 'areable_code_zip_codes', 'zip_codes', name: 'fk_rails_1f11740b55'

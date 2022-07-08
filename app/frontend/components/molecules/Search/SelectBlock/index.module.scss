@@ -1,0 +1,23 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #373a3c;
+  text-align: left;
+  padding-right: 17px;
+}
+
+.unit {
+  font-weight: lighter;
+  color: #646464;
+}
+
+.content {
+  font-size: 12px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 7fr 9fr 3fr;
+  column-gap: 7px;
+}

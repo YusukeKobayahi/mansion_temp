@@ -1,0 +1,37 @@
+@import "~/styles/utils";
+
+.content {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  column-gap: 30px;
+  margin-bottom: 30px;
+  @include screenMd {
+    display: block;
+    width: 90%;
+    margin: 0px auto 30px auto;
+  }
+}
+
+.searchSection {
+  position: sticky;
+  top: 1rem;
+  align-self: start;
+  @include screenMd {
+    margin: 30px auto;
+  }
+}
+
+.ctaRadiusButton {
+  width: 49%;
+}
+
+.stationInfoBody {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+.linkText {
+  text-decoration: underline;
+  letter-spacing: 0px;
+  color: #c9b47a;
+}

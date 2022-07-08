@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/pages/index/Fv/Prefectures 正常に表示される 1`] = `
+<DocumentFragment>
+  <section
+    class="container"
+    id="prefectures"
+  >
+    <h2
+      class="title"
+    >
+      エリアから探す
+    </h2>
+    <ul
+      class="list"
+    >
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="東京都"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_tokyo.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_tokyo.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_tokyo.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/13000"
+        >
+          東京都
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="神奈川県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_kanagawa.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_kanagawa.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_kanagawa.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/14000"
+        >
+          神奈川県
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="埼玉県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_saitama.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_saitama.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_saitama.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/11000"
+        >
+          埼玉県
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="千葉県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_chiba.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_chiba.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_chiba.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/12000"
+        >
+          千葉県
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="大阪府"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_osaka.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_osaka.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_osaka.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/27000"
+        >
+          大阪府
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="兵庫県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_hyogo.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_hyogo.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_hyogo.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/28000"
+        >
+          兵庫県
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="愛知県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_aichi.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_aichi.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_aichi.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/23000"
+        >
+          愛知県
+        </button>
+      </li>
+      <li
+        class="item"
+      >
+        <div
+          class="image"
+        >
+          <div
+            style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+          >
+            <div
+              style="box-sizing: border-box; display: block; max-width: 100%;"
+            >
+              <img
+                alt=""
+                aria-hidden="true"
+                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM1IiBoZWlnaHQ9IjI1OSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+              />
+            </div>
+            <img
+              alt="福岡県"
+              data-nimg="true"
+              decoding="async"
+              src="/_next/image?url=%2Fms-library%2Fimages%2Fthum_fukuoka.jpg&w=640&q=75"
+              srcset="/_next/image?url=%2Fms-library%2Fimages%2Fthum_fukuoka.jpg&w=256&q=75 1x, /_next/image?url=%2Fms-library%2Fimages%2Fthum_fukuoka.jpg&w=640&q=75 2x"
+              style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+            />
+          </div>
+        </div>
+        <button
+          class="link"
+          href="/prefectures/40000"
+        >
+          福岡県
+        </button>
+      </li>
+    </ul>
+  </section>
+</DocumentFragment>
+`;

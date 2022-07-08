@@ -1,0 +1,51 @@
+@import "~/styles/variables";
+@import "~/styles/utils";
+
+.text {
+  text-align: center;
+  font-size: 18px;
+  color: #f89e50;
+  line-height: 1.5;
+}
+
+.faq {
+  margin: 45px auto 0;
+  width: 470px;
+  box-sizing: border-box;
+  padding: 30px 27px 20px;
+  border: 1px solid #a5895c;
+  border-radius: 10px;
+  position: relative;
+}
+
+.title {
+  display: inline-block;
+  font-size: 20px;
+  color: #746744;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+.block {
+  &:nth-child(n + 2) {
+    margin-top: 20px;
+  }
+}
+
+.question {
+  color: #746744;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.answer {
+  margin-top: 6px;
+  display: flex;
+  align-items: flex-start;
+  color: #746744;
+  line-height: 1.5;
+}
